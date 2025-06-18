@@ -37,3 +37,6 @@ fp-info-cache
 *.log
 *.raw
 .svg2shenzhen-cache
+
+# Backups
+pcb/smol-slime-xiao-backups/
