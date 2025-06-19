@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "ICM-45686")(type "KiCad")(uri "${KIPRJMOD}/libs/ICM_45686/ICM-45686.kicad_sym")(options "")(descr ""))
   (lib (name "QMC6309")(type "KiCad")(uri "${KIPRJMOD}/libs/QMC6309/QMC6309.kicad_sym")(options "")(descr ""))
+  (lib (name "1532H4")(type "KiCad")(uri "${KIPRJMOD}/libs/1532H4/1532H4.kicad_sym")(options "")(descr ""))
 )
