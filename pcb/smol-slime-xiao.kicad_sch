@@ -1012,6 +1012,18 @@
 		)
 	)
 	(junction
+		(at 189.23 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "448a193f-74e3-4e81-a0b8-07a850d4619d")
+	)
+	(junction
+		(at 207.01 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "81ed6c0b-6884-4d92-99d1-91852c62b269")
+	)
+	(junction
 		(at 146.05 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1045,7 +1057,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 95.25) (xy 190.5 74.93)
+			(xy 189.23 95.25) (xy 189.23 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1105,16 +1117,6 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 95.25) (xy 190.5 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88be3433-7d05-4cfc-bcda-18d0a627cae8")
-	)
-	(wire
-		(pts
 			(xy 146.05 107.95) (xy 151.13 107.95)
 		)
 		(stroke
@@ -1135,7 +1137,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 74.93) (xy 194.31 74.93)
+			(xy 189.23 74.93) (xy 194.31 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1172,6 +1174,16 @@
 			(type default)
 		)
 		(uuid "ba91e90a-c977-4cae-9d3e-23694db558e0")
+	)
+	(wire
+		(pts
+			(xy 189.23 95.25) (xy 194.31 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd0c991d-2bad-44db-9954-0fd8f1519bb1")
 	)
 	(wire
 		(pts
@@ -1802,6 +1814,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VDD")
+		(at 189.23 95.25 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bca92ad3-124f-4012-8a67-dd244ce28034")
+		(property "Reference" "#PWR07"
+			(at 189.23 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD"
+			(at 189.23 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 189.23 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 189.23 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "80eff7ce-57b2-4295-b747-51108b9c4840")
+		)
+		(instances
+			(project "smol-slime-xiao"
+				(path "/d7183ea3-6ccc-4449-ab59-f8ffc6b6dac3"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 151.13 120.65 0)
 		(unit 1)
@@ -1943,7 +2021,7 @@
 	)
 	(symbol
 		(lib_id "1532H4:1532H4")
-		(at 209.55 115.57 0)
+		(at 214.63 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1952,7 +2030,7 @@
 		(fields_autoplaced yes)
 		(uuid "c8c81b44-fabe-46eb-92dd-cffc082d2951")
 		(property "Reference" "U3"
-			(at 209.55 105.41 0)
+			(at 214.63 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1960,7 +2038,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 209.55 107.95 0)
+			(at 214.63 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1968,7 +2046,7 @@
 			)
 		)
 		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
-			(at 209.55 115.57 0)
+			(at 214.63 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1977,7 +2055,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 209.55 115.57 0)
+			(at 214.63 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1986,7 +2064,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 209.55 115.57 0)
+			(at 214.63 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2010,6 +2088,72 @@
 			(project ""
 				(path "/d7183ea3-6ccc-4449-ab59-f8ffc6b6dac3"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 207.01 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d67ef431-4c6a-435b-82f0-fba3b00e3292")
+		(property "Reference" "#PWR06"
+			(at 207.01 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 207.01 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 207.01 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 207.01 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5a926871-8502-4a49-b5d1-e61051e89782")
+		)
+		(instances
+			(project "smol-slime-xiao"
+				(path "/d7183ea3-6ccc-4449-ab59-f8ffc6b6dac3"
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
