@@ -3,4 +3,5 @@
   (lib (name "ICM_45686")(type "KiCad")(uri "${KIPRJMOD}/libs/ICM_45686.pretty")(options "")(descr ""))
   (lib (name "ICM-45686")(type "KiCad")(uri "${KIPRJMOD}/libs/ICM_45686/ICM-45686.pretty")(options "")(descr ""))
   (lib (name "QMC6309")(type "KiCad")(uri "${KIPRJMOD}/libs/QMC6309/QMC6309.pretty")(options "")(descr ""))
+  (lib (name "Seeed Studio XIAO Series Library")(type "KiCad")(uri "${KIPRJMOD}/libs/seeed-opl/Seeed Studio XIAO Series Library")(options "")(descr ""))
 )
