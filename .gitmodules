@@ -1,0 +1,4 @@
+[submodule "pcb/libs/seeed-opl"]
+	path = pcb/libs/seeed-opl
+	url = git@github.com-s:Seeed-Studio/OPL_Kicad_Library.git
+	branch = master
