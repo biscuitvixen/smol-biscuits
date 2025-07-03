@@ -1760,6 +1760,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 135.89) (xy 172.72 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e8b519b-a4b2-4db5-a191-5a92051026a9")
+	)
+	(wire
+		(pts
 			(xy 250.19 39.37) (xy 251.46 39.37)
 		)
 		(stroke
@@ -2127,6 +2137,16 @@
 			(justify left bottom)
 		)
 		(uuid "5c6677c3-9906-46cc-b7c4-04940f370c72")
+	)
+	(label "CLK_CTL"
+		(at 160.02 135.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "61a8f7af-2040-4a85-9370-d1cb4a5b718e")
 	)
 	(label "SPI_CS_IMU"
 		(at 85.09 29.21 0)
