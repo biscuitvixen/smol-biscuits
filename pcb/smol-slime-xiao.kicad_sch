@@ -1660,6 +1660,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 124.46) (xy 172.72 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b2ec9e1-3c6a-436c-a440-a6dd82e23398")
+	)
+	(wire
+		(pts
 			(xy 134.62 86.36) (xy 134.62 88.9)
 		)
 		(stroke
@@ -1670,7 +1680,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 80.01) (xy 189.23 80.01)
+			(xy 266.7 80.01) (xy 269.24 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1760,6 +1770,16 @@
 	)
 	(wire
 		(pts
+			(xy 214.63 128.27) (xy 217.17 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54954920-0ab4-47b9-af98-e47eac33a0c4")
+	)
+	(wire
+		(pts
 			(xy 234.95 54.61) (xy 234.95 57.15)
 		)
 		(stroke
@@ -1800,7 +1820,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 76.2) (xy 166.37 73.66)
+			(xy 246.38 76.2) (xy 246.38 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1820,13 +1840,33 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 88.9) (xy 177.8 91.44)
+			(xy 257.81 88.9) (xy 257.81 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7c2f6c79-1b0f-432c-a8fc-88d65ea47077")
+	)
+	(wire
+		(pts
+			(xy 214.63 124.46) (xy 217.17 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f2e5c43-e3cf-428d-ae73-762027393541")
+	)
+	(wire
+		(pts
+			(xy 160.02 120.65) (xy 172.72 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "858eb07a-e014-43f6-ba9e-39c4bef1ddb2")
 	)
 	(wire
 		(pts
@@ -1930,6 +1970,16 @@
 	)
 	(wire
 		(pts
+			(xy 214.63 132.08) (xy 217.17 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d30e2f5b-8977-467c-8682-040f4523d736")
+	)
+	(wire
+		(pts
 			(xy 69.85 137.16) (xy 69.85 139.7)
 		)
 		(stroke
@@ -1970,7 +2020,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 76.2) (xy 166.37 76.2)
+			(xy 248.92 76.2) (xy 246.38 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1980,7 +2030,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 83.82) (xy 168.91 83.82)
+			(xy 238.76 83.82) (xy 248.92 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1997,6 +2047,26 @@
 			(justify left bottom)
 		)
 		(uuid "134013df-0cc6-4f86-a1de-50092ef482cd")
+	)
+	(label "SPI_SCK"
+		(at 217.17 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "15a1ae75-6a03-42c7-9fdf-a2214a53cf82")
+	)
+	(label "SPI_MISO"
+		(at 217.17 128.27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "18cea5d6-d100-430a-98c1-d94904cda054")
 	)
 	(label "SPI_SCK"
 		(at 80.01 25.4 0)
@@ -2018,8 +2088,18 @@
 		)
 		(uuid "420075f9-80d5-400a-a0ee-e2e26af1b722")
 	)
+	(label "SPI_CS_IMU"
+		(at 160.02 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "53060803-87ba-4ee4-ab24-d61320d3dfbf")
+	)
 	(label "CLK_CTL"
-		(at 158.75 83.82 0)
+		(at 238.76 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2038,6 +2118,16 @@
 		)
 		(uuid "76b29b03-1933-4f47-af11-07d3f11acba5")
 	)
+	(label "SPI_MOSI"
+		(at 217.17 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "94084481-08d7-4cd2-86ad-094d8e4483fc")
+	)
 	(label "I2C_SDA"
 		(at 251.46 39.37 0)
 		(effects
@@ -2047,6 +2137,16 @@
 			(justify left bottom)
 		)
 		(uuid "ac7e1360-b269-4f6b-961e-13921a3c0774")
+	)
+	(label "IMU_INT"
+		(at 160.02 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ad4fe680-5ee5-425b-b33b-148b05d34111")
 	)
 	(label "SPI_MOSI"
 		(at 74.93 21.59 0)
@@ -2079,7 +2179,7 @@
 		(uuid "d76737ad-b7b2-4bc5-95d1-8a737f81db5d")
 	)
 	(label "IMU_CLKIN"
-		(at 189.23 80.01 0)
+		(at 269.24 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2090,7 +2190,7 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
-		(at 177.8 91.44 180)
+		(at 257.81 91.44 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2099,7 +2199,7 @@
 		(fields_autoplaced yes)
 		(uuid "0aff85d4-c9f0-4d5b-9ec5-74d738a17321")
 		(property "Reference" "#PWR011"
-			(at 177.8 87.63 0)
+			(at 257.81 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2108,7 +2208,7 @@
 			)
 		)
 		(property "Value" "VDD"
-			(at 177.8 96.52 0)
+			(at 257.81 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2116,7 +2216,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 177.8 91.44 0)
+			(at 257.81 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2125,7 +2225,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 91.44 0)
+			(at 257.81 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2134,7 +2234,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 177.8 91.44 0)
+			(at 257.81 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2916,7 +3016,7 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
-		(at 166.37 73.66 0)
+		(at 246.38 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2925,7 +3025,7 @@
 		(fields_autoplaced yes)
 		(uuid "b24d99be-d869-4c58-88a8-8437693de2ad")
 		(property "Reference" "#PWR010"
-			(at 166.37 77.47 0)
+			(at 246.38 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2934,7 +3034,7 @@
 			)
 		)
 		(property "Value" "VDD"
-			(at 166.37 68.58 0)
+			(at 246.38 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2942,7 +3042,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 166.37 73.66 0)
+			(at 246.38 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2951,7 +3051,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 166.37 73.66 0)
+			(at 246.38 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2960,7 +3060,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 166.37 73.66 0)
+			(at 246.38 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3048,7 +3148,7 @@
 	)
 	(symbol
 		(lib_id "Seeed_Studio_XIAO_Series:XIAO-nRF52840-SMD")
-		(at 219.71 133.35 0)
+		(at 194.31 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3057,7 +3157,7 @@
 		(fields_autoplaced yes)
 		(uuid "bc4239cb-f8b2-4883-9460-2697846f2f8d")
 		(property "Reference" "U4"
-			(at 228.2033 107.95 0)
+			(at 202.8033 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3066,7 +3166,7 @@
 			)
 		)
 		(property "Value" "XIAO-nRF52840-SMD"
-			(at 228.2033 110.49 0)
+			(at 202.8033 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3075,7 +3175,7 @@
 			)
 		)
 		(property "Footprint" "Seeed Studio XIAO Series Library:XIAO-nRF52840-SMD"
-			(at 210.82 128.27 0)
+			(at 185.42 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3084,7 +3184,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 210.82 128.27 0)
+			(at 185.42 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3093,7 +3193,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 219.71 133.35 0)
+			(at 194.31 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3384,7 +3484,7 @@
 	)
 	(symbol
 		(lib_id "1532H4:1532H4")
-		(at 177.8 80.01 0)
+		(at 257.81 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3392,7 +3492,7 @@
 		(dnp no)
 		(uuid "c8c81b44-fabe-46eb-92dd-cffc082d2951")
 		(property "Reference" "U3"
-			(at 177.8 69.85 0)
+			(at 257.81 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3400,7 +3500,7 @@
 			)
 		)
 		(property "Value" "1532H"
-			(at 183.388 69.85 0)
+			(at 263.398 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3408,7 +3508,7 @@
 			)
 		)
 		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
-			(at 177.8 80.01 0)
+			(at 257.81 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3417,7 +3517,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 80.01 0)
+			(at 257.81 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3426,7 +3526,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 177.8 80.01 0)
+			(at 257.81 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
