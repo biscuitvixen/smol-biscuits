@@ -1770,6 +1770,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 132.08) (xy 172.72 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "541ba69e-5c15-4bb2-b284-9666319ea4d9")
+	)
+	(wire
+		(pts
 			(xy 214.63 128.27) (xy 217.17 128.27)
 		)
 		(stroke
@@ -1797,6 +1807,16 @@
 			(type default)
 		)
 		(uuid "60a6d6e4-92a4-4906-a5d0-4d7f42a045b9")
+	)
+	(wire
+		(pts
+			(xy 160.02 128.27) (xy 172.72 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62eeb30a-9e08-491e-90c5-f5df71ea921d")
 	)
 	(wire
 		(pts
@@ -2078,7 +2098,7 @@
 		)
 		(uuid "2df44933-447e-4779-ae40-87b1dac5db4b")
 	)
-	(label "I2C_SDL"
+	(label "I2C_SCL"
 		(at 262.89 44.45 0)
 		(effects
 			(font
@@ -2129,6 +2149,16 @@
 		(uuid "94084481-08d7-4cd2-86ad-094d8e4483fc")
 	)
 	(label "I2C_SDA"
+		(at 160.02 128.27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a3522207-2c92-4237-b8fb-0d89e1ec9c50")
+	)
+	(label "I2C_SDA"
 		(at 251.46 39.37 0)
 		(effects
 			(font
@@ -2177,6 +2207,16 @@
 			(justify left bottom)
 		)
 		(uuid "d76737ad-b7b2-4bc5-95d1-8a737f81db5d")
+	)
+	(label "I2C_SCL"
+		(at 160.02 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f29cdefc-65bb-41fc-8827-412d831c55b8")
 	)
 	(label "IMU_CLKIN"
 		(at 269.24 80.01 0)
