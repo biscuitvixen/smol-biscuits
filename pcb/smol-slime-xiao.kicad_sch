@@ -1617,16 +1617,16 @@
 		(uuid "5cfb635c-37b8-4141-b56d-b13e3643b020")
 	)
 	(junction
+		(at 69.85 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6b98dfca-a82e-458f-aacc-343fe82d2dc6")
+	)
+	(junction
 		(at 217.17 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a9ee5cd8-eb1b-4834-acbd-b2c484aae3e2")
-	)
-	(junction
-		(at 74.93 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dd5a0c67-0985-4701-a9f4-067e97d1a691")
 	)
 	(no_connect
 		(at 34.29 81.28)
@@ -1830,6 +1830,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 124.46) (xy 69.85 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d164412-fe3a-4caf-84ef-782e33cc913b")
+	)
+	(wire
+		(pts
 			(xy 261.62 31.75) (xy 261.62 34.29)
 		)
 		(stroke
@@ -1907,16 +1917,6 @@
 			(type default)
 		)
 		(uuid "a2eefe78-a103-4eba-bc2c-2d5ea608fdf3")
-	)
-	(wire
-		(pts
-			(xy 74.93 127) (xy 74.93 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba91e90a-c977-4cae-9d3e-23694db558e0")
 	)
 	(wire
 		(pts
@@ -2982,16 +2982,15 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
-		(at 74.93 139.7 180)
+		(at 69.85 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "baf9a911-2d11-486b-aed2-e567bbe90a20")
 		(property "Reference" "#PWR01"
-			(at 74.93 135.89 0)
+			(at 69.85 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3000,15 +2999,16 @@
 			)
 		)
 		(property "Value" "VDD"
-			(at 74.93 144.78 0)
+			(at 64.008 122.936 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 74.93 139.7 0)
+			(at 69.85 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3017,7 +3017,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 74.93 139.7 0)
+			(at 69.85 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3026,7 +3026,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 74.93 139.7 0)
+			(at 69.85 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
