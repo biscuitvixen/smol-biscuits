@@ -2900,10 +2900,20 @@
 		(layer "F.SilkS")
 		(uuid "94c5a510-21b7-4f26-a7a6-68aeed837478")
 	)
+	(gr_line
+		(start 140 88.75)
+		(end 140 109.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "1e7b512e-9c77-469f-a7ce-928027af9440")
+	)
 	(gr_arc
-		(start 139 90.25)
-		(mid 139.366117 89.366117)
-		(end 140.25 89)
+		(start 140 88.75)
+		(mid 140.366117 87.866117)
+		(end 141.25 87.5)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -2911,10 +2921,20 @@
 		(layer "Edge.Cuts")
 		(uuid "2d9bf10a-2d7d-4357-986d-9ec182d422b3")
 	)
+	(gr_line
+		(start 141.25 111)
+		(end 158.75 111)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "422497ba-c023-4053-9b07-16f7ba4a1cee")
+	)
 	(gr_arc
-		(start 159.75 89)
-		(mid 160.633883 89.366117)
-		(end 161 90.25)
+		(start 158.75 87.5)
+		(mid 159.633883 87.866117)
+		(end 160 88.75)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -2923,9 +2943,9 @@
 		(uuid "7e4d4a1f-9e51-4b9c-b98b-cd49d7b56d06")
 	)
 	(gr_arc
-		(start 161 109.75)
-		(mid 160.633883 110.633883)
-		(end 159.75 111)
+		(start 160 109.75)
+		(mid 159.633883 110.633883)
+		(end 158.75 111)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -2933,27 +2953,36 @@
 		(layer "Edge.Cuts")
 		(uuid "80dd62db-5ae4-4411-98ea-d3acda890e2c")
 	)
-	(gr_rect
-		(start 139 89)
-		(end 161 111)
+	(gr_line
+		(start 160 109.75)
+		(end 160 88.75)
 		(stroke
 			(width 0.05)
-			(type solid)
+			(type default)
 		)
-		(fill no)
 		(layer "Edge.Cuts")
-		(uuid "9458ae1a-8ec9-4355-ba86-d08777dbc687")
+		(uuid "e6707b15-51ce-46cd-9e36-43212b2f90fb")
 	)
 	(gr_arc
-		(start 140.25 111)
-		(mid 139.366117 110.633883)
-		(end 139 109.75)
+		(start 141.25 111)
+		(mid 140.366117 110.633883)
+		(end 140 109.75)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(layer "Edge.Cuts")
 		(uuid "f3d6c074-f896-40a1-b4cb-818041994fa6")
+	)
+	(gr_line
+		(start 158.75 87.5)
+		(end 141.25 87.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "fd4907fb-25d6-42af-82dc-08bae6f1df26")
 	)
 	(gr_text "X"
 		(at 146.5 92.5 0)
