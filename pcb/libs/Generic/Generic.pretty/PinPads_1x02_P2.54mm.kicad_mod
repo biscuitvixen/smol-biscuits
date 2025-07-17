@@ -6,7 +6,7 @@
 	(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 	(tags "Through hole pin header THT 1x02 2.54mm single row")
 	(property "Reference" "REF**"
-		(at 0 -2.38 0)
+		(at 0 -2.2 0)
 		(layer "F.SilkS")
 		(uuid "6b39cf13-e0ba-463b-b198-ba8a0ed2a28c")
 		(effects
@@ -19,6 +19,7 @@
 	(property "Value" "PinPads_1x02_P2.54mm"
 		(at 0 4.92 0)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "376a77e6-8e01-4125-9434-7dd4ecfc5657")
 		(effects
 			(font
@@ -73,48 +74,8 @@
 		(uuid "9cee241c-1d49-41c1-bb97-bbfb9083cd11")
 	)
 	(fp_line
-		(start -1.38 1.27)
-		(end -1.38 3.92)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "17479d7d-5a37-4260-a08a-e6c4eddb9f5f")
-	)
-	(fp_line
-		(start -1.38 1.27)
-		(end 1.38 1.27)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "89890d77-0440-423d-8117-3112e53850a1")
-	)
-	(fp_line
-		(start -1.38 3.92)
-		(end 1.38 3.92)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "16f3ab7e-084b-4b1c-b989-3852befb56b6")
-	)
-	(fp_line
-		(start 1.38 1.27)
-		(end 1.38 3.92)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "ccb951e0-dec4-41e2-9fd5-2501acdd111e")
-	)
-	(fp_line
-		(start -1.77 -1.77)
-		(end -1.77 4.32)
+		(start -1.5 -1.5)
+		(end -1.5 4)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -123,8 +84,8 @@
 		(uuid "1fb25293-8a3c-44fb-be66-470471b92976")
 	)
 	(fp_line
-		(start -1.77 4.32)
-		(end 1.77 4.32)
+		(start -1.5 4)
+		(end 1.5 4)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -133,8 +94,8 @@
 		(uuid "737a9cd2-310e-4926-babc-2c82dca8f115")
 	)
 	(fp_line
-		(start 1.77 -1.77)
-		(end -1.77 -1.77)
+		(start 1.5 -1.5)
+		(end -1.5 -1.5)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -143,8 +104,8 @@
 		(uuid "4be256e7-d4ff-44d6-ab26-810e55e255ea")
 	)
 	(fp_line
-		(start 1.77 4.32)
-		(end 1.77 -1.77)
+		(start 1.5 4)
+		(end 1.5 -1.5)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -203,7 +164,7 @@
 		(uuid "0fd97265-7555-454f-ac9e-3f84bbb31eaa")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 1.27 90)
+		(at 3 1.27 90)
 		(layer "F.Fab")
 		(uuid "b0b6e88d-ad76-4612-8307-f66a454add94")
 		(effects
@@ -213,7 +174,7 @@
 			)
 		)
 	)
-	(pad "1" smd rect
+	(pad "1" smd circle
 		(at 0 0)
 		(size 1.7 1.7)
 		(layers "F.Cu" "F.Mask" "F.Paste")
@@ -226,15 +187,4 @@
 		(uuid "86a5d286-ac90-452f-bbf3-28f9c214d875")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.step"
-		(offset
-			(xyz 0 0 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
-	)
 )
