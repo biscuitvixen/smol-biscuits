@@ -187,7 +187,7 @@
 		)
 		(property "Value" "10K"
 			(at -5.5 0 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "dbf97e56-602c-49a4-a553-79e7c53e469e")
 			(effects
 				(font
@@ -386,7 +386,7 @@
 		)
 		(property "Value" "10K"
 			(at -3 0 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "b048934c-3ebd-48e9-b75a-c3479676dccc")
 			(effects
 				(font
@@ -585,7 +585,7 @@
 		)
 		(property "Value" "Conn_01x02"
 			(at 5.25 -0.55 180)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "8af55a8c-d87f-4bdf-aad9-ac4177213a86")
 			(effects
 				(font
@@ -1219,7 +1219,7 @@
 		)
 		(property "Value" "1532H"
 			(at 4.65 -0.15 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "89acd45c-53a6-4d9e-895d-da2e42f10444")
 			(effects
 				(font
@@ -1382,7 +1382,7 @@
 		)
 		(property "Value" "2.2uF"
 			(at -0.475 3.25 180)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "bc80c9a4-a669-4f41-a9c8-e9898c5bc042")
 			(effects
 				(font
@@ -1581,7 +1581,7 @@
 		)
 		(property "Value" "10K"
 			(at -3 0 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "0834e1e3-08fb-4990-9a9d-1f902c3ac45d")
 			(effects
 				(font
@@ -1780,7 +1780,7 @@
 		)
 		(property "Value" "0.1uF"
 			(at -0.025 5 180)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "64adb528-6cf3-4cda-a9c8-95db6a62f6c1")
 			(effects
 				(font
@@ -1963,7 +1963,7 @@
 	(footprint "Generic:PinPads_1x02_P2.54mm"
 		(layer "F.Cu")
 		(uuid "f549ec88-c0d8-45d0-aa7b-0b3bfd79de14")
-		(at 150 80.96)
+		(at 142 92.5)
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "J2"
@@ -2178,7 +2178,7 @@
 		)
 		(property "Value" "0.1uF"
 			(at -0.025 -4.75 180)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "332a157a-22e9-49ae-ab6e-4509931a3289")
 			(effects
 				(font
@@ -2375,7 +2375,7 @@
 		)
 		(property "Value" "ICM-45686"
 			(at -2.5 -2.25 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "efa954c0-9951-4660-8ff5-c64cdb00ae3e")
 			(effects
 				(font
