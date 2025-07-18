@@ -2038,7 +2038,7 @@
 	)
 	(text "Possible alternative\nfor CLK_CTL ->"
 		(exclude_from_sim no)
-		(at 206.502 43.434 0)
+		(at 205.994 62.484 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2083,10 +2083,6 @@
 		(uuid "a9ee5cd8-eb1b-4834-acbd-b2c484aae3e2")
 	)
 	(no_connect
-		(at 217.17 44.45)
-		(uuid "1430f04f-56bb-4bd2-8911-2f3193433cb3")
-	)
-	(no_connect
 		(at 226.06 86.36)
 		(uuid "2891d7a9-72b7-42cb-acee-972f0f5782c5")
 	)
@@ -2117,6 +2113,10 @@
 	(no_connect
 		(at 259.08 63.5)
 		(uuid "acc4a788-6f94-49e8-ad88-439bd24deb4e")
+	)
+	(no_connect
+		(at 217.17 63.5)
+		(uuid "b636eb68-a5a2-4c01-bc1e-eef9077f1604")
 	)
 	(no_connect
 		(at 233.68 29.21)
@@ -2307,16 +2307,6 @@
 			(type default)
 		)
 		(uuid "4af1d155-e6ab-4c76-b821-654beb1eea30")
-	)
-	(wire
-		(pts
-			(xy 204.47 63.5) (xy 217.17 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e8b519b-a4b2-4db5-a191-5a92051026a9")
 	)
 	(wire
 		(pts
@@ -2610,6 +2600,16 @@
 	)
 	(wire
 		(pts
+			(xy 204.47 44.45) (xy 217.17 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9bd6eae-bfd1-4075-96c5-b29aa24dbaa8")
+	)
+	(wire
+		(pts
 			(xy 231.14 73.66) (xy 231.14 81.28)
 		)
 		(stroke
@@ -2809,7 +2809,7 @@
 		(uuid "5c6677c3-9906-46cc-b7c4-04940f370c72")
 	)
 	(label "CLK_CTL"
-		(at 204.47 63.5 0)
+		(at 204.47 44.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
