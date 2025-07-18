@@ -1029,6 +1029,7 @@
 			(net 1 "GND")
 			(pinfunction "VSS")
 			(pintype "power_in")
+			(clearance 0.05)
 			(uuid "4033c6c2-c2d4-47e9-8776-15b9f2310771")
 		)
 		(pad "A2" smd circle
@@ -1038,6 +1039,7 @@
 			(net 5 "/I2C_SCL")
 			(pinfunction "SCL")
 			(pintype "bidirectional")
+			(clearance 0.05)
 			(uuid "266f5dda-bef4-4747-88ff-55e0789268e3")
 		)
 		(pad "B1" smd circle
@@ -1047,6 +1049,7 @@
 			(net 9 "VDD")
 			(pinfunction "VDD")
 			(pintype "power_in")
+			(clearance 0.05)
 			(uuid "2e924b14-965b-49ef-9003-34c1a8c8e96a")
 		)
 		(pad "B2" smd circle
@@ -1056,6 +1059,7 @@
 			(net 2 "/I2C_SDA")
 			(pinfunction "SDA")
 			(pintype "bidirectional")
+			(clearance 0.05)
 			(uuid "16cae0ec-b695-46c6-9d66-15c3e72b2500")
 		)
 		(embedded_fonts no)
