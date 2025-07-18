@@ -715,7 +715,7 @@
 			(net 29 "unconnected-(J1-Pin_3-Pad3)_1")
 			(pinfunction "Pin_3")
 			(pintype "passive+no_connect")
-			(uuid "ef186f37-e115-4a82-856c-71fb3c00b3eb")
+			(uuid "1d57b88d-13bc-41f0-a3c3-303d204eecf1")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_JST.3dshapes/JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal.step"
@@ -934,7 +934,7 @@
 		(uuid "67b2fc90-b6ce-4043-a245-4f21dd964b79")
 		(at 150 108.75)
 		(property "Reference" "U2"
-			(at 0 -1.25 0)
+			(at 0 -1.3 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "c83335c9-563b-4f94-9906-31fe52b85813")
@@ -949,6 +949,7 @@
 			(at -2 -0.25 0)
 			(unlocked yes)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "c7bf12e4-9312-46de-9ab9-a3986c14936d")
 			(effects
 				(font
@@ -987,16 +988,45 @@
 		(sheetname "/")
 		(sheetfile "smol-slime-xiao.kicad_sch")
 		(attr smd)
-		(fp_rect
-			(start -0.5 -0.5)
-			(end 0.5 0.5)
+		(fp_line
+			(start -0.7 0.3)
+			(end -0.7 -0.3)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
-			(fill no)
 			(layer "F.SilkS")
-			(uuid "ae460f50-b130-429c-9c5a-f448812fce76")
+			(uuid "0fff93a9-1b0e-4686-a85d-6b75d980a71a")
+		)
+		(fp_line
+			(start -0.3 -0.7)
+			(end 0.3 -0.7)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "24fff6d4-0679-422e-8be2-ae052752d3d5")
+		)
+		(fp_line
+			(start 0.3 0.7)
+			(end -0.3 0.7)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "5dc003c0-eee0-413e-8408-c5ef46b453a7")
+		)
+		(fp_line
+			(start 0.7 0.3)
+			(end 0.7 -0.3)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "25fd1de7-55e6-4a81-913b-1b094bd73555")
 		)
 		(fp_poly
 			(pts
@@ -1009,6 +1039,17 @@
 			(fill yes)
 			(layer "F.SilkS")
 			(uuid "e8cb31f6-3320-49e6-997e-e3565aaa4bde")
+		)
+		(fp_rect
+			(start -0.5 -0.5)
+			(end 0.5 0.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "ae460f50-b130-429c-9c5a-f448812fce76")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 -1.3 0)
