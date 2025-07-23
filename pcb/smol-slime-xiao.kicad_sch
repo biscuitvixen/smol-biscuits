@@ -4730,7 +4730,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Generic:PinPads_1x02_P2.54mm"
+		(property "Footprint" "Generic:PinPads_1x03_P2.54mm"
 			(at 245.11 106.68 0)
 			(effects
 				(font
