@@ -5139,16 +5139,15 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 231.14 91.44 0)
+		(property "Footprint" "SW_SSSS811101:SW_SSSS811101"
+			(at 253.238 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/ALPSALPINE-SSSS811101/C109335"
 			(at 223.52 91.44 0)
 			(effects
 				(font

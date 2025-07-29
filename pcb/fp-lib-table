@@ -5,4 +5,5 @@
   (lib (name "QMC6309")(type "KiCad")(uri "${KIPRJMOD}/libs/QMC6309/QMC6309.pretty")(options "")(descr ""))
   (lib (name "Seeed Studio XIAO Series Library")(type "KiCad")(uri "${KIPRJMOD}/libs/seeed-opl/Seeed Studio XIAO Series Library")(options "")(descr ""))
   (lib (name "Generic")(type "KiCad")(uri "${KIPRJMOD}/libs/Generic/Generic.pretty")(options "")(descr ""))
+  (lib (name "SW_SSSS811101")(type "KiCad")(uri "${KIPRJMOD}/libs/SSSS811101/SW_SSSS811101.pretty")(options "")(descr ""))
 )
