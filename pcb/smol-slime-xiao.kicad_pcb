@@ -2072,7 +2072,7 @@
 		(path "/9542308b-55c1-4833-a06d-5917da8f244d")
 		(sheetname "/")
 		(sheetfile "smol-slime-xiao.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(fp_line
 			(start -0.3 2.5)
 			(end -1.3 2.5)
