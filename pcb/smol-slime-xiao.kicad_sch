@@ -2310,6 +2310,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 102.87) (xy 222.25 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03cd935b-6985-4e85-bb11-d0913e26df52")
+	)
+	(wire
+		(pts
 			(xy 222.25 97.79) (xy 233.68 97.79)
 		)
 		(stroke
@@ -2400,6 +2410,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 96.52) (xy 228.6 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "342527f3-1a4d-428f-a1ea-ee5fcbc996d4")
+	)
+	(wire
+		(pts
 			(xy 241.3 105.41) (xy 222.25 105.41)
 		)
 		(stroke
@@ -2427,16 +2447,6 @@
 			(type default)
 		)
 		(uuid "39e494a3-842a-40a5-9313-b891b4cb825f")
-	)
-	(wire
-		(pts
-			(xy 222.25 102.87) (xy 228.6 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3aa5413c-2108-4912-9b9b-650c8e52064e")
 	)
 	(wire
 		(pts
@@ -2617,16 +2627,6 @@
 			(type default)
 		)
 		(uuid "75d0b9ae-657a-4a9b-810d-d9d6b1312ef4")
-	)
-	(wire
-		(pts
-			(xy 228.6 102.87) (xy 228.6 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "762547d5-3a3b-4949-a911-e72063b593b4")
 	)
 	(wire
 		(pts
@@ -4423,7 +4423,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(uuid "a96272c8-75fd-4163-8b9b-42176e15c24c")
 		(property "Reference" "J3"
@@ -4753,7 +4753,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bc4239cb-f8b2-4883-9460-2697846f2f8d")
@@ -5015,7 +5015,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(uuid "c01718f5-a756-4dba-a8ff-54ac7469ed54")
 		(property "Reference" "J4"
@@ -5082,7 +5082,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(uuid "c3e14905-6199-4af6-a53a-fdbee5e599d9")
 		(property "Reference" "J2"
@@ -5263,7 +5263,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/Hci-1532H432K768JWPDTSNL/C5383164"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/247519-3N00032G33YC/C252344"
 			(at 161.29 52.07 0)
 			(effects
 				(font
@@ -5281,7 +5281,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C5383164"
+		(property "LCSC PN" "C252344"
 			(at 161.29 52.07 0)
 			(effects
 				(font
