@@ -2435,13 +2435,13 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
+	(footprint "Generic:Crystal_SMD_3225-4Pin_3.2x2.5mm_Silkscreenfix"
 		(layer "F.Cu")
 		(uuid "9184a33f-2d41-4579-84d8-3b7b160b13d6")
 		(at 153.75 94.75 180)
 		(descr "SMD3225/4, Crystal, 3.2x2.5mm package, SMD, generated with kicad-footprint-generator make_crystal.py, http://www.txccrystal.com/images/pdf/7m-accuracy.pdf")
 		(property "Reference" "U3"
-			(at 0.5 -2.45 180)
+			(at -1 2.5 0)
 			(layer "F.SilkS")
 			(uuid "bd9e3431-b358-4a3e-86b8-0e7a3fa6a9b4")
 			(effects
@@ -2452,7 +2452,7 @@
 			)
 		)
 		(property "Value" "1532H"
-			(at -11.5 0 180)
+			(at -10.75 0 0)
 			(layer "F.Fab")
 			(uuid "bd8a86fc-b813-40e1-b3d6-3cef669e4d12")
 			(effects
@@ -2463,7 +2463,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/partdetail/Hci-1532H432K768JWPDTSNL/C5383164"
-			(at 0 0 180)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4f03dc21-5d77-40c2-b1a1-33b3869d9379")
@@ -2475,7 +2475,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "bbfcf1fa-3571-4d91-8226-8b5469dc611c")
@@ -2491,7 +2491,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "07c8bbf9-5bce-4c6c-bbc9-c6488ef62dd9")
+			(uuid "160c788e-d9fe-4675-b349-6e80dc38081e")
 			(effects
 				(font
 					(size 1 1)
@@ -2505,23 +2505,23 @@
 		(attr smd)
 		(fp_line
 			(start -2.06 1.71)
-			(end 2.06 1.71)
+			(end 1.2 1.71)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "4e2ca4c6-e715-49d2-9007-cd535b04fa02")
+			(uuid "5ff104fd-50d9-42ae-bfbf-21d8c6e1bb4e")
 		)
 		(fp_line
-			(start -2.06 -1.71)
+			(start -2.06 -0.9)
 			(end -2.06 1.71)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "0ca59048-9757-4bc0-8248-1b682094f78c")
+			(uuid "0af717eb-463c-45a3-90aa-a84281a959a2")
 		)
 		(fp_rect
 			(start -2.1 -1.75)
@@ -2532,7 +2532,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "1081ae13-4264-4c72-83a4-8e7972de2fc8")
+			(uuid "f6d7d349-d7bc-4fe5-a9c2-537dbbc57fef")
 		)
 		(fp_poly
 			(pts
@@ -2544,10 +2544,10 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "c952ac07-e0df-428a-96c3-b5bd15fac93f")
+			(uuid "c376b3fa-a246-4f55-bddf-0a6f31fe1420")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 180)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "fe1730cc-f5a9-4f1a-8a15-9d893274dfe0")
 			(effects
@@ -3111,7 +3111,7 @@
 		(uuid "d8eadcd9-421e-4f71-b796-b0b04b3f8987")
 		(at 150 89.5 180)
 		(property "Reference" "SW1"
-			(at -5.25 -0.75 270)
+			(at -5.25 -0.5 270)
 			(layer "F.SilkS")
 			(uuid "ff311d5b-5a01-47a1-a406-1f98effd555d")
 			(effects

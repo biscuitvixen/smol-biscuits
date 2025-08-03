@@ -5245,7 +5245,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
+		(property "Footprint" "Generic:Crystal_SMD_3225-4Pin_3.2x2.5mm_Silkscreenfix"
 			(at 161.29 52.07 0)
 			(effects
 				(font
