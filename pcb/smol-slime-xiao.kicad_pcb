@@ -197,7 +197,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/16079-0603WAJ0103T5E/C15401"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -217,6 +217,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C15401"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4cd35e21-bf4c-4ba4-9bbe-6f1b5bd55f92")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -711,7 +724,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/16079-0603WAJ0103T5E/C15401"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -731,6 +744,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C15401"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "378b7036-4f7c-4aba-8103-ba6923485c4f")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -911,7 +937,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlcpcb.com/partdetail/Qst-QMC6309/C5439871"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -930,6 +956,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6dad8a3d-78d2-49d0-bd75-f34755cd544b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C5439871"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "590e128f-c4d6-4746-a7dd-0553f0fc08cb")
 			(effects
 				(font
 					(size 1 1)
@@ -1130,13 +1169,13 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Generic:Crystal_SMD_3225-4Pin_3.2x2.5mm_Silkscreenfix"
+	(footprint "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
 		(layer "F.Cu")
 		(uuid "9184a33f-2d41-4579-84d8-3b7b160b13d6")
 		(at 153.75 94.75 180)
 		(descr "SMD3225/4, Crystal, 3.2x2.5mm package, SMD, generated with kicad-footprint-generator make_crystal.py, http://www.txccrystal.com/images/pdf/7m-accuracy.pdf")
 		(property "Reference" "U3"
-			(at -1 2.5 0)
+			(at 0 -2.45 180)
 			(layer "F.SilkS")
 			(uuid "bd9e3431-b358-4a3e-86b8-0e7a3fa6a9b4")
 			(effects
@@ -1147,7 +1186,7 @@
 			)
 		)
 		(property "Value" "1532H"
-			(at -11 0 0)
+			(at -11.5 0 180)
 			(layer "F.Fab")
 			(uuid "bd8a86fc-b813-40e1-b3d6-3cef669e4d12")
 			(effects
@@ -1157,8 +1196,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 0 0 0)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/Hci-1532H432K768JWPDTSNL/C5383164"
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4f03dc21-5d77-40c2-b1a1-33b3869d9379")
@@ -1170,7 +1209,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "bbfcf1fa-3571-4d91-8226-8b5469dc611c")
@@ -1181,29 +1220,42 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C5383164"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "07c8bbf9-5bce-4c6c-bbc9-c6488ef62dd9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/c8c81b44-fabe-46eb-92dd-cffc082d2951")
 		(sheetname "/")
 		(sheetfile "smol-slime-xiao.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.06 1.71)
-			(end 1.2 1.71)
+			(end 2.06 1.71)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "940f4cb3-a4c4-4363-b70b-a4062166d9c5")
+			(uuid "86d84e05-0f87-4dd3-b3b4-aa209f182426")
 		)
 		(fp_line
-			(start -2.06 -0.9)
+			(start -2.06 -1.71)
 			(end -2.06 1.71)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "d8845d2e-860a-424e-8d4d-a10201f88f6c")
+			(uuid "de668f56-7ed5-4672-acdb-337f2e0424b0")
 		)
 		(fp_rect
 			(start -2.1 -1.75)
@@ -1214,7 +1266,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "82aed345-6f5e-433a-8dd2-2775ee10ef5d")
+			(uuid "19be1b3a-9af5-45ca-929c-5b2380cd5069")
 		)
 		(fp_poly
 			(pts
@@ -1226,10 +1278,10 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "81913f54-75e2-4a2e-839f-b4b3f8f90ef7")
+			(uuid "37b215ed-d8cc-4630-980b-9bca993fa406")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(uuid "fe1730cc-f5a9-4f1a-8a15-9d893274dfe0")
 			(effects
@@ -1392,7 +1444,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/101296-CL10B225KP8NNNC/C100082"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1412,6 +1464,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C100082"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dc6afd0f-9d28-4203-a45c-611664a89e39")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -1591,7 +1656,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/16079-0603WAJ0103T5E/C15401"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1611,6 +1676,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C15401"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6719d2d0-2c7c-4d9f-93af-6288af31fc53")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -1808,6 +1886,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C109335"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "744873d2-91b1-4ea1-a08a-98947d49c65a")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -2131,7 +2222,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/1943-CL10B104KB8NNNC/C1591"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -2151,6 +2242,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C1591"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4981736b-56aa-498b-8b67-5313b3e9a63b")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -2588,7 +2692,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/1943-CL10B104KB8NNNC/C1591"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -2608,6 +2712,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C1591"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0259aeac-4a04-4705-80e1-dd2e4a6ed9d6")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -2785,7 +2902,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlcpcb.com/partdetail/TdkInvensense-ICM45686/C22459454"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2854,6 +2971,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7419debf-719e-4a1d-8c9f-8f838ec6499f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C22459454"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7b08ace6-2567-4bfd-9272-20339879ffb8")
 			(effects
 				(font
 					(size 1 1)

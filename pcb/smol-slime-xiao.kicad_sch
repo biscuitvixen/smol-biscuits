@@ -3348,7 +3348,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/16079-0603WAJ0103T5E/C15401"
 			(at 187.96 121.92 0)
 			(effects
 				(font
@@ -3358,6 +3358,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 187.96 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C15401"
 			(at 187.96 121.92 0)
 			(effects
 				(font
@@ -3418,7 +3427,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/16079-0603WAJ0103T5E/C15401"
 			(at 199.39 127 0)
 			(effects
 				(font
@@ -3428,6 +3437,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 199.39 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C15401"
 			(at 199.39 127 0)
 			(effects
 				(font
@@ -3556,7 +3574,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlcpcb.com/partdetail/TdkInvensense-ICM45686/C22459454"
 			(at 80.01 78.74 0)
 			(effects
 				(font
@@ -3611,6 +3629,15 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C22459454"
+			(at 80.01 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -3768,7 +3795,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/101296-CL10B225KP8NNNC/C100082"
 			(at 154.94 134.62 0)
 			(effects
 				(font
@@ -3778,6 +3805,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 154.94 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C100082"
 			(at 154.94 134.62 0)
 			(effects
 				(font
@@ -3970,7 +4006,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/1943-CL10B104KB8NNNC/C1591"
 			(at 69.85 133.35 0)
 			(effects
 				(font
@@ -3980,6 +4016,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 69.85 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C1591"
 			(at 69.85 133.35 0)
 			(effects
 				(font
@@ -4242,7 +4287,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/16079-0603WAJ0103T5E/C15401"
 			(at 144.78 49.53 0)
 			(effects
 				(font
@@ -4252,6 +4297,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 144.78 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C15401"
 			(at 144.78 49.53 0)
 			(effects
 				(font
@@ -4312,7 +4366,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/1943-CL10B104KB8NNNC/C1591"
 			(at 134.62 92.71 0)
 			(effects
 				(font
@@ -4322,6 +4376,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 134.62 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C1591"
 			(at 134.62 92.71 0)
 			(effects
 				(font
@@ -5109,7 +5172,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlcpcb.com/partdetail/Qst-QMC6309/C5439871"
 			(at 172.72 130.81 0)
 			(effects
 				(font
@@ -5119,6 +5182,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 172.72 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C5439871"
 			(at 172.72 130.81 0)
 			(effects
 				(font
@@ -5182,7 +5254,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlcpcb.com/partdetail/Hci-1532H432K768JWPDTSNL/C5383164"
 			(at 161.29 52.07 0)
 			(effects
 				(font
@@ -5192,6 +5264,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 161.29 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C5383164"
 			(at 161.29 52.07 0)
 			(effects
 				(font
@@ -5465,6 +5546,15 @@
 		)
 		(property "Description" "Switch, single pole double throw"
 			(at 231.14 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C109335"
+			(at 231.14 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
