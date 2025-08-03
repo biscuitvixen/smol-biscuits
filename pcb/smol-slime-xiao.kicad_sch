@@ -4017,7 +4017,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/JST-S2B_PH_SM4_TB_LF_SN/C295747"
 			(at 217.17 82.55 0)
 			(effects
 				(font
@@ -4027,6 +4027,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 217.17 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C295747"
 			(at 217.17 82.55 0)
 			(effects
 				(font

@@ -1675,7 +1675,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/JST-S2B_PH_SM4_TB_LF_SN/C295747"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1695,6 +1695,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C295747"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b17d00c6-0f49-438f-a599-5be6c7ec55fb")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
