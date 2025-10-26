@@ -1,0 +1,34 @@
+# Smol Biscuits SlimeVR Trackers
+These are a derivative of SlimeVR trackers, designed to be smaller, lighter and longer lasting!
+
+They consists of:
+- Custom PCB
+- Custom 3D printed case
+- Custom firmware derived from SlimeVR firmware
+
+## PCB
+The PCB is designed in KiCad and the files can be found in the `pcb` folder. The PCB is designed to be as small as possible, acting as a carrier board for a Seeed Studio XIAO nrf52840 on the opposite side of the sensors.
+
+The sensor board has an IMU and a magnetometer.
+
+### IMU
+> ICM-45686
+
+### Magnetometer
+> QMC-6309
+
+## Battery
+The board requires a LiPo batter. Size based on your needs, but the included case is designed to fit a 150mAh battery.
+
+## 3D Printed Case
+The case is a two-piece design with a flexible interlink. The battery is in one case and the PCB in the other.
+
+The flexi-link allows the two piece design to bend around the body and also forms part of the strain relief for the battery cable.
+
+The case files can be found in the `case` folder.
+
+### Materials
+- The flexi-link is designed to be printed in TPU.
+- The base plates should be printed in PETG for strength. The strap piece is put under strain and may break if printed in PLA.
+- The top cover can be printed in PLA or PETG, whatever you prefer.
+- The switch can also be printed in whatever you prefer for aesthetics.
