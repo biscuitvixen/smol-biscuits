@@ -206,14 +206,15 @@ Enjoy your new lightweight, comfortable full-body tracking experience! �✨
 
 ### 🔧 Hardware Designs
 **PCB files, 3D models, schematics, and case designs** are licensed under:
-- **CC BY-NC-SA 4.0** - [LICENSE-HARDWARE](LICENSE-HARDWARE)
+- **CC BY-NC-SA 4.0** - [Full License Text](LICENSE-CC-BY-NC-SA)
 
 **Personal and educational use**: ✅ Free to use, modify, and share  
 **Commercial use**: ❌ Requires separate license - contact [onlybiscuit7@gmail.com]
 
 ### 💾 Firmware
 **Firmware** retains the original SlimeVR license terms:
-- See [LICENSE-FIRMWARE](LICENSE-FIRMWARE) and firmware submodule for details
+- Original SlimeVR licenses: [MIT](LICENSE-MIT) | [Apache 2.0](LICENSE-APACHE)
+- See firmware submodule for complete licensing information
 
 ### 🤝 What This Means
 - **Hobbyists & Makers**: Build away! Just credit me and share improvements
