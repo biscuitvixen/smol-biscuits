@@ -32,3 +32,59 @@ The case files can be found in the `case` folder.
 - The base plates should be printed in PETG for strength. The strap piece is put under strain and may break if printed in PLA.
 - The top cover can be printed in PLA or PETG, whatever you prefer.
 - The switch can also be printed in whatever you prefer for aesthetics.
+
+## Firmware
+### Pre-Compiled Firmware
+The firmware is added as a git submodule in the `firmware` folder. It is a fork of the SlimeVR firmware with support for the Smol Biscuits PCB.
+
+To program the trackers and receiver you can use the pre-compiled firmware files included in the releases section of this repository.
+
+### Compiling the Firmware Yourself
+In order to compile the firmware yourself, you will need to follow the instructions in the SlimeVR firmware repository, with the following changes:
+1. Clone this repository with `--recurse-submodules` to get the firmware submodule.
+2. Open the firmware folder and follow the instructions on the SlimeVR dev page: https://docs.slimevr.dev/smol-slimes/firmware/smol-compiling-firmware.html
+3. When compiling the tracker, use the command: `west build -p auto -b xiao_ble -d build . -- -DNCS_TOOLCHAIN_VERSION=NONE -DBOARD_ROOT=.` to select the correct board.
+
+## Assembly
+### Soldering the PCB
+1. Solder the sensor components onto the PCB. Leave the XIAO nrf52840 off for now.
+2. Pre-tin the battery terminals on the XIAO and it's footprint on the PCB.
+3. Using the solder jig, place the XIAO nrf52840 with the battery terminals facing up.
+4. Apply flux.
+5. Place the sensor PCB on top of the XIAO, aligning the battery terminals.
+6. Use the square heat pass-through pads to melt the solder, applying slight pressure to flatten the board to the XIAO.
+7. Allow to cool and inspect the joints. Use a multimeter to check for shorts.
+8. Solder all of the castellated pins around the edge of the PCB.
+9. Solder the battery to the back of the sensor board.
+
+### Programming the PCB
+1. Connect the XIAO nrf52840 to your computer using a USB-C cable
+2. Put the XIAO into bootloader mode by double-tapping the reset button
+3. Copy the bootloader firmware (
+`update-slimenrf_xiao_sense_bootloader-0.9.2-SlimeVR.7_nosd.uf2` ) file to the XIAO drive.
+4. The XIAO will reboot and show up as a new drive called `SLIMENRF_XIAO_SENSE`. If it does not, repeat step 2.
+5. Copy the tracker firmware ( `firmware_tracker.uf2` ) file to the `SLIMENRF_XIAO_SENSE` drive.
+6. The XIAO will reboot and start running the firmware.
+
+### Programming the Receiver
+Depending on the receiver you are using, you may need to refer to the SlimeVR documentation for programming instructions.
+
+For the Holyiot receiver, you can use the pre-compiled firmware file ( `firmware_receiver.hex` ) and use nordic nrf connect programmer to flash the firmware to the Holyiot board.
+
+### Set-up and calibration
+Refer to the SlimeVR documentation for setting up and calibrating the trackers in the SlimeVR software.
+https://docs.slimevr.dev/smol-slimes/firmware/smol-pairing-and-calibration.html
+
+### Assembling the Case
+1. Slide the bases onto a 30mm strap. Make sure the notches are facing eachother.
+2. Place the flex link between the bases in its slot.
+3. Insert the battery spacer between the strap and battery, then place the battery on top.
+4. Holding the battery in place by it's wires, place the battery base on top and snap it into place.
+5. Place the PCB into the PCB base, ensuring the switch is aligned with the cutout.
+6. Slide the switch slider over the PCB switch.
+7. Ensuring the case correctly slides over the switch, snap the top cover into place.
+8. Adjust the strap to fit and secure it in place.
+
+---
+
+And that's it! Your Smol Biscuits SlimeVR trackers are ready to use! 🎊
