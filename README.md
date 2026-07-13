@@ -5,233 +5,140 @@
 ![License](https://img.shields.io/badge/Firmware-SlimeVR--Terms-green)
 ![Platform](https://img.shields.io/badge/platform-nRF52840-orange)
 
-> **Tiny, lightweight, and long-lasting SlimeVR trackers for full-body tracking**
+My own SlimeVR-compatible trackers, built because I wanted something
+smaller. Like butterflies but before they were out! Custom PCB on a
+Seeed Studio XIAO nRF52840, custom firmware fork, and a two-piece 3D
+printed case with a flexible link between the battery and PCB sections.
+They fit great and I love them!
 
-These are a derivative of SlimeVR trackers, designed to be **smaller**, **lighter**, and **longer lasting**! Perfect for comfortable all-day body tracking.
+## Table of Contents
 
-## ✨ Features
+- [Hardware](#hardware)
+- [3D Printed Case](#3d-printed-case)
+- [Firmware](#firmware)
+- [Assembly](#assembly)
+- [Setup & Calibration](#setup--calibration)
 
-- 🔧 **Custom PCB** - Minimal footprint carrier board
-- 🏠 **Custom 3D printed case** - Flexible two-piece design
-- 💾 **Custom firmware** - Optimized derivative of SlimeVR firmware
-- 🔋 **Extended battery life** - Efficient power management
-- 📡 **Wireless connectivity** - nRF52840-based communication
+## Hardware
 
-## 📋 Table of Contents
+### PCB
 
-- [🔧 Hardware](#-hardware)
-  - [PCB Design](#pcb-design)
-  - [Sensors](#sensors)
-  - [Battery](#battery)
-- [🏠 3D Printed Case](#-3d-printed-case)
-- [💾 Firmware](#-firmware)
-- [🔨 Assembly](#-assembly)
-- [📡 Setup & Calibration](#-setup--calibration)
+Designed in KiCad, files in [`pcb/`](./pcb). A minimal carrier board for
+the XIAO nRF52840, with sensors mounted on the opposite side.
 
-## 🔧 Hardware
-
-### PCB Design
-
-The PCB is designed in **KiCad** and the files can be found in the [`pcb`](./pcb) folder. The PCB is designed to be as small as possible, acting as a carrier board for a **Seeed Studio XIAO nRF52840** on the opposite side of the sensors.
-
-### 📊 Sensors
+### Sensors
 
 | Component | Model | Function |
 |-----------|-------|----------|
-| **IMU** | ICM-45686 | 6-axis motion sensing |
-| **Magnetometer** | QMC-6309 | Magnetic field detection |
+| IMU | ICM-45686 | 6-axis motion sensing |
+| Magnetometer | QMC-6309 | Magnetic field detection |
 
-#### 🎯 IMU: ICM-45686
-High-performance 6-axis motion sensor providing accurate accelerometer and gyroscope data.
+### Battery
 
-#### 🧭 Magnetometer: QMC-6309
-Precision 3-axis magnetic sensor for improved orientation tracking.
+The board takes a LiPo. The included case is sized around a 150mAh cell -
+go bigger if your case design has room for it.
 
-### 🔋 Battery
+## 3D Printed Case
 
-The board requires a **LiPo battery**. Size based on your needs, but the included case is designed to fit a **150mAh battery** for optimal balance between size and runtime.
+Two-piece design: separate battery and PCB compartments connected by a
+flexible TPU link. The joint lets the tracker bend naturally against your
+body, which makes a real difference for all-day wear.
 
-## 🏠 3D Printed Case
+Print the flex link in TPU. Base plates should be PETG - they take real
+strain from the strap and PLA will eventually fail on you. The top cover
+and switch piece can be PLA or PETG, whichever you have to hand.
 
-The case features an innovative **two-piece design** with a **flexible interlink**. The battery compartment and PCB housing are separate, connected by a flexible joint that allows the tracker to bend naturally around your body.
+## Firmware
 
-### 🔗 Design Features
+Firmware lives in [`firmware/`](./firmware) as a git submodule - a fork of
+the SlimeVR firmware with specific support for this PCB.
 
-- **Flexible interlink** - Allows bending around body contours
-- **Strain relief** - Protects battery cable from damage  
-- **Modular design** - Separate battery and PCB compartments
+Pre-compiled firmware is available in the [releases section](../../releases).
 
-### 🎨 Print Materials
+### Building from source
 
-| Component | Recommended Material | Reason |
-|-----------|---------------------|---------|
-| **Flexi-link** | TPU | Flexibility and durability |
-| **Base plates** | PETG | Strength under strain |
-| **Top cover** | PLA or PETG | Aesthetic preference |
-| **Switch** | PLA or PETG | Aesthetic preference |
-
-> ⚠️ **Important**: The strap piece is under significant strain - avoid PLA for base plates as it may break!
-
-## 💾 Firmware
-
-### 🚀 Pre-Compiled Firmware
-
-The firmware is included as a git submodule in the [`firmware`](./firmware) folder. It's a **fork of the SlimeVR firmware** with specific support for the Smol Biscuits PCB.
-
-📦 **Quick Start**: Use the pre-compiled firmware files from the [releases section](../../releases) to program your trackers and receiver.
-
-### 🛠️ Compiling Firmware Yourself
-
-Want to customize or build from source? Follow these steps:
-
-1. **Clone with submodules**:
+1. Clone with submodules:
    ```bash
    git clone --recurse-submodules https://github.com/biscuitvixen/smol-biscuits.git
    ```
 
-2. **Follow SlimeVR dev documentation**:
-   📖 [SlimeVR Compilation Guide](https://docs.slimevr.dev/smol-slimes/firmware/smol-compiling-firmware.html)
-
-3. **Build with correct board target**:
+2. Follow the [SlimeVR compilation guide](https://docs.slimevr.dev/smol-slimes/firmware/smol-compiling-firmware.html),
+   then build with:
    ```bash
    west build -p auto -b xiao_ble -d build . -- -DNCS_TOOLCHAIN_VERSION=NONE -DBOARD_ROOT=.
    ```
 
-## 🔨 Assembly
+## Assembly
 
-### 🔧 Soldering the PCB
+### Soldering
 
-> ⚠️ **Safety First**: Use proper ventilation and ESD protection when soldering
+The components on this board are small. Take your time.
 
-#### Step-by-step Process:
+1. Solder the sensor components onto the PCB. Leave the XIAO for now.
+2. Pre-tin the battery terminals on the XIAO and the matching footprint
+   on the PCB.
+3. Use the solder jig to position the XIAO with battery terminals facing up.
+4. Apply flux, place the sensor PCB on top aligning the battery terminals,
+   and heat through the square pass-through pads while pressing the boards
+   flat. Let it cool fully before moving it.
+5. Inspect all joints and check for shorts with a multimeter before
+   continuing.
+6. Solder the castellated pins around the PCB edge, then solder the battery
+   to the back of the sensor board.
 
-1. **Solder sensor components** 📊
-   - Solder the sensor components onto the PCB
-   - ⚠️ Leave the XIAO nRF52840 for later
+### Programming
 
-2. **Prepare battery terminals** 🔋
-   - Pre-tin the battery terminals on the XIAO
-   - Pre-tin the corresponding footprint on the PCB
+**Tracker:**
 
-3. **Position the XIAO** 📱
-   - Use the solder jig to place the XIAO nRF52840
-   - **Battery terminals facing up** ⬆️
+1. Connect via USB-C and double-tap the reset button. The device should
+   appear as `XIAO-SENSE`.
+2. Copy `update-slimenrf_xiao_sense_bootloader-0.9.2-SlimeVR.7_nosd.uf2`
+   to the drive. It will remount as `SLIMENRF_XIAO_SENSE`.
+3. Copy `firmware_tracker.uf2` to the drive. The tracker reboots
+   automatically.
 
-4. **Apply flux and align** ✨
-   - Apply flux to all connections
-   - Place sensor PCB on top, aligning battery terminals
+**Receiver:**
 
-5. **Heat and bond** 🔥
-   - Use square heat pass-through pads to melt solder
-   - Apply gentle pressure to flatten boards together
-   - Allow to cool completely ❄️
+The Holyiot receiver is programmed via Nordic nRF Connect Programmer - flash
+`firmware_receiver.hex`. For other hardware, follow the
+[SlimeVR receiver docs](https://docs.slimevr.dev).
 
-6. **Inspect and test** 🔍
-   - Visual inspection of all joints
-   - **Use multimeter to check for shorts** ⚡
+### Case assembly
 
-7. **Complete connections** 🔗
-   - Solder all castellated pins around PCB edge
-   - Solder battery to back of sensor board
+1. Slide both bases onto a 30mm strap with the notches facing each other.
+2. Place the flex link between the bases in its slot.
+3. Insert the battery spacer, then lay the battery on top.
+4. Hold the battery in place by its wires and snap the battery base down.
+5. Place the PCB into the PCB base, aligning the switch with the cutout.
+6. Slide the switch slider over the PCB switch.
+7. Snap the top cover into place and adjust the strap to fit.
 
-### 💾 Programming the PCB
+## Setup & Calibration
 
-#### Tracker Programming:
+Follow the [SlimeVR pairing and calibration guide](https://docs.slimevr.dev/smol-slimes/firmware/smol-pairing-and-calibration.html).
 
-1. **Connect** 🔌 - USB-C cable to computer
-2. **Bootloader mode** 🔄 - Double-tap reset button  
-3. **Flash bootloader** 📥 - Copy `update-slimenrf_xiao_sense_bootloader-0.9.2-SlimeVR.7_nosd.uf2`
-4. **Verify** ✅ - Should show as `SLIMENRF_XIAO_SENSE` drive
-5. **Flash firmware** 🎯 - Copy `firmware_tracker.uf2` to drive
-6. **Reboot** 🔄 - Device will restart with new firmware
+## License
 
-#### 📡 Programming the Receiver
+### Hardware
 
-**For Holyiot receiver**:
-- Use Nordic nRF Connect Programmer
-- Flash `firmware_receiver.hex` file
-- Follow [SlimeVR receiver documentation](https://docs.slimevr.dev) for other receivers
+PCB files, 3D models, schematics, and case designs are licensed under
+[CC BY-NC-SA 4.0](LICENSE-CC-BY-NC-SA). Personal and educational use is
+free - just credit me and share improvements under the same terms.
+Commercial use requires a separate arrangement; get in touch at
+onlybiscuit7@gmail.com.
 
-### 🏠 Assembling the Case
+### Firmware
 
-#### Step-by-step Assembly:
+Firmware retains the original SlimeVR license terms:
+[MIT](LICENSE-MIT) | [Apache 2.0](LICENSE-APACHE). See the firmware
+submodule for the full details.
 
-1. **Strap preparation** 📏
-   - Slide bases onto 30mm strap
-   - **Ensure notches face each other** 🔄
+## Contributing
 
-2. **Flex link installation** 🔗
-   - Place flex link between bases in designated slot
+Pull requests and issues welcome.
 
-3. **Battery compartment** 🔋
-   - Insert battery spacer between strap and battery
-   - Position battery on top of spacer
+## Support
 
-4. **Secure battery** 🔒
-   - Hold battery in place by wires
-   - Snap battery base into place
-
-5. **PCB installation** 📱
-   - Place PCB into PCB base
-   - **Align switch with cutout** ⚙️
-
-6. **Switch mechanism** 🎛️
-   - Slide switch slider over PCB switch
-
-7. **Final assembly** ✅
-   - Ensure case slides correctly over switch
-   - Snap top cover into place
-
-8. **Strap adjustment** 📐
-   - Adjust strap to fit comfortably
-   - Secure in place
-
-## 📡 Setup & Calibration
-
-For complete setup and calibration instructions, refer to the official SlimeVR documentation:
-
-🔗 **[SlimeVR Pairing & Calibration Guide](https://docs.slimevr.dev/smol-slimes/firmware/smol-pairing-and-calibration.html)**
-
----
-
-## 🎊 Congratulations!
-
-**Your Smol Biscuits SlimeVR trackers are ready to use!**
-
-Enjoy your new lightweight, comfortable full-body tracking experience! �✨
-
----
-
-## 📄 License
-
-### 🔧 Hardware Designs
-**PCB files, 3D models, schematics, and case designs** are licensed under:
-- **CC BY-NC-SA 4.0** - [Full License Text](LICENSE-CC-BY-NC-SA)
-
-**Personal and educational use**: ✅ Free to use, modify, and share  
-**Commercial use**: ❌ Requires separate license - contact [onlybiscuit7@gmail.com]
-
-### 💾 Firmware
-**Firmware** retains the original SlimeVR license terms:
-- Original SlimeVR licenses: [MIT](LICENSE-MIT) | [Apache 2.0](LICENSE-APACHE)
-- See firmware submodule for complete licensing information
-
-### 🤝 What This Means
-- **Hobbyists & Makers**: Build away! Just credit me and share improvements
-- **Companies**: Want to sell these? Let's talk revenue sharing or licensing
-- **Everyone**: Improvements must be shared under the same terms
-
-### 🤝 Third-Party Components
-- **SlimeVR Firmware**: Check firmware submodule for licensing terms
-- **Dependencies**: Various open source licenses (see individual components)
-
-## 🤝 Contributing
-
-I welcome contributions! Please feel free to submit pull requests or open issues.
-
-## 📞 Support
-
-For support and questions:
-- 📖 Check the [SlimeVR Documentation](https://docs.slimevr.dev)
-- 💬 Join the SlimeVR Discord community
-- 🐛 Report issues on GitHub
+- [SlimeVR Documentation](https://docs.slimevr.dev)
+- SlimeVR Discord
+- GitHub Issues
