@@ -57,17 +57,33 @@ SHPHLD ──┬────── SW (TS-1088-AR02016) ────── GND
   LSM6DSV16X symbol drawn from datasheet DS13510 Rev 4 Figure 5
   (pin mapping pending review before layout)
 
+## Schematic draft (`pcb/smol-slime-rev2.kicad_sch`)
+
+New KiCad project alongside rev 1, sharing `libs/`. Follows the nPM1300
+Product Spec Configuration 2 (minimal): BUCK1 = 1.8 V system rail (VSET1
+47 kΩ), VDDIO on 1.8 V, BUCK2 unused (VOUT2 strapped to VSYS per Nordic —
+this is the one expected ERC error), LOADSW1 gates a switchable `VDD_SNS`
+1.8 V rail for the IMU + magnetometer so firmware can power-cycle sensors.
+Button + TVS on SHPHLD as specified. I2C bus (SDA/SCL, 4.7 kΩ pulls to
++1V8) carries nPM1300, LSM6DSV16X (SA0 low, CS high, aux SPI disabled),
+and QMC6309. One status LED on LED0 from VSYS. NTC pin gets an on-board
+10 kΩ thermistor. Connectivity is stub+label style — placement is a draft
+for rearranging in KiCad. ERC: 3 expected errors (VOUT2/VSYS tie, CC1/CC2
+awaiting USB connector), isolated-label warnings for the nets that wait on
+the nRF stage.
+
 ## Remaining work
 
-1. **Symbols/footprints still missing:** nPM1300 (PMIC), nRF52840 stage —
-   bare chip vs. a certified module is an open decision (antenna design,
-   FCC/CE burden, and board area hang on it)
-2. **Rev 2 schematic:** power tree (battery, charger, bucks/LDOs), IMU +
-   mag on I2C, button circuit above, USB, SWD, battery connector
+1. **nRF52840 stage:** bare chip vs. a certified module is the open
+   decision (antenna design, FCC/CE burden, board area); its symbol,
+   USB connector, and SWD wiring follow from it
+2. **Review the draft:** nPM1300/LSM6DSV16X symbol pin maps against
+   datasheets, QFN EP pad size, buck inductor selection, rail voltage
+   choice (1.8 V assumed — check every peripheral is happy with it)
 3. **Layout:** single-sided, wearable outline; button placement is
    enclosure-facing
 4. **Firmware:** board definition + `LSM6DSV` sensor selection in
    SlimeVR-Tracker-nRF; ship-mode long-press handling per the
    one-button sample
-5. **Ordering:** LSM6DSV16X stock is moderate (2,883 at JLC) — order
-   early
+5. **Ordering:** LSM6DSV16X stock moderate (2,883), nPM1300 thin (168,
+   Global Sourcing) — order both early

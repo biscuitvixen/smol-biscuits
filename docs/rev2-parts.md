@@ -72,6 +72,26 @@ on the precision part of a tracker is a false economy.
   pattern used across the LSM6DS family)
 - QMC6309 magnetometer stays unchanged
 
+## PMIC — Nordic nPM1300-QEAA — LCSC C7501206 — Global Sourcing
+
+Fixed by the rev 2 architecture (not a selection), but stock-checked:
+
+- QFN-32-EP 5×5 mm; $2.36 @ 10, $1.83 @ 100
+- **Stock risk: high.** 168 units at JLC via "Global Sourcing" (longer lead
+  time), LCSC retail shows out of stock. Plan the buy early, or source the
+  reel elsewhere (Nordic distributors) and consign.
+- KiCad: symbol `smol-biscuits:nPM1300` (new, drawn from Product Spec v1.1
+  Table 35), footprint `Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm`
+  (stock; **verify the EP size** against PS §9.2.1 before layout)
+
+## Still to select
+
+- Buck inductor L1: 2.2 µH, DCR < 400 mΩ, 2016-metric (Nordic BOM);
+  footprint placeholder is `Inductor_SMD:L_Murata_DFE201610P`
+- Status LED, 10 kΩ NTC thermistor, and JLC part numbers for the 0603
+  passives (all Basic-parts territory)
+- USB connector (drives USB_CC1/USB_CC2/VBUS_IN nets)
+
 ## BOM integration
 
 The LSM6DSV16X symbol carries an `LCSC` field (`C5267406`), which the
