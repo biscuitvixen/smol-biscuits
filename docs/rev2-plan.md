@@ -67,23 +67,34 @@ this is the one expected ERC error), LOADSW1 gates a switchable `VDD_SNS`
 Button + TVS on SHPHLD as specified. I2C bus (SDA/SCL, 4.7 kΩ pulls to
 +1V8) carries nPM1300, LSM6DSV16X (SA0 low, CS high, aux SPI disabled),
 and QMC6309. One status LED on LED0 from VSYS. NTC pin gets an on-board
-10 kΩ thermistor. Connectivity is stub+label style — placement is a draft
-for rearranging in KiCad. ERC: 3 expected errors (VOUT2/VSYS tie, CC1/CC2
-awaiting USB connector), isolated-label warnings for the nets that wait on
-the nRF stage.
+10 kΩ thermistor.
+
+The nRF52840 stage is wired per its PS v1.11 §7.3.5 Config 5 (decision:
+bare chip — no stocked module exposes RF for a custom antenna): bare
+nRF52840-QIAA, VDDH shorted to the 1.8 V rail, REG1 DC/DC with the
+15 nH + 10 µH chain, full DEC decoupling, 32 MHz crystal (12 pF loads),
+USB D+/D− to labels, RF match (0.8 pF/4.7 nH/0.5 pF) into the `RF_ANT`
+net for the printed antenna, SWD + VTref/reset programming pads on the
+existing PinPads footprints. I2C on P0.26/P0.27; IMU interrupts on
+P0.06/P0.08; nPM1300 GPIO0→RESET, GPIO1→P0.07.
+
+Connectivity is stub+label style — placement is a draft for rearranging
+in KiCad. ERC findings are all expected and enumerated in the sheet note
+(VOUT2/VSYS tie, VBUSOUT flag, USB nets awaiting a connector, IMU
+GND straps).
 
 ## Remaining work
 
-1. **nRF52840 stage:** bare chip vs. a certified module is the open
-   decision (antenna design, FCC/CE burden, board area); its symbol,
-   USB connector, and SWD wiring follow from it
-2. **Review the draft:** nPM1300/LSM6DSV16X symbol pin maps against
-   datasheets, QFN EP pad size, buck inductor selection, rail voltage
+1. **Review the draft:** nPM1300/LSM6DSV16X symbol pin maps against
+   datasheets, nRF GPIO pin choices, QFN EP pad size, rail voltage
    choice (1.8 V assumed — check every peripheral is happy with it)
-3. **Layout:** single-sided, wearable outline; button placement is
-   enclosure-facing
+2. **USB connector selection** and wiring (last missing schematic piece)
+3. **Layout:** wearable outline, single-sided assembly, likely 4-layer
+   for the aQFN73 fanout; printed antenna geometry + matching network
+   tuning; button placement is enclosure-facing
 4. **Firmware:** board definition + `LSM6DSV` sensor selection in
    SlimeVR-Tracker-nRF; ship-mode long-press handling per the
-   one-button sample
+   one-button sample; LFRC (no 32.768 kHz crystal); NFC pins as GPIO
 5. **Ordering:** LSM6DSV16X stock moderate (2,883), nPM1300 thin (168,
-   Global Sourcing) — order both early
+   Global Sourcing) — order both early; nRF52840-QIAA is Basic with
+   deep stock

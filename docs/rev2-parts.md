@@ -84,13 +84,38 @@ Fixed by the rev 2 architecture (not a selection), but stock-checked:
   Table 35), footprint `Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm`
   (stock; **verify the EP size** against PS §9.2.1 before layout)
 
+## MCU — Nordic nRF52840-QIAA (bare chip) — LCSC C190794 — Basic
+
+Module survey result: no JLCPCB-stocked nRF52840 module exposes RF for a
+custom on-PCB antenna (Ebyte E73-S1C has its ceramic antenna on-module,
+E73-S1CX is IPEX-only; Raytac/Minew/Holyiot not stocked). Since rev 2
+wants its own printed antenna, the bare aQFN73 chip is the route.
+
+- **JLCPCB Basic**, 1,178 units — the deepest nRF stock available
+- Circuit per nRF52840 PS v1.11 §7.3.5 (Config 5): VDD = 1.8 V from
+  nPM1300 BUCK1, VDDH shorted to VDD, REG1 DC/DC enabled
+  (DCC → 15 nH → 10 µH → DEC4/6), USB enabled, NFC unused, 32.768 kHz
+  crystal omitted (firmware uses LFRC)
+- RF match per PS v1.1 values: 0.8 pF shunt, 4.7 nH series, 0.5 pF shunt
+  → `RF_ANT` net → printed antenna (layout geometry + tuning TBD)
+- KiCad: stock `MCU_Nordic:nRF52840` symbol +
+  `Package_DFN_QFN:Nordic_AQFN-73-1EP_7x7mm_P0.5mm` footprint
+- Consequences owned: aQFN73 fanout (plan 4-layer, still single-sided
+  assembly), antenna tuning, and RF certification burden
+
 ## Still to select
 
 - Buck inductor L1: 2.2 µH, DCR < 400 mΩ, 2016-metric (Nordic BOM);
   footprint placeholder is `Inductor_SMD:L_Murata_DFE201610P`
+- 32 MHz crystal: CL = 8 pF, ±40 ppm; 3225 footprint placed (project has
+  it), Nordic BOM suggests 2016 size
+- nRF DC/DC and RF inductors (15 nH / 10 µH / 4.7 nH) and the NP0 RF
+  caps — 0402, values fixed by Nordic, parts unpicked
 - Status LED, 10 kΩ NTC thermistor, and JLC part numbers for the 0603
   passives (all Basic-parts territory)
-- USB connector (drives USB_CC1/USB_CC2/VBUS_IN nets)
+- USB connector (drives USB_DP/USB_DM/USB_CC1/USB_CC2/VBUS_IN nets)
+- Antenna geometry (printed IFA/meander) — layout work, plus final match
+  values after tuning
 
 ## BOM integration
 
