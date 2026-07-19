@@ -74,13 +74,19 @@ mattering and genuine parts are back on the table:
 Generate the full BOM from the schematic when ready (`kicad-cli sch
 export bom` or the Fabrication Toolkit if you do end up at JLC).
 
-## 4. USB connector (last schematic gap)
+## 4. USB connector — done (layout note remains)
 
-Nets waiting: `VBUS_IN`, `USB_DP`, `USB_DM`, `USB_CC1`, `USB_CC2`. The
-nPM1300 does the Type-C CC detection itself (CC1/CC2 wired to it), so a
-16-pin USB-C receptacle needs no CC resistors on the board. Pick the
-part (height and mid-/top-mount matter for the wearable stack) and I
-can wire it in.
+J4 is a Korean Hroparts **TYPE-C-31-M-17** (LCSC C283540, ~$0.09):
+mid-mount/sink type, 16-pin USB 2.0, on KiCad's stock
+`USB_C_Receptacle_HRO_TYPE-C-31-M-17` footprint. The nPM1300 does the
+Type-C CC detection (CC1/CC2 wired to it) so there are no CC resistors
+on the board. SBU pins are no-connect; shell is grounded.
+
+Layout note: mid-mount means the footprint needs its **board edge
+cutout** — the stock footprint carries the outline; the connector hangs
+in it, roughly halving the height above board. It's LCSC-sourced (like
+the switch); Digikey's equivalent (JAE DX07S016JA1R1500) is currently
+backordered and would need a footprint swap.
 
 ## 5. Layout notes
 

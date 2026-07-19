@@ -113,9 +113,17 @@ wants its own printed antenna, the bare aQFN73 chip is the route.
   caps — 0402, values fixed by Nordic, parts unpicked
 - Status LED, 10 kΩ NTC thermistor, and JLC part numbers for the 0603
   passives (all Basic-parts territory)
-- USB connector (drives USB_DP/USB_DM/USB_CC1/USB_CC2/VBUS_IN nets)
 - Antenna geometry (printed IFA/meander) — layout work, plus final match
   values after tuning
+
+## USB connector — Korean Hroparts TYPE-C-31-M-17 — LCSC C283540
+
+Mid-mount (sink type, board cutout) 16-pin USB 2.0 Type-C, ~$0.09,
+chosen for the low-profile wearable stack. KiCad stock footprint
+`Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-17` (includes the board
+cutout). No CC resistors needed — the nPM1300 handles Type-C detection.
+LCSC-sourced; the Digikey-side mid-mount alternative (JAE
+DX07S016JA1R1500) is backordered and uses a different footprint.
 
 ## BOM integration
 
