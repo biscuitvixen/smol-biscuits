@@ -174,7 +174,7 @@
 	(net 26 "unconnected-(U4-P0.02_A0_D0-Pad1)")
 	(net 27 "Net-(J1-Pin_2)")
 	(net 28 "Net-(J2-Pin_1)")
-	(footprint "Generic:PinPads_1x03_P2.54mm"
+	(footprint "smol-biscuits:PinPads_1x03_P2.54mm"
 		(layer "F.Cu")
 		(uuid "004c9107-7109-4b77-9151-1363253c9805")
 		(at 142 89.71)
@@ -1525,7 +1525,7 @@
 			)
 		)
 	)
-	(footprint "Generic:Heat_Pad_1.0x1.0mm"
+	(footprint "smol-biscuits:Heat_Pad_1.0x1.0mm"
 		(layer "F.Cu")
 		(uuid "2274006e-4396-4ca0-a1c8-235caea2fc24")
 		(at 167 98.75)
@@ -1990,7 +1990,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Generic:JST_PH2_SMT"
+	(footprint "smol-biscuits:JST_PH2_SMT"
 		(layer "F.Cu")
 		(uuid "34921946-5a28-43ad-8686-a6d80f3d09d1")
 		(at 152.05 101.05 90)
@@ -2556,7 +2556,7 @@
 			)
 		)
 	)
-	(footprint "QMC6309:QMC6309"
+	(footprint "smol-biscuits:QMC6309"
 		(layer "F.Cu")
 		(uuid "67b2fc90-b6ce-4043-a245-4f21dd964b79")
 		(at 150 108.75 180)
@@ -2758,7 +2758,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Generic:Heat_Pad_1.0x1.0mm"
+	(footprint "smol-biscuits:Heat_Pad_1.0x1.0mm"
 		(layer "F.Cu")
 		(uuid "78ad92dd-8d4a-4f97-a1c9-09b59ee52b13")
 		(at 167 100.75)
@@ -2830,7 +2830,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Generic:Crystal_SMD_3225-4Pin_3.2x2.5mm_Silkscreenfix"
+	(footprint "smol-biscuits:Crystal_SMD_3225-4Pin_3.2x2.5mm_Silkscreenfix"
 		(layer "F.Cu")
 		(uuid "9184a33f-2d41-4579-84d8-3b7b160b13d6")
 		(at 153.75 94.75 180)
@@ -3455,7 +3455,7 @@
 			)
 		)
 	)
-	(footprint "SW_SSSS811101:SW_SSSS811101"
+	(footprint "smol-biscuits:SW_SSSS811101"
 		(layer "F.Cu")
 		(uuid "d8eadcd9-421e-4f71-b796-b0b04b3f8987")
 		(at 150 89.5 180)
@@ -3810,7 +3810,7 @@
 			(uuid "60f04661-ec50-42a9-92e0-b06a7c1c4b43")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/libs/SSSS811101/SSSS811101.STEP"
+		(model "${KIPRJMOD}/libs/3dmodels/SSSS811101.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4272,7 +4272,7 @@
 			)
 		)
 	)
-	(footprint "ICM-45686:IC_ICM-45686"
+	(footprint "smol-biscuits:IC_ICM-45686"
 		(layer "F.Cu")
 		(uuid "fa237c5f-93fb-460f-824d-5a7a7af61f76")
 		(at 146 98 180)
@@ -4945,7 +4945,7 @@
 			)
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/libs/ICM_45686/ICM-45686.STEP"
+		(model "${KIPRJMOD}/libs/3dmodels/ICM-45686.step"
 			(offset
 				(xyz 0 0 0)
 			)

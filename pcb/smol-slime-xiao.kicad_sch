@@ -9,7 +9,7 @@
 		(rev "1.0")
 	)
 	(lib_symbols
-		(symbol "1532H4:1532H4"
+		(symbol "smol-biscuits:1532H4"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -690,7 +690,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ICM-45686:ICM-45686"
+		(symbol "smol-biscuits:ICM-45686"
 			(pin_names
 				(offset 1.016)
 			)
@@ -715,7 +715,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "ICM-45686:IC_ICM-45686"
+			(property "Footprint" "smol-biscuits:IC_ICM-45686"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1050,7 +1050,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "QMC6309:QMC6309"
+		(symbol "smol-biscuits:QMC6309"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3471,7 +3471,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ICM-45686:ICM-45686")
+		(lib_id "smol-biscuits:ICM-45686")
 		(at 80.01 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3498,7 +3498,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ICM-45686:IC_ICM-45686"
+		(property "Footprint" "smol-biscuits:IC_ICM-45686"
 			(at 80.01 78.74 0)
 			(effects
 				(font
@@ -4008,7 +4008,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Generic:JST_PH2_SMT"
+		(property "Footprint" "smol-biscuits:JST_PH2_SMT"
 			(at 217.17 82.55 0)
 			(effects
 				(font
@@ -4444,7 +4444,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Generic:Heat_Pad_1.0x1.0mm"
+		(property "Footprint" "smol-biscuits:Heat_Pad_1.0x1.0mm"
 			(at 217.17 74.93 0)
 			(effects
 				(font
@@ -5036,7 +5036,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Generic:Heat_Pad_1.0x1.0mm"
+		(property "Footprint" "smol-biscuits:Heat_Pad_1.0x1.0mm"
 			(at 217.17 97.79 0)
 			(effects
 				(font
@@ -5101,7 +5101,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Generic:PinPads_1x03_P2.54mm"
+		(property "Footprint" "smol-biscuits:PinPads_1x03_P2.54mm"
 			(at 217.17 105.41 0)
 			(effects
 				(font
@@ -5147,7 +5147,7 @@
 		)
 	)
 	(symbol
-		(lib_id "QMC6309:QMC6309")
+		(lib_id "smol-biscuits:QMC6309")
 		(at 172.72 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5172,7 +5172,7 @@
 				)
 			)
 		)
-		(property "Footprint" "QMC6309:QMC6309"
+		(property "Footprint" "smol-biscuits:QMC6309"
 			(at 172.72 130.81 0)
 			(effects
 				(font
@@ -5230,7 +5230,7 @@
 		)
 	)
 	(symbol
-		(lib_id "1532H4:1532H4")
+		(lib_id "smol-biscuits:1532H4")
 		(at 161.29 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5254,7 +5254,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Generic:Crystal_SMD_3225-4Pin_3.2x2.5mm_Silkscreenfix"
+		(property "Footprint" "smol-biscuits:Crystal_SMD_3225-4Pin_3.2x2.5mm_Silkscreenfix"
 			(at 161.29 52.07 0)
 			(effects
 				(font
@@ -5536,7 +5536,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SW_SSSS811101:SW_SSSS811101"
+		(property "Footprint" "smol-biscuits:SW_SSSS811101"
 			(at 253.238 95.25 90)
 			(effects
 				(font

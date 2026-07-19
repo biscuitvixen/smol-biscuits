@@ -316,7 +316,7 @@
 		(uuid "6937ca11-3b59-4012-97cf-a9d18e43c13b")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/libs/SSSS811101/SSSS811101.STEP"
+	(model "${KIPRJMOD}/libs/3dmodels/SSSS811101.step"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -554,7 +554,7 @@
 		)
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/libs/ICM_45686/ICM-45686.STEP"
+	(model "${KIPRJMOD}/libs/3dmodels/ICM-45686.step"
 		(offset
 			(xyz 0 0 0)
 		)
