@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "c8196b8a-6878-4b02-a471-2e08a769aadc")
+	(uuid "766418be-50c9-42e6-a8fb-5ba49bb20d19")
 	(paper "A3")
 	(title_block
 		(title "Biscuit's Smol Slime Rev 2")
@@ -5347,7 +5347,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "3e253e08-e3ae-4fcb-b735-3e016338d682")
+		(uuid "fb21bdd1-750f-4db9-bbc4-53b1e721a76e")
 		(property "Reference" "U1"
 			(at 124.46 73.66 0)
 			(effects
@@ -5402,7 +5402,7 @@
 		)
 		(instances
 			(project "smol-slime-rev2"
-				(path "/c8196b8a-6878-4b02-a471-2e08a769aadc"
+				(path "/766418be-50c9-42e6-a8fb-5ba49bb20d19"
 					(reference "U1")
 					(unit 1)
 				)
@@ -5417,7 +5417,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "94594f9c-7627-42e3-9c1b-7b76b52c5840")
+		(uuid "e7c31822-f9a7-4007-ae33-53b84d0cb42d")
 	)
 	(label "VBUS_IN"
 		(at 119.38 81.28 0)
@@ -5427,7 +5427,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "be8f72bc-2607-4ce6-8bd0-309ee5b14e86")
+		(uuid "3a21a7f3-03a6-4df5-8aa1-53f38f025903")
 	)
 	(wire
 		(pts
@@ -5437,7 +5437,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "eca723b4-50e1-427f-84f8-2b4f0d3a2f8f")
+		(uuid "3d324bdb-2edb-4cc3-8889-3a6dff0a5591")
 	)
 	(label "USB_CC1"
 		(at 119.38 83.82 0)
@@ -5447,7 +5447,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "13f19a56-4d67-4b0d-8939-0619826ddc7f")
+		(uuid "9d9c607d-c826-4841-a873-8a65d4802d42")
 	)
 	(wire
 		(pts
@@ -5457,7 +5457,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "9b2ed6d3-d5a2-4991-bfa9-ae111d9550a6")
+		(uuid "f67a0c03-78ff-4c6b-90a2-4f7a5785a425")
 	)
 	(label "USB_CC2"
 		(at 119.38 86.36 0)
@@ -5467,7 +5467,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "80c0e5a0-1262-47fe-8ddf-74d7b71a4bbe")
+		(uuid "54b7bea5-01b7-451b-8a64-d2779353ae0d")
 	)
 	(wire
 		(pts
@@ -5477,7 +5477,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "8628c1d3-b46a-4d91-933e-d848aabe96f0")
+		(uuid "2e95dc97-2701-447a-a356-5244aaaa2a58")
 	)
 	(label "VBAT"
 		(at 119.38 91.44 0)
@@ -5487,7 +5487,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "33da0da8-a267-4c7e-a96a-d694cfe89c7d")
+		(uuid "c87c842f-029e-457e-a724-1d04fe530faf")
 	)
 	(wire
 		(pts
@@ -5497,7 +5497,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "126a3594-9eb3-41a4-b733-36d54412466c")
+		(uuid "7627aa73-b156-449f-b371-fe164e12ea2a")
 	)
 	(label "NTC"
 		(at 119.38 93.98 0)
@@ -5507,7 +5507,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "1d93eaa5-b32c-4564-8afe-201eaf174768")
+		(uuid "9c84bbd6-9e5f-47f0-9c6c-61f26aa0837a")
 	)
 	(wire
 		(pts
@@ -5517,7 +5517,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "949151e7-ce7a-4090-a633-6aede192192a")
+		(uuid "545737ad-48b5-416b-9b27-9c7ed57f2663")
 	)
 	(label "NPM_GPIO0_RESET"
 		(at 119.38 99.06 0)
@@ -5527,7 +5527,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "efc9c118-111b-46d6-acec-9feda99e203e")
+		(uuid "2555a221-2efa-4af2-9f7e-bf2ffb31e90f")
 	)
 	(wire
 		(pts
@@ -5537,7 +5537,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "44eb32e3-0566-4d33-aded-3101d71808c3")
+		(uuid "e6c6c55e-6785-40b2-9bdd-bd16a0dda0bd")
 	)
 	(label "NPM_GPIO1_INT"
 		(at 119.38 101.6 0)
@@ -5547,19 +5547,19 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "1984815d-efba-4a10-bfb0-8fdfc822ef90")
+		(uuid "d86e3281-4f53-4968-8a83-5eed34d3e078")
 	)
 	(no_connect
 		(at 121.92 104.14)
-		(uuid "ddc5286d-5c64-4178-acda-58835d62b89e")
+		(uuid "91dfd2d5-820d-4de1-a85f-da8a2aacae3f")
 	)
 	(no_connect
 		(at 121.92 106.68)
-		(uuid "2d28c2a7-9983-4895-8539-a9208bcd748c")
+		(uuid "fde28c8f-7ed1-40ad-b1d1-7b7618f4ac70")
 	)
 	(no_connect
 		(at 121.92 109.22)
-		(uuid "48d2c648-c437-4c9b-b2d6-68d6a99e2540")
+		(uuid "22955506-ce41-4d40-b046-9709aca74886")
 	)
 	(wire
 		(pts
@@ -5569,7 +5569,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "61851032-aa09-47d3-8552-d059a6855e29")
+		(uuid "ef8a462c-6e5b-408d-8ca6-8816a81a06c9")
 	)
 	(label "LED0"
 		(at 119.38 114.3 0)
@@ -5579,15 +5579,15 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "d6afc77c-5a60-4df8-888d-e3d1ab4dc9dc")
+		(uuid "570cd147-d891-4eb0-b5e6-42b9012458a7")
 	)
 	(no_connect
 		(at 121.92 116.84)
-		(uuid "3efcf272-03b7-4efb-94a0-f6fe8d49a0de")
+		(uuid "abf16fa3-4ae0-4131-a956-3837a094f0fa")
 	)
 	(no_connect
 		(at 121.92 119.38)
-		(uuid "0e5d6e16-df78-4e06-990d-7411bab66404")
+		(uuid "c2a84a3d-7f9d-4e83-832e-1e025afe34c2")
 	)
 	(wire
 		(pts
@@ -5597,7 +5597,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "a1c1730e-5b4b-4a56-8c8e-c0b01055518d")
+		(uuid "af47042c-4b96-4ffb-a04b-47ea65feed5e")
 	)
 	(label "VSET1"
 		(at 119.38 124.46 0)
@@ -5607,7 +5607,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "d1cbdf37-52d3-4bfe-9a7a-1e9a22b712bf")
+		(uuid "ac5cf32c-f37d-4375-a334-53a5469e7940")
 	)
 	(wire
 		(pts
@@ -5617,7 +5617,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "97909d68-c8f5-4a65-bec8-86e3b80788ed")
+		(uuid "44c59de4-6bc8-4b3a-8b52-6fe0cdb52769")
 	)
 	(label "GND"
 		(at 119.38 127 0)
@@ -5627,7 +5627,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "4b81b3bf-1310-4e66-9e7e-b26bacf2197f")
+		(uuid "85470046-74cf-4e11-9bfe-a56c2310945f")
 	)
 	(wire
 		(pts
@@ -5637,7 +5637,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "fb9e7241-2bc7-4b3d-80cd-caea39473c15")
+		(uuid "525c2445-5ac1-499f-9869-f450313d577d")
 	)
 	(label "SCL"
 		(at 119.38 137.16 0)
@@ -5647,7 +5647,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "82d0e0c9-ccd1-49b6-ad4f-45fca8d52f62")
+		(uuid "6e68dda4-d60e-403e-8435-1e4a65862129")
 	)
 	(wire
 		(pts
@@ -5657,7 +5657,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "2f4403e2-9fb5-4c9b-9e70-7ba5b2459212")
+		(uuid "290f2c3c-36b1-4b22-ac0e-c0e785285781")
 	)
 	(label "SDA"
 		(at 119.38 139.7 0)
@@ -5667,7 +5667,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "a3d07a66-4547-4acf-8963-a7c4a6da4c7a")
+		(uuid "bee14569-8ec1-4143-9686-46c8842180dc")
 	)
 	(wire
 		(pts
@@ -5677,7 +5677,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "f7288892-c3ed-410b-a86a-34c7a761a7c1")
+		(uuid "16769d5d-d75f-4de9-9107-11da28e26f31")
 	)
 	(label "+1V8"
 		(at 119.38 142.24 0)
@@ -5687,7 +5687,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "785ff0b6-b68a-4180-8f50-ccd7ec2b4a28")
+		(uuid "d0e851c2-6ba3-437b-ac55-241445b142fd")
 	)
 	(wire
 		(pts
@@ -5697,7 +5697,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "3e60a959-eb1e-440c-b4fd-1dd81bbf64bb")
+		(uuid "b789ba38-950e-4496-8e58-8f8c1f74c5e8")
 	)
 	(label "VBUSOUT"
 		(at 170.18 81.28 0)
@@ -5707,7 +5707,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "20c0d107-a0f6-4a1f-897b-c2d963cf3c4c")
+		(uuid "3dceee1f-0dc4-46d8-a572-63e9e868b6e3")
 	)
 	(wire
 		(pts
@@ -5717,7 +5717,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "2fba122c-23ed-4dfc-ae31-1cb39d13a8b3")
+		(uuid "46fc16d9-f19d-4753-a852-32d0cc80091b")
 	)
 	(label "VSYS"
 		(at 170.18 83.82 0)
@@ -5727,7 +5727,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "947daf9b-e90d-4217-bfc1-1126e51614cd")
+		(uuid "a4a4c26b-4f29-4461-a7f1-25385898bf48")
 	)
 	(wire
 		(pts
@@ -5737,7 +5737,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "5fc82aac-476d-46f5-b07a-29fe69bd0c3f")
+		(uuid "cf3fec52-f28e-4e24-beaa-36131009287a")
 	)
 	(label "VSYS"
 		(at 170.18 86.36 0)
@@ -5747,7 +5747,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "f8301c12-7542-4ed8-8cd0-6c2c3335bf05")
+		(uuid "deaf27b9-f000-4ce2-be5e-586a90884f0d")
 	)
 	(wire
 		(pts
@@ -5757,7 +5757,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "de0b8156-2e47-4de1-af77-148718a8aea9")
+		(uuid "ef7b9cce-f0bd-4384-a0d3-402ea13cdfe2")
 	)
 	(label "+1V8"
 		(at 170.18 91.44 0)
@@ -5767,7 +5767,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "a135d493-0bc4-4c51-b1c0-a9052673f5cd")
+		(uuid "16aa4cb3-8cd1-43d7-a7c6-66a59f37d836")
 	)
 	(wire
 		(pts
@@ -5777,7 +5777,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "45334966-da5f-49da-bfca-9c526af6969a")
+		(uuid "d256ef5f-b70e-4733-87b8-b98b40e017a4")
 	)
 	(label "GND"
 		(at 170.18 96.52 0)
@@ -5787,7 +5787,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "607e46b6-05a2-4687-85d6-1951d6b87474")
+		(uuid "00cff3c1-c303-4f33-8254-6b45088f0b66")
 	)
 	(wire
 		(pts
@@ -5797,7 +5797,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "885bcf1d-3025-4e1a-b338-fbd416652d90")
+		(uuid "01b54eeb-2952-438a-9b26-6b381a0b9b3e")
 	)
 	(label "VSYS"
 		(at 170.18 101.6 0)
@@ -5807,7 +5807,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "e8e773bf-fa8b-4db9-9900-5764e1ed0629")
+		(uuid "d17fecaa-6071-4bdc-9df4-3b40c9faaaba")
 	)
 	(wire
 		(pts
@@ -5817,7 +5817,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "735ebf86-ea0b-4861-9c78-cf60d5db32d8")
+		(uuid "dca82cbc-cf16-4129-bd70-c1b7d8ef0707")
 	)
 	(label "GND"
 		(at 170.18 104.14 0)
@@ -5827,7 +5827,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "29e00ced-3644-490d-a0c9-80727ad3ee9e")
+		(uuid "31cef1c8-352a-4ba5-b944-2fd9b0ed57cd")
 	)
 	(wire
 		(pts
@@ -5837,7 +5837,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "4ab9bfe8-bf8d-4a79-beac-938408ff1147")
+		(uuid "4107dd68-3393-4e5f-81eb-01ee35aedc0d")
 	)
 	(label "GND"
 		(at 170.18 106.68 0)
@@ -5847,7 +5847,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "ce362c8a-c295-48f0-828a-c2bc45eb8477")
+		(uuid "630295a8-a939-44fa-906f-00c3e6b7a376")
 	)
 	(wire
 		(pts
@@ -5857,7 +5857,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "c2b9f439-b01b-4ded-9c16-73420b95c640")
+		(uuid "30cca1ac-23b8-414d-8a31-370f35d64415")
 	)
 	(label "+1V8"
 		(at 170.18 111.76 0)
@@ -5867,7 +5867,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "4996b8cd-e4e1-43bc-b6d0-7e35cb1a6b14")
+		(uuid "7293d226-811a-4659-82e9-71440e2bc5b9")
 	)
 	(wire
 		(pts
@@ -5877,7 +5877,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "b1bbf1be-8f20-439b-aa34-4b808186bf6a")
+		(uuid "580281a2-a139-4de6-af84-9af1aba18819")
 	)
 	(label "GND"
 		(at 170.18 114.3 0)
@@ -5887,7 +5887,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "014c1f8a-05ed-416d-ac01-31ed5d7e91b1")
+		(uuid "fba88535-29f2-4740-affa-4f7649c80e39")
 	)
 	(wire
 		(pts
@@ -5897,7 +5897,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "c0fc9325-a4bf-4a57-b930-e5b28052c6d4")
+		(uuid "6a8cdf16-e731-43d7-8e0f-927066d34bf2")
 	)
 	(label "VDD_SNS"
 		(at 170.18 119.38 0)
@@ -5907,11 +5907,11 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "d4ad3e2b-4c9d-4bfe-a675-e4cd5e6c749d")
+		(uuid "640695c2-76d6-41a0-92bb-39ec3a98ec25")
 	)
 	(no_connect
 		(at 167.64 121.92)
-		(uuid "53fe4e6c-59bc-4848-9241-370f34f3791a")
+		(uuid "8791e8e4-4558-4f45-9c00-778977b87748")
 	)
 	(wire
 		(pts
@@ -5921,7 +5921,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "ea1e7128-0123-4af7-b21e-ea9f3ecfd452")
+		(uuid "560546e4-e055-4b8e-9c92-fcebb8127f5a")
 	)
 	(label "GND"
 		(at 144.78 149.86 270)
@@ -5931,7 +5931,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "d7360b1e-12f2-4e8e-a040-95115119da45")
+		(uuid "3f269bfb-1dee-4c00-bc76-ce8a0a284354")
 	)
 	(symbol
 		(lib_id "smol-biscuits:LSM6DSV16X")
@@ -5943,7 +5943,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "5fa9b20d-15ea-4a79-b9d6-e5c15a923879")
+		(uuid "22ac8260-a30c-4796-9428-d6a1f2917585")
 		(property "Reference" "U2"
 			(at 231.14 38.1 0)
 			(effects
@@ -5998,7 +5998,7 @@
 		)
 		(instances
 			(project "smol-slime-rev2"
-				(path "/c8196b8a-6878-4b02-a471-2e08a769aadc"
+				(path "/766418be-50c9-42e6-a8fb-5ba49bb20d19"
 					(reference "U2")
 					(unit 1)
 				)
@@ -6013,7 +6013,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "b34b0689-585e-4acd-860c-4c9c10d3fbd9")
+		(uuid "19d96194-a4cc-4e4a-904f-30814b4c2126")
 	)
 	(label "VDD_SNS"
 		(at 226.06 45.72 0)
@@ -6023,7 +6023,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "532aa7f7-cccc-401f-8a19-feca50ae50a3")
+		(uuid "1b0d7739-8a58-4c45-96bc-bfca5c644916")
 	)
 	(wire
 		(pts
@@ -6033,7 +6033,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "c443027a-765c-4672-a0bd-c129f29d65a1")
+		(uuid "bc0dfa93-8d5d-40a7-9a92-5112910d6330")
 	)
 	(label "VDD_SNS"
 		(at 226.06 48.26 0)
@@ -6043,7 +6043,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "2b7d2c10-8194-41b0-9d1e-bc2b8e3479a7")
+		(uuid "0cccb0a5-6240-4047-bc08-a91ab8e0663c")
 	)
 	(wire
 		(pts
@@ -6053,7 +6053,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "0d0c27d0-199f-4bee-bd3b-569e738db1d2")
+		(uuid "d86c8c34-d0b6-46e3-9ec2-4df6f55ede28")
 	)
 	(label "VDD_SNS"
 		(at 226.06 53.34 0)
@@ -6063,7 +6063,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "7f9abf44-f404-4ef2-b07b-5489c0cb3eed")
+		(uuid "a0ba0933-a128-4287-bf3b-5a5f789902fd")
 	)
 	(wire
 		(pts
@@ -6073,7 +6073,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "3ad49507-f856-438c-9539-024db7593d4c")
+		(uuid "9660a0b3-0589-4823-9b2c-7ef6755f6e72")
 	)
 	(label "SCL"
 		(at 226.06 55.88 0)
@@ -6083,7 +6083,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "7f684fda-a7a4-4641-99aa-c0f909cfedec")
+		(uuid "69a99815-0df6-4fd2-a125-5523f05acc37")
 	)
 	(wire
 		(pts
@@ -6093,7 +6093,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "ecaf8c29-6c0f-4ffb-bea9-604f0f488122")
+		(uuid "d67635c1-d8c2-48f0-9cda-d72134326eb2")
 	)
 	(label "SDA"
 		(at 226.06 58.42 0)
@@ -6103,7 +6103,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "ebc00462-7cde-4248-a83f-a5dd2c6ebe51")
+		(uuid "2d036e7b-f34b-4352-aa03-f4454eb271d6")
 	)
 	(wire
 		(pts
@@ -6113,7 +6113,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "45c4f80d-50b8-4c0c-aff7-75a997f3ac9e")
+		(uuid "2a38847b-7186-4625-a5c2-d6afaef0b402")
 	)
 	(label "GND"
 		(at 226.06 60.96 0)
@@ -6123,7 +6123,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "6b06f3bd-d8e4-481c-afd0-ad44285a5824")
+		(uuid "03e92932-cf0b-4710-b70a-db304e030e2b")
 	)
 	(wire
 		(pts
@@ -6133,7 +6133,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "a2b2172b-f66c-48fd-9a08-7270a6ac43f7")
+		(uuid "caf1b20f-9748-4f12-ae4e-61f32a1840a4")
 	)
 	(label "IMU_INT1"
 		(at 261.62 45.72 0)
@@ -6143,7 +6143,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "b717777c-235b-4a82-b050-23c3fdcaf9f0")
+		(uuid "3fd04a5d-5441-4582-8371-f82df046ef02")
 	)
 	(wire
 		(pts
@@ -6153,7 +6153,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "3d8bb1c1-16c3-45a6-ba55-584e5b70d145")
+		(uuid "51412166-5cba-4aee-9f76-de23acd9ff78")
 	)
 	(label "IMU_INT2"
 		(at 261.62 48.26 0)
@@ -6163,7 +6163,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "16cfb78b-a6b9-4dcd-8d7d-065b2c1e253c")
+		(uuid "8687b1de-df91-459e-b8af-3eb822d998ec")
 	)
 	(wire
 		(pts
@@ -6173,7 +6173,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "b84b9b56-3355-43c4-a657-c37a758ed482")
+		(uuid "2df55901-1b5e-4737-acac-5d956a3f0d87")
 	)
 	(label "GND"
 		(at 261.62 53.34 0)
@@ -6183,7 +6183,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "316ed4bb-99a1-47df-814e-ecd2a1370141")
+		(uuid "b1dc2be9-a614-4aa7-91d1-d9c5b1091afa")
 	)
 	(wire
 		(pts
@@ -6193,7 +6193,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "a1dfd4a4-8ff9-402f-bae4-583c92f3345c")
+		(uuid "ae4cd323-d1e2-415c-9322-c1234063303b")
 	)
 	(label "GND"
 		(at 261.62 55.88 0)
@@ -6203,15 +6203,15 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "59f59f5c-8af7-47e1-a456-5dad48707b3a")
+		(uuid "c3d27b0d-7700-4543-aa4b-3d42343d69c8")
 	)
 	(no_connect
 		(at 259.08 60.96)
-		(uuid "f5695350-0b54-4eac-8b46-e495d26a9a9a")
+		(uuid "0ee360b1-5e82-46f6-a745-23470388e01b")
 	)
 	(no_connect
 		(at 259.08 63.5)
-		(uuid "38757bfe-9f21-4340-ab59-4c592a567ffa")
+		(uuid "fb9e4c4c-879b-46b3-abaa-fd63341e7c06")
 	)
 	(wire
 		(pts
@@ -6221,7 +6221,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "58718e90-3cb8-4145-b0c7-281aceb1beeb")
+		(uuid "da85a3be-091b-4238-b3af-857b2a3fb1da")
 	)
 	(label "GND"
 		(at 241.3 73.66 270)
@@ -6231,7 +6231,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "c2204e28-732a-43bc-a4a8-e8d3ba275351")
+		(uuid "6964947a-f691-4969-b04b-7338f924843b")
 	)
 	(wire
 		(pts
@@ -6241,7 +6241,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "c44951fa-2ba7-425a-92fe-fdfd245fb85d")
+		(uuid "deaa0eff-1d9d-4df2-a284-0abd771276c8")
 	)
 	(label "GND"
 		(at 246.38 73.66 270)
@@ -6251,7 +6251,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "198b16ec-f29f-4ad6-a1e5-ee2b3d2a549e")
+		(uuid "ed3327c4-583b-4ab7-8677-08f64a53239e")
 	)
 	(symbol
 		(lib_id "smol-biscuits:QMC6309")
@@ -6263,7 +6263,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "c9b9a712-272e-44e0-8207-9ac97b8ee622")
+		(uuid "9399443d-9485-4778-bffb-1ee4625acbb5")
 		(property "Reference" "U3"
 			(at 233.68 134.62 0)
 			(effects
@@ -6309,7 +6309,7 @@
 		)
 		(instances
 			(project "smol-slime-rev2"
-				(path "/c8196b8a-6878-4b02-a471-2e08a769aadc"
+				(path "/766418be-50c9-42e6-a8fb-5ba49bb20d19"
 					(reference "U3")
 					(unit 1)
 				)
@@ -6324,7 +6324,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "f2b838da-0cc1-452b-b13c-cf8e50f81b74")
+		(uuid "13a6c67f-d25e-47fa-aedf-ee842e314c0e")
 	)
 	(label "VDD_SNS"
 		(at 228.6 149.86 0)
@@ -6334,7 +6334,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "68730c52-fa55-499a-9951-225bb3a98600")
+		(uuid "b401701e-9a58-4863-917e-339a2c09c9c6")
 	)
 	(wire
 		(pts
@@ -6344,7 +6344,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "c3a7c566-4b29-4e1d-b84d-c52158a9d51d")
+		(uuid "e7c72312-31b5-4692-b762-178bb82c5119")
 	)
 	(label "GND"
 		(at 243.84 165.1 270)
@@ -6354,7 +6354,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "4fc05f71-2984-47f9-85e1-3041c8c7898c")
+		(uuid "ec121181-8ae2-45df-ba0b-fd65ccc4ecd3")
 	)
 	(wire
 		(pts
@@ -6364,7 +6364,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "1ab40b6b-e3b0-443f-907a-89c13edcdc5d")
+		(uuid "03779006-2be3-499e-b235-6382737abd46")
 	)
 	(label "SDA"
 		(at 259.08 147.32 0)
@@ -6374,7 +6374,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "badd5ef8-faba-48c5-9c5a-c73f8b90d6ea")
+		(uuid "8a82c4ed-620b-4a59-bb53-5bfb5886e984")
 	)
 	(wire
 		(pts
@@ -6384,7 +6384,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "4caae8e1-cf5f-4704-b54b-d48742596be1")
+		(uuid "de431057-b555-465f-b417-bdcd1231cbbb")
 	)
 	(label "SCL"
 		(at 259.08 152.4 0)
@@ -6394,7 +6394,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "e86778ef-64b7-4119-aa74-c84a7bdb25ac")
+		(uuid "8886b00c-c9cc-45c5-b006-a993bcbd3412")
 	)
 	(symbol
 		(lib_id "MCU_Nordic:nRF52840")
@@ -6406,7 +6406,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "2ad8c2ff-161a-4bcd-98bd-ae584ffdcbde")
+		(uuid "1b457aad-70ac-4878-828b-273accc5873a")
 		(property "Reference" "U4"
 			(at 353.06 93.98 0)
 			(effects
@@ -6461,7 +6461,7 @@
 		)
 		(instances
 			(project "smol-slime-rev2"
-				(path "/c8196b8a-6878-4b02-a471-2e08a769aadc"
+				(path "/766418be-50c9-42e6-a8fb-5ba49bb20d19"
 					(reference "U4")
 					(unit 1)
 				)
@@ -6470,31 +6470,31 @@
 	)
 	(no_connect
 		(at 383.54 111.76)
-		(uuid "04539d7a-2cf1-4642-9afc-63a468628151")
+		(uuid "0b834dd3-91a8-47bb-a0a0-0af6f6c3e8f0")
 	)
 	(no_connect
 		(at 383.54 106.68)
-		(uuid "e47b1333-c9f6-44af-b4ca-c5b56ac80b55")
+		(uuid "9d894be0-d283-46fa-8a24-a820a6894a30")
 	)
 	(no_connect
 		(at 383.54 40.64)
-		(uuid "bda44f8e-1787-41a4-98aa-3a763ba909d9")
+		(uuid "b71e341d-6919-443d-9716-7097fa331180")
 	)
 	(no_connect
 		(at 383.54 154.94)
-		(uuid "be18d1d9-3c75-4f72-a166-243c9ac01d0b")
+		(uuid "f028f7d4-03f9-41ae-afca-31f21bf48179")
 	)
 	(no_connect
 		(at 383.54 149.86)
-		(uuid "9bad5e1e-1e46-4ee9-ad44-58689c5137f9")
+		(uuid "25495d42-45bc-4ae8-822e-e5b510fe4d1a")
 	)
 	(no_connect
 		(at 332.74 27.94)
-		(uuid "6d90f98d-1967-4919-ab9f-5e672eb76f8a")
+		(uuid "c5b0184f-c139-488c-affc-b73d107c2a30")
 	)
 	(no_connect
 		(at 383.54 142.24)
-		(uuid "ead2f280-a5ef-4d18-b8df-9ac023ed30f2")
+		(uuid "b9c5b3f3-a94b-4dc6-b44f-538789e6af30")
 	)
 	(wire
 		(pts
@@ -6504,7 +6504,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "012422ad-69d1-4a4a-9bc4-0ee706f5a936")
+		(uuid "c7e56222-bff0-4069-aadf-19f0ba2e6887")
 	)
 	(label "+1V8"
 		(at 350.52 25.4 90)
@@ -6514,7 +6514,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "cdd50db6-4d35-4647-b51a-fa55b88397fe")
+		(uuid "5cc26225-c2b1-4a76-86f8-23853aad405c")
 	)
 	(wire
 		(pts
@@ -6524,7 +6524,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "8270fb31-eb59-40bc-8e1f-4a8daaf303b9")
+		(uuid "02762189-91f8-4044-a06b-eaaecd21bf3d")
 	)
 	(label "XC2"
 		(at 314.96 104.14 0)
@@ -6534,7 +6534,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "bd39f7a9-a443-4d2b-9469-af72441b6eaf")
+		(uuid "1a9258ad-12e2-4bec-99e9-f219580be2ad")
 	)
 	(wire
 		(pts
@@ -6544,7 +6544,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "bf9fc097-3737-443f-9ebf-21469665a47f")
+		(uuid "67d6a685-5a73-4f89-a1be-9a1e10bfc13e")
 	)
 	(label "SWDCLK"
 		(at 314.96 144.78 0)
@@ -6554,11 +6554,11 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "f6f0403b-82bb-4d9c-b520-830d29d56013")
+		(uuid "1defad9c-f3eb-4c78-afea-18fb16fa8bb5")
 	)
 	(no_connect
 		(at 363.22 27.94)
-		(uuid "3c2960d0-eb29-4bd7-bc0a-a81e31e4db91")
+		(uuid "3abe64e4-6baf-4d7e-9933-8d7cce4e363c")
 	)
 	(wire
 		(pts
@@ -6568,7 +6568,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "d9838d7f-3119-4ecf-a5b9-9cf6865b952c")
+		(uuid "2578f32d-c6aa-451d-917d-1fae33638e60")
 	)
 	(label "DECUSB"
 		(at 345.44 25.4 90)
@@ -6578,15 +6578,15 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "d0e02196-22bc-42d7-9042-cc94a9ea82e7")
+		(uuid "9d455e3e-a347-4b7e-9881-d81a6da2e044")
 	)
 	(no_connect
 		(at 383.54 71.12)
-		(uuid "ca87056d-4bad-491d-b658-c508676b0eb8")
+		(uuid "0f602fcf-659f-46a0-bd39-5428b3abad08")
 	)
 	(no_connect
 		(at 383.54 76.2)
-		(uuid "ab6c43a8-8909-4d80-ac0d-80f8388b8113")
+		(uuid "43319871-88a1-40c0-89c8-846711242727")
 	)
 	(wire
 		(pts
@@ -6596,7 +6596,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "01bdfee6-43c0-4aba-aed4-e4d72d986174")
+		(uuid "48469036-56ff-4ac1-b173-1a2bf083cbc9")
 	)
 	(label "NPM_GPIO0_RESET"
 		(at 314.96 142.24 0)
@@ -6606,23 +6606,23 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "939b455a-a7bc-4b48-839b-0e1658490ae4")
+		(uuid "23cc672a-e835-4e5b-ab2c-67b5460fdfcd")
 	)
 	(no_connect
 		(at 383.54 81.28)
-		(uuid "eaf844cf-807c-469b-a960-1dc6dca5a09c")
+		(uuid "86d49f0d-4363-4bc2-8f1f-a3bad37cee7d")
 	)
 	(no_connect
 		(at 383.54 86.36)
-		(uuid "11a24287-34e3-4d75-b54f-369d3baf5680")
+		(uuid "018d2ca5-aa53-483f-998a-77f264472ccf")
 	)
 	(no_connect
 		(at 383.54 91.44)
-		(uuid "534829ae-8f6f-4275-a05a-635742107239")
+		(uuid "c80156b2-c449-4495-9eb7-af2d0a5f069f")
 	)
 	(no_connect
 		(at 383.54 96.52)
-		(uuid "19bc9f27-e859-44b1-82d6-38602c989eb6")
+		(uuid "7eb834bc-32b4-45ca-9d9c-4181c21998d1")
 	)
 	(wire
 		(pts
@@ -6632,7 +6632,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "9bda4415-9fd7-49c3-a913-4be3a757d4e7")
+		(uuid "fe0c2bea-82bf-402d-913c-64f2f470d526")
 	)
 	(label "SWDIO"
 		(at 314.96 147.32 0)
@@ -6642,7 +6642,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "33ea67d4-bd12-40fd-9327-debe5d21b62e")
+		(uuid "41624e01-0ef5-411f-a147-fb16eae6fb00")
 	)
 	(wire
 		(pts
@@ -6652,7 +6652,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "0a40ed1b-b9e5-43e7-9f4a-0df123f3efd4")
+		(uuid "d757d7d7-740e-4a8d-a6b9-1eb473b056df")
 	)
 	(label "VBUSOUT"
 		(at 355.6 25.4 90)
@@ -6662,7 +6662,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "f7a8e2dc-bf5e-4e5d-b985-f54d63b7f23f")
+		(uuid "e6c66525-f8a7-4395-ada0-9bbf9d8af45b")
 	)
 	(wire
 		(pts
@@ -6672,7 +6672,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "58c71723-7015-486f-b91c-05f2770e6f4a")
+		(uuid "8d2f815a-bcf7-4a78-ac57-a691b5552171")
 	)
 	(label "USB_DM"
 		(at 386.08 160.02 0)
@@ -6682,7 +6682,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "7d45e95c-1106-4bb6-81d5-67f14de69b2f")
+		(uuid "737a0315-c2d5-42cc-b7bc-4e90f4e19ecf")
 	)
 	(wire
 		(pts
@@ -6692,7 +6692,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "75ec6dfc-139f-4159-9654-d218f566a665")
+		(uuid "60ff1aa7-9895-4e0f-8afc-f1433b892299")
 	)
 	(label "USB_DP"
 		(at 386.08 162.56 0)
@@ -6702,19 +6702,19 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "fd42e606-d25b-4e09-b1c3-758a53aae72a")
+		(uuid "7af99943-4956-450c-a8e8-7bdc23ea0c38")
 	)
 	(no_connect
 		(at 383.54 68.58)
-		(uuid "1ee383f7-aa21-42b8-a989-914dd7ddc06b")
+		(uuid "58e60b2c-9108-40b0-92ce-1a7543550b4a")
 	)
 	(no_connect
 		(at 383.54 73.66)
-		(uuid "63beed6c-27e3-45f3-85fe-d90a4fe97f90")
+		(uuid "1e07d935-b912-41d3-bf7c-15f7b0008241")
 	)
 	(no_connect
 		(at 383.54 78.74)
-		(uuid "53018d83-ebd8-458d-9910-97e4d8a79596")
+		(uuid "fec8a238-ac7d-4503-96b9-e8deb8e1a3ac")
 	)
 	(wire
 		(pts
@@ -6724,7 +6724,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "6e79b7e6-f44c-4e2f-add7-fe2e7ac5dea9")
+		(uuid "9b45f15f-7aff-482b-8a62-56b8e8287e89")
 	)
 	(label "+1V8"
 		(at 350.52 25.4 90)
@@ -6734,23 +6734,23 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "cca47e34-395e-4406-bb5e-a397bd4a4141")
+		(uuid "e7bb53ed-8615-41c0-ac35-147953a31c30")
 	)
 	(no_connect
 		(at 383.54 83.82)
-		(uuid "1339b39c-e95a-4d04-8e2f-44261f0c9816")
+		(uuid "7b69bad9-2c8b-4d6b-b866-08e748e50df7")
 	)
 	(no_connect
 		(at 383.54 88.9)
-		(uuid "26c98cc6-3ef1-4b6b-a719-a375ead2e11a")
+		(uuid "94c92648-9e5b-4acf-a730-b809cbe3b9c1")
 	)
 	(no_connect
 		(at 383.54 93.98)
-		(uuid "bba7fa57-769a-41d4-871e-3aedddf58b53")
+		(uuid "c9549ed4-2045-498d-b03e-e6cb6a461dd8")
 	)
 	(no_connect
 		(at 383.54 116.84)
-		(uuid "74ecdf7c-c50c-440f-b9e0-dda8ef7844cc")
+		(uuid "0c0ffb43-ee19-4e35-8ce7-b130fc5fa526")
 	)
 	(wire
 		(pts
@@ -6760,7 +6760,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "c31ea3e2-84ee-4d58-ab97-1d544f6c09c1")
+		(uuid "b9c06065-dd46-4b89-ad5c-d78bc33fbfff")
 	)
 	(label "+1V8"
 		(at 350.52 25.4 90)
@@ -6770,7 +6770,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "5943be0a-6bfd-493f-843d-e7b8ca7ab293")
+		(uuid "21565b45-d080-4225-8a5c-d0e10f1443ec")
 	)
 	(wire
 		(pts
@@ -6780,7 +6780,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "f2f9d92f-c3f8-48a8-b069-219e7386a891")
+		(uuid "9bad3b37-f8d6-4c8e-a3c6-69d8f280b1de")
 	)
 	(label "+1V8"
 		(at 350.52 25.4 90)
@@ -6790,7 +6790,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "72a86648-4b99-497d-b4c4-1b44ee36cdb5")
+		(uuid "8b9cb5d7-98a7-47c9-b1d2-eed5f7c94fdc")
 	)
 	(wire
 		(pts
@@ -6800,7 +6800,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "2d28128c-0b3d-418d-a01f-735f4589e90f")
+		(uuid "9acb2290-6180-4ec3-b70c-b542b7caba5d")
 	)
 	(label "DCC"
 		(at 360.68 25.4 90)
@@ -6810,7 +6810,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "c94fa4ab-a5a8-42e7-8678-d890d26ff79a")
+		(uuid "42d3aa81-bbe2-494e-ac09-4f3a0dcf3a51")
 	)
 	(wire
 		(pts
@@ -6820,7 +6820,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "bbdbc3ed-6fa3-4681-af73-5fb1d6ba9829")
+		(uuid "b15d6030-5b3e-4277-8b6a-aba0593b1193")
 	)
 	(label "DEC4_6"
 		(at 337.82 25.4 90)
@@ -6830,7 +6830,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "0fe16758-7b2e-4a48-b420-2bb0b71ddd90")
+		(uuid "ea2e9991-ec7c-4ca4-9563-f28c09a50913")
 	)
 	(wire
 		(pts
@@ -6840,7 +6840,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "00532b4f-1523-4d99-ac28-6c05b5acbf89")
+		(uuid "5ffb63c5-6971-483a-81bc-58c8e155dbba")
 	)
 	(label "GND"
 		(at 350.52 172.72 270)
@@ -6850,31 +6850,31 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "e2bcfb45-5c0d-4f9a-91d6-b895bd4ef63c")
+		(uuid "34472bea-7003-4b53-aba7-7f3cab45d220")
 	)
 	(no_connect
 		(at 383.54 109.22)
-		(uuid "e6b8cb57-d4d4-4947-8b6a-9bd4e10b90ca")
+		(uuid "aa6f0848-846a-40af-9875-0dc3e54eac0d")
 	)
 	(no_connect
 		(at 383.54 104.14)
-		(uuid "dc636202-c672-4e9b-868a-a52591a343ee")
+		(uuid "cdf8c6c2-9d62-4f11-9b77-125f11909930")
 	)
 	(no_connect
 		(at 383.54 43.18)
-		(uuid "b9e9beed-53a2-40aa-a587-e9915dd70812")
+		(uuid "645a0bbf-cff7-4b83-a599-c93e6cb384ab")
 	)
 	(no_connect
 		(at 383.54 152.4)
-		(uuid "78f4472e-4149-4128-b1ed-c5386ba2a62d")
+		(uuid "426be97a-7b5b-41d4-88b5-03a1fcaeec99")
 	)
 	(no_connect
 		(at 383.54 147.32)
-		(uuid "e79410d0-764f-4584-836b-c6f4bbf121ee")
+		(uuid "bcb3066e-1145-4cf3-bb7a-184774d73378")
 	)
 	(no_connect
 		(at 383.54 144.78)
-		(uuid "530b985b-dceb-4bc8-ab63-096ed4f80ee0")
+		(uuid "31637df9-3c71-408c-8e8d-bc883bcfb1f5")
 	)
 	(wire
 		(pts
@@ -6884,7 +6884,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "90830f08-0040-4128-b242-a68c99650c7f")
+		(uuid "a8dd955e-3aac-460a-b85a-af976d5f74b5")
 	)
 	(label "XC1"
 		(at 314.96 93.98 0)
@@ -6894,7 +6894,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "c04bcee4-f3ca-4646-a532-fd320f26a461")
+		(uuid "a4e21da8-b04c-4432-bb3a-e9a6f044dfb3")
 	)
 	(wire
 		(pts
@@ -6904,7 +6904,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "8177541d-6e5e-4cf5-9b8b-3dca25d3dc34")
+		(uuid "dfe224b0-caf6-4a30-832e-8f0c724e1e04")
 	)
 	(label "DEC1"
 		(at 330.2 25.4 90)
@@ -6914,11 +6914,11 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "34213e80-d55d-4b78-954d-7db441f0ba74")
+		(uuid "f60c6a9d-ab05-4e3c-bd52-78b8a32c32b6")
 	)
 	(no_connect
 		(at 383.54 35.56)
-		(uuid "2d56687e-ea98-4b3f-8c27-11c0b8ce9cbf")
+		(uuid "74764641-ce3c-4762-8eaa-8c9a6af4ce71")
 	)
 	(wire
 		(pts
@@ -6928,7 +6928,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "418ca7a0-994e-4f69-b4e3-6fbf26fb3553")
+		(uuid "8e620de5-5ed5-4a88-888d-daa295641e09")
 	)
 	(label "DEC3"
 		(at 335.28 25.4 90)
@@ -6938,7 +6938,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "926ae842-6384-46a7-8944-28163906cd81")
+		(uuid "14d6408e-dce8-4090-a452-4dc4f5751c66")
 	)
 	(wire
 		(pts
@@ -6948,7 +6948,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "980dd9cb-de1d-4b09-9297-3b8ec4d89d3c")
+		(uuid "155a420b-b85b-4813-be5a-1bd2d05d6ec7")
 	)
 	(label "DEC4_6"
 		(at 342.9 25.4 90)
@@ -6958,7 +6958,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "a1bb02da-ccd3-49da-b388-94975f77c977")
+		(uuid "731700b8-f374-4d2b-8859-54443912794e")
 	)
 	(wire
 		(pts
@@ -6968,7 +6968,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "9e6518ce-40c4-416f-ac9a-03cef4ecb556")
+		(uuid "45e993c7-e628-41fe-bd6b-41c65b931646")
 	)
 	(label "GND"
 		(at 350.52 172.72 270)
@@ -6978,11 +6978,11 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "b9a6d04d-a13e-41c5-b930-638ebffcd452")
+		(uuid "f47f2319-574d-4215-bb52-fe76e92a70cb")
 	)
 	(no_connect
 		(at 383.54 38.1)
-		(uuid "bae4a1ca-8052-46bb-8bc5-d4c040bb385f")
+		(uuid "792a48f5-86e4-4205-bd31-31543bcb5b98")
 	)
 	(wire
 		(pts
@@ -6992,7 +6992,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "4ed43496-6dc2-436e-80d7-a98346f9071d")
+		(uuid "51487530-cd37-4f10-9646-8892efff0c46")
 	)
 	(label "GND"
 		(at 353.06 172.72 270)
@@ -7002,7 +7002,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "2d19a8e6-1ff1-4b81-8fbd-a0f474ccbf71")
+		(uuid "a78d4304-4709-43fe-b58c-c2d24535cfba")
 	)
 	(wire
 		(pts
@@ -7012,7 +7012,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "1e4b9759-dffc-453a-b150-68ef73156ed4")
+		(uuid "1b7770fc-8862-4825-88b6-a22d6974f03f")
 	)
 	(label "SDA"
 		(at 386.08 99.06 0)
@@ -7022,7 +7022,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "98746726-9475-4096-b8e1-897ff5a4a3ee")
+		(uuid "df38b34a-7b5e-449a-a56b-24b8dc396c15")
 	)
 	(wire
 		(pts
@@ -7032,7 +7032,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "56e98077-ab3c-4701-a6cc-48cf596bd0b4")
+		(uuid "8ef7dbd0-09c9-493d-b04d-f05f25aeda5c")
 	)
 	(label "SCL"
 		(at 386.08 101.6 0)
@@ -7042,19 +7042,19 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "f98a0719-2490-4803-9c1a-2a6eb95b71bf")
+		(uuid "5c768273-83b7-4d70-aeb7-c43a48d8df83")
 	)
 	(no_connect
 		(at 383.54 45.72)
-		(uuid "4133de85-05c3-450a-90e6-0fa6aa658dc9")
+		(uuid "96ba30d2-9302-44df-a5db-79fab393f527")
 	)
 	(no_connect
 		(at 383.54 60.96)
-		(uuid "a39c9932-bbbf-4379-9119-dfd625af66e0")
+		(uuid "1d63cb96-6047-4d84-93c0-63654ad199ef")
 	)
 	(no_connect
 		(at 383.54 48.26)
-		(uuid "1258d347-8262-4b06-8da8-0e4a80d1f7bc")
+		(uuid "9f13a6ce-f665-45b0-9522-a3f5c86879d7")
 	)
 	(wire
 		(pts
@@ -7064,7 +7064,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "5a8caf13-6aaa-49e3-823a-131fb8ff7fcf")
+		(uuid "23454b11-5f8e-4f55-b94e-c811f8f43eca")
 	)
 	(label "IMU_INT1"
 		(at 386.08 50.8 0)
@@ -7074,11 +7074,11 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "6afde365-5f94-427c-955d-5d66ac344ce8")
+		(uuid "d6dce5aa-d974-49f5-a9a0-6b39145d62f8")
 	)
 	(no_connect
 		(at 383.54 58.42)
-		(uuid "2c2bee3e-133d-4aa3-affb-e7a57cc9a375")
+		(uuid "da434504-0117-4f53-a3b4-7e71b64fb93f")
 	)
 	(wire
 		(pts
@@ -7088,7 +7088,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "8b57c74b-5a79-43e2-a397-066a3a03ff3e")
+		(uuid "4cdaf269-1c85-4d68-97b9-ee0290aa2c25")
 	)
 	(label "NPM_GPIO1_INT"
 		(at 386.08 53.34 0)
@@ -7098,7 +7098,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "806038fa-f683-4a18-9ad9-df4ee911ad21")
+		(uuid "1b092ecd-36b9-46b7-8338-eb1289e71eb3")
 	)
 	(wire
 		(pts
@@ -7108,7 +7108,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "9c07b259-a8c8-45a7-b232-a4f53e060885")
+		(uuid "4f5c57fe-30cd-404e-b367-cde00eb81ae9")
 	)
 	(label "IMU_INT2"
 		(at 386.08 55.88 0)
@@ -7118,7 +7118,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "665ec059-42fb-449c-acc6-3a72fb5013fc")
+		(uuid "3079acab-d066-4a20-b524-f599ce59ba1b")
 	)
 	(wire
 		(pts
@@ -7128,7 +7128,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "d0801cbf-cdc1-46d8-948c-cb0fb064c3ea")
+		(uuid "bcd618d6-05b7-466d-996e-cad01d6464c7")
 	)
 	(label "DEC5"
 		(at 340.36 25.4 90)
@@ -7138,43 +7138,43 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "f02547f7-5e84-43c5-ae98-9efbf57bff7c")
+		(uuid "0b2ac021-72ff-4ffd-b216-ff425d0bb727")
 	)
 	(no_connect
 		(at 383.54 137.16)
-		(uuid "8e617036-9d65-4767-abda-95720499c5c2")
+		(uuid "33f60edb-6847-46cd-a2a1-4da00df96d22")
 	)
 	(no_connect
 		(at 383.54 134.62)
-		(uuid "a2242ae2-97a7-49ec-be2e-79a811c11c2c")
+		(uuid "6bdbdfb5-14fd-4838-83b9-b82a375bf11f")
 	)
 	(no_connect
 		(at 383.54 139.7)
-		(uuid "1cc4453e-16d5-4adf-b694-437d25980b62")
+		(uuid "5a314747-ac2a-4f31-88a0-597a1e6ea1c1")
 	)
 	(no_connect
 		(at 383.54 132.08)
-		(uuid "9ebdcd3f-cef2-444e-8baa-c6e00346a37e")
+		(uuid "152671bb-0689-4063-9d12-9ecc08163ef7")
 	)
 	(no_connect
 		(at 383.54 63.5)
-		(uuid "3063165e-ab3b-4c0b-8bd0-3e76595b74e3")
+		(uuid "78aadb55-428b-44f7-93fc-271bc7d00ce0")
 	)
 	(no_connect
 		(at 383.54 129.54)
-		(uuid "cfda6c9a-dd95-43d4-a8aa-fd086b77f853")
+		(uuid "1fb57d7d-df26-4bbc-8fb0-ba8197f33b3d")
 	)
 	(no_connect
 		(at 383.54 66.04)
-		(uuid "9f524625-afb0-43f1-b78d-5bf58b7d4c8f")
+		(uuid "f52b7b2a-5885-4127-bedb-70f99643f4e9")
 	)
 	(no_connect
 		(at 383.54 127)
-		(uuid "1914bc87-3ef0-4f3e-af50-31b97b26bbda")
+		(uuid "20e7b786-8431-4eb0-a499-ca7d235a043e")
 	)
 	(no_connect
 		(at 383.54 124.46)
-		(uuid "d7238a49-fdc3-418a-8691-31b13e4d2363")
+		(uuid "5399252e-b7a1-40bd-99e6-8bda714831c4")
 	)
 	(wire
 		(pts
@@ -7184,7 +7184,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "884958db-1aa6-4817-bac6-258875c0c513")
+		(uuid "070145a4-7ed2-4ab4-896f-3015912addba")
 	)
 	(label "+1V8"
 		(at 350.52 25.4 90)
@@ -7194,11 +7194,11 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "e64d7049-b5e9-4863-9422-62723bcfa08a")
+		(uuid "635a96bc-d99f-4627-b225-7852522d67fa")
 	)
 	(no_connect
 		(at 383.54 121.92)
-		(uuid "dddd7c59-744c-4afc-ac6e-e767164d2389")
+		(uuid "1ac56d64-4667-430e-9816-8c262f32815a")
 	)
 	(wire
 		(pts
@@ -7208,7 +7208,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "e5630ff3-6a69-42fa-b123-bd6b218baa49")
+		(uuid "1ef8ed4f-e0f3-4a9a-a01e-ca9907e416b4")
 	)
 	(label "+1V8"
 		(at 353.06 25.4 90)
@@ -7218,11 +7218,11 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "d801232c-6a5c-4645-af2b-ad0ab1c42e8b")
+		(uuid "a4381640-1bd6-43c1-8f01-cd0a2ac88441")
 	)
 	(no_connect
 		(at 383.54 119.38)
-		(uuid "bb6013e8-03d4-4f35-85b1-649b6be44ff7")
+		(uuid "aa2d0d38-c137-4064-9caf-6c532c6cdc04")
 	)
 	(symbol
 		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
@@ -7234,7 +7234,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "1289ced8-f66e-4ae6-b969-9b8469a3ead2")
+		(uuid "0029be72-feae-4def-bb69-3b443d010a33")
 		(property "Reference" "J4"
 			(at 58.42 93.98 0)
 			(effects
@@ -7289,7 +7289,7 @@
 		)
 		(instances
 			(project "smol-slime-rev2"
-				(path "/c8196b8a-6878-4b02-a471-2e08a769aadc"
+				(path "/766418be-50c9-42e6-a8fb-5ba49bb20d19"
 					(reference "J4")
 					(unit 1)
 				)
@@ -7304,7 +7304,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "c745cb0f-f17d-4ac1-945e-506143170c03")
+		(uuid "86c02dda-7c8d-4f10-ba61-5141bd936997")
 	)
 	(label "GND"
 		(at 55.88 124.46 270)
@@ -7314,7 +7314,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "013bda71-66bc-432b-944d-67104605c995")
+		(uuid "9bf3fa8d-1ec7-4e96-ae9d-9cb29f2ca16d")
 	)
 	(wire
 		(pts
@@ -7324,7 +7324,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "10f7f952-26de-41f1-a5f1-b52e10e433bc")
+		(uuid "8323e6f2-9f93-43e5-aeca-ee29c71ecc31")
 	)
 	(label "VBUS_IN"
 		(at 73.66 83.82 0)
@@ -7334,7 +7334,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "5f78f30c-f4ce-4a1e-895f-ed7ed39a11c6")
+		(uuid "46ef261f-a4c7-423f-8b13-71b3c9d5e615")
 	)
 	(wire
 		(pts
@@ -7344,7 +7344,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "1a9de7d9-5df7-47bf-bf6b-f1caa5b2b79f")
+		(uuid "698939e9-3510-4366-979d-3a9eaede6d60")
 	)
 	(label "USB_CC1"
 		(at 73.66 88.9 0)
@@ -7354,7 +7354,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "134a8910-cfed-495d-96e5-0588553c0f30")
+		(uuid "5d7a2086-22d9-40ec-b3c3-c481c1877884")
 	)
 	(wire
 		(pts
@@ -7364,7 +7364,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "f3ad2636-f070-4635-be95-420c704d5bd8")
+		(uuid "99b7a353-13ea-4e7a-8138-f8df78bfdcd2")
 	)
 	(label "USB_DP"
 		(at 73.66 101.6 0)
@@ -7374,7 +7374,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "50132ffb-edd1-4a6a-ab7e-dc3ec6f0a5f5")
+		(uuid "adba72d1-0d19-4dda-9766-b4553484b4a5")
 	)
 	(wire
 		(pts
@@ -7384,7 +7384,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "cc9a522b-b224-4374-b3b9-565af73d7246")
+		(uuid "57c29077-e772-476d-9d4c-fa9ab8e3878d")
 	)
 	(label "USB_DM"
 		(at 73.66 96.52 0)
@@ -7394,11 +7394,11 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "383bceaa-9968-458f-8b7a-77c7634f66ba")
+		(uuid "a141d4fd-60de-4a94-97d1-e5e47d821a7e")
 	)
 	(no_connect
 		(at 71.12 111.76)
-		(uuid "bac9bcfb-ca10-4b55-9668-f60778e024a9")
+		(uuid "e6846e0c-cc46-4561-bc4c-056f9793132c")
 	)
 	(wire
 		(pts
@@ -7408,7 +7408,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "51964e31-a7ba-4580-81b6-4138c1621fda")
+		(uuid "db208f62-8f9c-4843-9818-9e0ae236b752")
 	)
 	(label "VBUS_IN"
 		(at 73.66 83.82 0)
@@ -7418,7 +7418,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "6b5a7c1d-2c5d-4a71-bd89-9857bc631bdb")
+		(uuid "ee390862-cd50-4b50-a655-c4d730d907f9")
 	)
 	(wire
 		(pts
@@ -7428,7 +7428,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "6371ecf2-f8fc-46f3-8d39-b2604d01ae2e")
+		(uuid "30a0316e-cd53-486b-91de-7343536c8c98")
 	)
 	(label "GND"
 		(at 55.88 124.46 270)
@@ -7438,7 +7438,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "410908ec-4860-452f-b0b2-5e1c0bf6acfa")
+		(uuid "12c7599a-c3b6-4d3c-955e-12d81e7c7aa5")
 	)
 	(wire
 		(pts
@@ -7448,7 +7448,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "93a8a223-33ea-41cf-ae3b-ba8989a4dccd")
+		(uuid "1d53840e-05f0-4910-8413-0c53952d00e2")
 	)
 	(label "GND"
 		(at 55.88 124.46 270)
@@ -7458,7 +7458,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "8e4f393b-9204-4f75-8965-55dd84d7b6c0")
+		(uuid "762b115a-8a56-4f16-9177-3d79dee6be00")
 	)
 	(wire
 		(pts
@@ -7468,7 +7468,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "3531782b-86f6-4c41-bf4a-e6d3abe5ac1a")
+		(uuid "43837c8b-d2c9-4dd3-bcec-5ff9294d1b49")
 	)
 	(label "VBUS_IN"
 		(at 73.66 83.82 0)
@@ -7478,7 +7478,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "10bf68d6-faef-49a7-b797-42627df84668")
+		(uuid "2a93820f-bc17-422e-9adc-640ebe77f78a")
 	)
 	(wire
 		(pts
@@ -7488,7 +7488,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "86d8f9c0-da5f-449d-96b0-8ef6a1e225ce")
+		(uuid "10df88ac-e8ae-4b77-806d-326096bcdf58")
 	)
 	(label "USB_CC2"
 		(at 73.66 91.44 0)
@@ -7498,7 +7498,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "eaf6ab8a-3809-40a4-9857-553447f90f5c")
+		(uuid "ecbda6f3-8ab8-4dc3-971b-2b2a208c3267")
 	)
 	(wire
 		(pts
@@ -7508,7 +7508,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "fe063555-b9a3-4009-b672-f61850e2376b")
+		(uuid "b9be1073-5a69-4078-b603-a43a728e139d")
 	)
 	(label "USB_DP"
 		(at 73.66 104.14 0)
@@ -7518,7 +7518,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "1f1f99ba-265c-44bd-a690-698e287187e6")
+		(uuid "f556ff2a-c1fe-40f0-bd7d-7252026aa318")
 	)
 	(wire
 		(pts
@@ -7528,7 +7528,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "49c68256-5d1b-4d3b-a587-b2b43563ff10")
+		(uuid "f7e225d4-dc3a-4552-bfd0-f606cbfd44fb")
 	)
 	(label "USB_DM"
 		(at 73.66 99.06 0)
@@ -7538,11 +7538,11 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "e0f1d2d5-5b8c-4df6-9cd8-52cdabcc57cd")
+		(uuid "607399b4-ab9f-4c9e-a64a-c0b803a1cf2f")
 	)
 	(no_connect
 		(at 71.12 114.3)
-		(uuid "5373b663-1854-46cb-a9a4-7377445b943b")
+		(uuid "a0c9665b-87b7-45cf-ad09-4de38bc61541")
 	)
 	(wire
 		(pts
@@ -7552,7 +7552,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "262f0dac-a261-4c56-858d-63effcf49499")
+		(uuid "b9059a54-8517-4191-8639-8c082a70f5d3")
 	)
 	(label "VBUS_IN"
 		(at 73.66 83.82 0)
@@ -7562,7 +7562,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "971229f9-7c49-49d8-bfd5-861d341a017f")
+		(uuid "9843f0ac-0775-4bf8-a15b-21474d3702ae")
 	)
 	(wire
 		(pts
@@ -7572,7 +7572,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "0c07a161-2376-4813-aad8-d5842e802a5f")
+		(uuid "39fd6b05-ddf1-4b4b-a6db-147dcfe110ed")
 	)
 	(label "GND"
 		(at 55.88 124.46 270)
@@ -7582,7 +7582,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "cc1252d1-80df-4929-970e-578748285e00")
+		(uuid "68d511af-b1cd-4e60-8a6c-e8b0c8301253")
 	)
 	(wire
 		(pts
@@ -7592,7 +7592,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "9383995c-c2f6-4082-806e-8e575512669d")
+		(uuid "2555b1a6-4ee6-454d-a7ff-f36e08687976")
 	)
 	(label "GND"
 		(at 48.26 124.46 270)
@@ -7602,7 +7602,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "3af57a8e-4da6-4252-999f-a096e7f94d67")
+		(uuid "78e2cd86-96a2-41bb-83e9-b882bb757995")
 	)
 	(wire
 		(pts
@@ -7612,7 +7612,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "e58769bb-6a52-4156-9e85-9dbc5d1ceedf")
+		(uuid "d4f0fa63-6e57-4ff8-bf68-2e01c714025e")
 	)
 	(wire
 		(pts
@@ -7622,7 +7622,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "664f831b-c4e8-4a69-beb4-02db49ea0e93")
+		(uuid "01000d90-3e0d-43ab-a734-bdc7ee7b674a")
 	)
 	(wire
 		(pts
@@ -7632,13 +7632,13 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "ea07e328-e78a-4312-9d7e-b99e1b548493")
+		(uuid "a40a8ef5-18d2-48f0-903b-18c946eea92e")
 	)
 	(junction
 		(at 106.68 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "15b13eae-0467-4c8b-a279-468f7f3fe346")
+		(uuid "d25cb124-21ff-426e-b3bc-8cdedb2adcb2")
 	)
 	(label "SHPHLD"
 		(at 116.84 132.08 0)
@@ -7648,7 +7648,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "683f75de-8f9f-44cd-8637-1a87e9ef7056")
+		(uuid "6121c189-7a94-43b7-886d-69117c71d641")
 	)
 	(symbol
 		(lib_id "Device:D_TVS")
@@ -7660,7 +7660,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "41df3145-e36f-4356-bd01-17155170bb10")
+		(uuid "056c0949-1397-4cda-8803-7a19cefeee45")
 		(property "Reference" "D1"
 			(at 91.44 160.02 90)
 			(effects
@@ -7715,7 +7715,7 @@
 		)
 		(instances
 			(project "smol-slime-rev2"
-				(path "/c8196b8a-6878-4b02-a471-2e08a769aadc"
+				(path "/766418be-50c9-42e6-a8fb-5ba49bb20d19"
 					(reference "D1")
 					(unit 1)
 				)
@@ -7730,7 +7730,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "cca51e16-d2aa-4616-a275-3d66eaec1f33")
+		(uuid "f19b5d74-b2ba-4050-ab20-b26897294fbe")
 	)
 	(label "GND"
 		(at 88.9 165.1 270)
@@ -7740,7 +7740,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "7cd75594-ea35-4063-8489-10b55a638597")
+		(uuid "6e62199e-3e6d-4ae8-8f64-3ef55d0aa2f7")
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
@@ -7752,7 +7752,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "bcbb74ea-d416-430d-a08e-d45018ff88f0")
+		(uuid "6e97f6b8-0aba-400c-8ae4-78ecbc45737d")
 		(property "Reference" "SW1"
 			(at 109.22 161.29 90)
 			(effects
@@ -7807,7 +7807,7 @@
 		)
 		(instances
 			(project "smol-slime-rev2"
-				(path "/c8196b8a-6878-4b02-a471-2e08a769aadc"
+				(path "/766418be-50c9-42e6-a8fb-5ba49bb20d19"
 					(reference "SW1")
 					(unit 1)
 				)
@@ -7822,7 +7822,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "5bdd6f52-4b11-42aa-b18f-db92fdc32efb")
+		(uuid "210a777d-aa43-421d-9688-f1f081c7218c")
 	)
 	(label "GND"
 		(at 106.68 167.64 270)
@@ -7832,7 +7832,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "3d73675f-8a0c-4862-be14-6608f177bbd6")
+		(uuid "bed0645e-ba35-4c04-93d2-def3d36f563c")
 	)
 	(wire
 		(pts
@@ -7842,7 +7842,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "6e4cbd36-e6c5-4c87-bc90-f4e1495d5504")
+		(uuid "ed447b08-0f28-4831-bc1d-d14e577c6756")
 	)
 	(label "BUCK1_SW"
 		(at 170.18 93.98 0)
@@ -7852,7 +7852,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "4592a480-1a46-48e8-88ee-5f2fa15f672a")
+		(uuid "4aee2d18-32f3-4e87-8071-ccdb5903ab0f")
 	)
 	(symbol
 		(lib_id "Device:L")
@@ -7864,7 +7864,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "be6129fa-539b-4805-bbf2-e83623af583a")
+		(uuid "504efc09-fbf0-4555-8ce7-fc6a7b1ae824")
 		(property "Reference" "L1"
 			(at 187.96 99.06 0)
 			(effects
@@ -7910,7 +7910,7 @@
 		)
 		(instances
 			(project "smol-slime-rev2"
-				(path "/c8196b8a-6878-4b02-a471-2e08a769aadc"
+				(path "/766418be-50c9-42e6-a8fb-5ba49bb20d19"
 					(reference "L1")
 					(unit 1)
 				)
@@ -7925,7 +7925,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "4b7456ac-49d1-494e-aa42-b19d0613c030")
+		(uuid "3770cb1a-c45f-4fcb-a758-74f8451fee9b")
 	)
 	(label "+1V8"
 		(at 185.42 104.14 270)
@@ -7935,7 +7935,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "fb729605-6f8b-4e62-bf1e-c20605ae6bd5")
+		(uuid "0ebf7052-538d-48d0-a212-faab79203887")
 	)
 	(wire
 		(pts
@@ -7945,13 +7945,13 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "4ccf4d6c-f14b-4d8c-9d98-ddb2509d9ab2")
+		(uuid "3a4efcb0-102d-42e9-b12a-ef25d0410b5d")
 	)
 	(junction
 		(at 307.34 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "169b2b8a-618c-41c0-9b11-c81cd76e31f4")
+		(uuid "0380021f-cc9d-4ec8-b83f-9a34813f328d")
 	)
 	(label "ANT"
 		(at 314.96 53.34 0)
@@ -7961,7 +7961,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "9d6890b2-ee8e-4436-b357-1886be8e1eb7")
+		(uuid "2b66fea0-05f7-4bc6-82ef-3dc73e33f2e2")
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -7973,7 +7973,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "2dec2b5d-66ac-49af-8d92-d880da74b7f2")
+		(uuid "498ff3cb-e97e-4352-9ccd-32bc7bc1612f")
 		(property "Reference" "C26"
 			(at 309.88 58.42 0)
 			(effects
@@ -8019,7 +8019,7 @@
 		)
 		(instances
 			(project "smol-slime-rev2"
-				(path "/c8196b8a-6878-4b02-a471-2e08a769aadc"
+				(path "/766418be-50c9-42e6-a8fb-5ba49bb20d19"
 					(reference "C26")
 					(unit 1)
 				)
@@ -8034,7 +8034,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "f776622f-7ae1-43a2-81e4-a04e2bef0a36")
+		(uuid "d81a3fc4-3481-4dee-890c-3ce4bbae7e73")
 	)
 	(label "GND"
 		(at 307.34 63.5 270)
@@ -8044,7 +8044,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "3fa9b333-eee6-4645-b2e0-3ed33d85ab49")
+		(uuid "c65a63e8-b0d4-4564-b7d7-e41db5ae7057")
 	)
 	(symbol
 		(lib_id "Device:L")
@@ -8056,7 +8056,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "595549d3-9018-4a4d-9d98-7d77bc989d81")
+		(uuid "caa6354d-a82f-4fae-bad0-d772ec29ebed")
 		(property "Reference" "L4"
 			(at 295.91 48.26 90)
 			(effects
@@ -8102,7 +8102,7 @@
 		)
 		(instances
 			(project "smol-slime-rev2"
-				(path "/c8196b8a-6878-4b02-a471-2e08a769aadc"
+				(path "/766418be-50c9-42e6-a8fb-5ba49bb20d19"
 					(reference "L4")
 					(unit 1)
 				)
@@ -8117,19 +8117,19 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "195ec283-8e54-4a74-b899-b8dfdd41fe17")
+		(uuid "0f25233d-023d-490b-8210-71da8130ae12")
 	)
 	(junction
 		(at 284.48 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "171720a3-f208-4bfe-8ad5-0d1bf4e0e279")
+		(uuid "e49cefd6-c0bf-462c-91d7-7f192b470cf7")
 	)
 	(junction
 		(at 274.32 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "258324cb-0ad5-4c09-b8bc-48b096122881")
+		(uuid "95178777-576e-4e71-9d9b-cda5e66ef0b0")
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -8141,7 +8141,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "794cf2c4-db2f-47b6-82fd-8cdf9a549347")
+		(uuid "0b5d13ed-d2d4-4b59-b781-a165ad9b0b35")
 		(property "Reference" "C27"
 			(at 287.02 58.42 0)
 			(effects
@@ -8187,7 +8187,7 @@
 		)
 		(instances
 			(project "smol-slime-rev2"
-				(path "/c8196b8a-6878-4b02-a471-2e08a769aadc"
+				(path "/766418be-50c9-42e6-a8fb-5ba49bb20d19"
 					(reference "C27")
 					(unit 1)
 				)
@@ -8202,7 +8202,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "cf7b8b4a-d92f-4f88-8e5e-5b3ee333b08a")
+		(uuid "5be54b89-544c-4cc0-81a5-025d3e4176eb")
 	)
 	(label "GND"
 		(at 284.48 63.5 270)
@@ -8212,7 +8212,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "319ebfbc-a360-4561-ae70-8a55dfbd2da7")
+		(uuid "1a51e224-f139-46eb-8cb5-74db962ac973")
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -8224,7 +8224,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp yes)
-		(uuid "9c874894-8dc3-445d-b5db-c9df1efca3d4")
+		(uuid "11629998-428b-4999-9d82-3fdae494fe4f")
 		(property "Reference" "C28"
 			(at 276.86 58.42 0)
 			(effects
@@ -8270,7 +8270,7 @@
 		)
 		(instances
 			(project "smol-slime-rev2"
-				(path "/c8196b8a-6878-4b02-a471-2e08a769aadc"
+				(path "/766418be-50c9-42e6-a8fb-5ba49bb20d19"
 					(reference "C28")
 					(unit 1)
 				)
@@ -8285,7 +8285,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "f36f2b00-ca75-487c-9236-64ccd0d8f06a")
+		(uuid "1b5f90c2-6708-4b4f-8fca-5af19c86b535")
 	)
 	(label "GND"
 		(at 274.32 63.5 270)
@@ -8295,7 +8295,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "921b1ea4-c7f6-49b6-8ab1-f21da3cc8f63")
+		(uuid "2a528f42-38c7-4201-8f86-079b54de87c0")
 	)
 	(label "RF_ANT"
 		(at 266.7 53.34 0)
@@ -8305,7 +8305,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "7e44e5b9-d955-45d9-b7b9-765c5ffdbd89")
+		(uuid "1ae4aa46-93a8-4f1a-abb3-0b14c79f9717")
 	)
 	(symbol
 		(lib_id "Device:Crystal_GND24")
@@ -8317,7 +8317,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "5c4a9a15-55b9-4493-8a4a-ae9d73955f1f")
+		(uuid "34cbfd14-67c0-44a9-b9be-2131f8676faa")
 		(property "Reference" "X1"
 			(at 289.56 88.9 0)
 			(effects
@@ -8363,7 +8363,7 @@
 		)
 		(instances
 			(project "smol-slime-rev2"
-				(path "/c8196b8a-6878-4b02-a471-2e08a769aadc"
+				(path "/766418be-50c9-42e6-a8fb-5ba49bb20d19"
 					(reference "X1")
 					(unit 1)
 				)
@@ -8378,7 +8378,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "c8b32f1a-584c-4dda-a99d-c6bd9cc0daf7")
+		(uuid "4eede2bd-d296-4346-956c-b61e6efb70fe")
 	)
 	(label "XC1"
 		(at 280.67 93.98 0)
@@ -8388,7 +8388,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "2d509bdb-1e5f-411d-b848-24608434673a")
+		(uuid "a3a3e7f7-4627-40c2-939d-fbd236d77ea3")
 	)
 	(wire
 		(pts
@@ -8398,7 +8398,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "eb5ed244-fa4c-4db9-b5f2-fc2a2546192e")
+		(uuid "9c4a7f97-8bac-4c7e-a709-9cbe0929d9a6")
 	)
 	(label "GND"
 		(at 287.02 101.6 270)
@@ -8408,7 +8408,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "ec28bbb1-121e-4d0d-90b6-4e1962b7e7e2")
+		(uuid "9194d6db-3674-42e0-8b53-ac0d215d2f49")
 	)
 	(wire
 		(pts
@@ -8418,7 +8418,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "092658c7-e341-4b13-b196-10e2019ed8ba")
+		(uuid "e9c17902-46cd-4790-9dac-d2d2213420d0")
 	)
 	(label "XC2"
 		(at 293.37 93.98 0)
@@ -8428,7 +8428,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "97478c96-426f-432d-a16b-cb412549d26e")
+		(uuid "51d785a9-fbe2-4496-b076-1018c9b8172f")
 	)
 	(wire
 		(pts
@@ -8438,7 +8438,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "945d5844-93b0-4db2-a433-1a12117ab420")
+		(uuid "3765bc7f-3893-4b1d-b00d-4bdd96c50a97")
 	)
 	(label "GND"
 		(at 287.02 101.6 270)
@@ -8448,7 +8448,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "87332e9d-375f-4d18-b0b7-8edcd535e16a")
+		(uuid "8c812352-83e1-42d9-bc6c-7e898d14ee17")
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -8460,7 +8460,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "c30a3f3a-c94a-4eca-868e-bd90aeebc84a")
+		(uuid "6fc9e55e-d1fb-4516-9acf-5da830e3593c")
 		(property "Reference" "C12"
 			(at 281.94 104.14 0)
 			(effects
@@ -8506,7 +8506,7 @@
 		)
 		(instances
 			(project "smol-slime-rev2"
-				(path "/c8196b8a-6878-4b02-a471-2e08a769aadc"
+				(path "/766418be-50c9-42e6-a8fb-5ba49bb20d19"
 					(reference "C12")
 					(unit 1)
 				)
@@ -8521,7 +8521,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "d4281b78-a250-486c-a6e3-34bff4f4739c")
+		(uuid "a4e12525-be06-4a32-b82f-644b19f990d5")
 	)
 	(label "XC1"
 		(at 279.4 102.87 90)
@@ -8531,7 +8531,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "55a89b78-4517-4fe3-b595-647db3ff46dc")
+		(uuid "3cf409aa-28fe-4b1a-bee7-d936294a0d04")
 	)
 	(wire
 		(pts
@@ -8541,7 +8541,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "3f698672-7899-478b-b5ca-da76ea0b61db")
+		(uuid "053577f7-7498-44d0-a384-0804d1ab5d15")
 	)
 	(label "GND"
 		(at 279.4 115.57 270)
@@ -8551,7 +8551,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "a55a89aa-b211-4682-b5d6-b89189d3fd62")
+		(uuid "6f38663c-e82f-4efb-a637-ccb7d829e20f")
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -8563,7 +8563,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "e74559b0-56a7-4e0b-afc3-f8ec1c6a9db2")
+		(uuid "a6f51fdd-e990-4bd7-8b15-999b93294ca3")
 		(property "Reference" "C13"
 			(at 297.18 104.14 0)
 			(effects
@@ -8609,7 +8609,7 @@
 		)
 		(instances
 			(project "smol-slime-rev2"
-				(path "/c8196b8a-6878-4b02-a471-2e08a769aadc"
+				(path "/766418be-50c9-42e6-a8fb-5ba49bb20d19"
 					(reference "C13")
 					(unit 1)
 				)
@@ -8624,7 +8624,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "bb35410f-d496-460c-84b3-66e905636c68")
+		(uuid "33ca792e-5de2-46a8-8936-7ca3663ea422")
 	)
 	(label "XC2"
 		(at 294.64 102.87 90)
@@ -8634,7 +8634,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "0e985663-fe3c-460b-b22c-2fdc4ff037bf")
+		(uuid "7c3d6685-28c6-4778-b005-0459685327ac")
 	)
 	(wire
 		(pts
@@ -8644,7 +8644,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "fd8c1060-18e4-4391-ba4d-b818080a4c30")
+		(uuid "fd6619d5-c0d9-4bb1-958b-7e8c6e36525a")
 	)
 	(label "GND"
 		(at 294.64 115.57 270)
@@ -8654,7 +8654,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "f634f40e-b0d0-4977-a6af-d447f9bcbd04")
+		(uuid "0fe0edd9-c4b8-4e12-837f-0b8219e590ab")
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -8666,7 +8666,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "4145cb09-2a95-4c15-a918-c824c2626fdf")
+		(uuid "db1630de-c216-4386-95ad-52bbc2b627bd")
 		(property "Reference" "C1"
 			(at 127 165.1 0)
 			(effects
@@ -8712,7 +8712,7 @@
 		)
 		(instances
 			(project "smol-slime-rev2"
-				(path "/c8196b8a-6878-4b02-a471-2e08a769aadc"
+				(path "/766418be-50c9-42e6-a8fb-5ba49bb20d19"
 					(reference "C1")
 					(unit 1)
 				)
@@ -8727,7 +8727,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "1cc4aadc-7004-4429-85fc-7d99de3a5b6c")
+		(uuid "ae5b6805-7d13-4775-a84f-f1a757490845")
 	)
 	(label "VBUS_IN"
 		(at 124.46 163.83 90)
@@ -8737,7 +8737,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "5cb5c7aa-2e4e-4ab3-86f8-17b4a0baea13")
+		(uuid "0f1129b8-69ea-4e9c-8cf0-bcedcd529a1a")
 	)
 	(wire
 		(pts
@@ -8747,7 +8747,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "44dd1fa2-bb14-4700-acab-d590350db82a")
+		(uuid "c560ff16-1dea-4447-b4f7-3816b0742e0e")
 	)
 	(label "GND"
 		(at 124.46 176.53 270)
@@ -8757,7 +8757,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "d768ec90-de51-48be-945b-3ef30027b111")
+		(uuid "39d82578-cad9-434b-b17e-3337f6370034")
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -8769,7 +8769,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "1f4be69f-e99c-4b6f-80ea-fe6aa0313dd3")
+		(uuid "23016a5d-cb7a-41c8-b06c-a0acca454c4d")
 		(property "Reference" "C2"
 			(at 142.24 165.1 0)
 			(effects
@@ -8815,7 +8815,7 @@
 		)
 		(instances
 			(project "smol-slime-rev2"
-				(path "/c8196b8a-6878-4b02-a471-2e08a769aadc"
+				(path "/766418be-50c9-42e6-a8fb-5ba49bb20d19"
 					(reference "C2")
 					(unit 1)
 				)
@@ -8830,7 +8830,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "52954379-72c2-4f25-9909-b546416bc442")
+		(uuid "697610de-bc4c-405a-9564-9b2c5b5b4cb4")
 	)
 	(label "VSYS"
 		(at 139.7 163.83 90)
@@ -8840,7 +8840,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "43126d86-805c-4f25-807d-514aef6fa331")
+		(uuid "d0824955-5b3b-4124-8197-cfdc90cf3414")
 	)
 	(wire
 		(pts
@@ -8850,7 +8850,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "82ada1db-f4bd-4c51-ab81-11cce8ad58a1")
+		(uuid "1665e7ab-12a9-4383-be55-22148f95d570")
 	)
 	(label "GND"
 		(at 139.7 176.53 270)
@@ -8860,7 +8860,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "296d8fc1-bec6-41e3-9f6b-c85c7d57fdb9")
+		(uuid "bae0d5cf-c5cf-4425-a9a2-bd913196402f")
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -8872,7 +8872,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "3d824037-3d95-42b2-9d00-e1148b5adb9d")
+		(uuid "86da87a3-a5b6-44a4-9b8b-447978f108ca")
 		(property "Reference" "C3"
 			(at 157.48 165.1 0)
 			(effects
@@ -8918,7 +8918,7 @@
 		)
 		(instances
 			(project "smol-slime-rev2"
-				(path "/c8196b8a-6878-4b02-a471-2e08a769aadc"
+				(path "/766418be-50c9-42e6-a8fb-5ba49bb20d19"
 					(reference "C3")
 					(unit 1)
 				)
@@ -8933,7 +8933,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "c9cd8292-3e48-4a28-bc08-e7e58262cf2d")
+		(uuid "0dc9d4ac-beab-491c-b7ba-7881c5c8bf79")
 	)
 	(label "VSYS"
 		(at 154.94 163.83 90)
@@ -8943,7 +8943,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "0a0840c1-f023-4919-b9fc-18ebf7ffd3d7")
+		(uuid "75352684-f43f-4c2b-8817-2160479fc3d6")
 	)
 	(wire
 		(pts
@@ -8953,7 +8953,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "1a407030-3139-4d9e-8ac6-d6ce37413458")
+		(uuid "4c01ff3d-83dc-4069-9477-929107dc3f00")
 	)
 	(label "GND"
 		(at 154.94 176.53 270)
@@ -8963,7 +8963,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "3414b9d4-3d92-489d-af66-bb98da4c92ab")
+		(uuid "3391353f-fae4-4264-9394-3cd91dbcddf9")
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -8975,7 +8975,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "12ee4113-38c6-42a2-9d88-c9568f2c8d71")
+		(uuid "f9d711b8-5950-4087-993d-6635514a85ff")
 		(property "Reference" "C4"
 			(at 172.72 165.1 0)
 			(effects
@@ -9021,7 +9021,7 @@
 		)
 		(instances
 			(project "smol-slime-rev2"
-				(path "/c8196b8a-6878-4b02-a471-2e08a769aadc"
+				(path "/766418be-50c9-42e6-a8fb-5ba49bb20d19"
 					(reference "C4")
 					(unit 1)
 				)
@@ -9036,7 +9036,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "16182c1d-bd34-42f7-b88a-9c44a3dfb7e2")
+		(uuid "0c0f3122-3138-4dbc-b771-112a71afabd0")
 	)
 	(label "VBUSOUT"
 		(at 170.18 163.83 90)
@@ -9046,7 +9046,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "b6cc078f-5834-4254-bb8c-2a6485cb5d9b")
+		(uuid "a645875e-a86e-45de-9a0c-87c1f19b53e5")
 	)
 	(wire
 		(pts
@@ -9056,7 +9056,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "18c8e5c2-83e2-4e72-ae01-b24558327eb7")
+		(uuid "939f9d9d-2150-4501-ba7d-f7fe37139d2f")
 	)
 	(label "GND"
 		(at 170.18 176.53 270)
@@ -9066,7 +9066,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "867f056c-0093-4242-bb8e-32b514ff272f")
+		(uuid "3ac819e0-cf0e-412f-a130-e1a3f2bee181")
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -9078,7 +9078,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "ed3225b3-74d7-4991-b60b-91050aec42e9")
+		(uuid "a3cd6370-023c-487b-8bd1-73de1eb934ad")
 		(property "Reference" "C5"
 			(at 187.96 165.1 0)
 			(effects
@@ -9124,7 +9124,7 @@
 		)
 		(instances
 			(project "smol-slime-rev2"
-				(path "/c8196b8a-6878-4b02-a471-2e08a769aadc"
+				(path "/766418be-50c9-42e6-a8fb-5ba49bb20d19"
 					(reference "C5")
 					(unit 1)
 				)
@@ -9139,7 +9139,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "c7986a77-2d3a-4172-836c-52dd12986e6b")
+		(uuid "e167bf40-a3f8-4094-b197-ee53dc47115e")
 	)
 	(label "VBAT"
 		(at 185.42 163.83 90)
@@ -9149,7 +9149,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "4b757b16-6c06-47d4-8e8a-c1d31d67c3fc")
+		(uuid "72f82d8f-0fe2-4ae9-81b9-3cae8e378dd5")
 	)
 	(wire
 		(pts
@@ -9159,7 +9159,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "943f0488-62c9-4809-b954-65e63d00e0a8")
+		(uuid "cdb781de-e131-4b94-831f-60408e507589")
 	)
 	(label "GND"
 		(at 185.42 176.53 270)
@@ -9169,7 +9169,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "83a3de1e-fc0c-4a03-8bb9-c4c2cd34d07b")
+		(uuid "4526c82f-80df-42bb-a9ec-4b3632e420ed")
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -9181,7 +9181,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "5e64ade1-fb4b-47cb-9842-c6bc1be327d3")
+		(uuid "573f2562-db56-4a0a-a5d7-33cfeb0d2e3a")
 		(property "Reference" "C6"
 			(at 203.2 165.1 0)
 			(effects
@@ -9227,7 +9227,7 @@
 		)
 		(instances
 			(project "smol-slime-rev2"
-				(path "/c8196b8a-6878-4b02-a471-2e08a769aadc"
+				(path "/766418be-50c9-42e6-a8fb-5ba49bb20d19"
 					(reference "C6")
 					(unit 1)
 				)
@@ -9242,7 +9242,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "8ef71fdb-6e98-4fe1-8b63-40d64b05ea70")
+		(uuid "ba19fb1c-7887-43ee-93f6-d47dd45537b2")
 	)
 	(label "+1V8"
 		(at 200.66 163.83 90)
@@ -9252,7 +9252,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "55796916-32eb-4348-90e2-4057c5c94c1f")
+		(uuid "e49e9fbd-53bf-49dd-9232-e58306261641")
 	)
 	(wire
 		(pts
@@ -9262,7 +9262,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "6904f91c-52f0-423f-aafe-a8e788fd8c55")
+		(uuid "e2458598-fcb3-4e90-a3c0-d674fa6d568f")
 	)
 	(label "GND"
 		(at 200.66 176.53 270)
@@ -9272,7 +9272,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "68abcfb8-b879-4b2b-9f43-78fa663e914d")
+		(uuid "7b0edcc6-58f3-4dff-8ccc-38dfafa367bb")
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -9284,7 +9284,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "b4e0aa8d-e66e-4594-aa0d-888211563500")
+		(uuid "df4da3d4-7d3e-486f-98d4-addc00a0ee5c")
 		(property "Reference" "C7"
 			(at 218.44 165.1 0)
 			(effects
@@ -9301,7 +9301,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 215.9 170.18 0)
 			(effects
 				(font
@@ -9330,7 +9330,7 @@
 		)
 		(instances
 			(project "smol-slime-rev2"
-				(path "/c8196b8a-6878-4b02-a471-2e08a769aadc"
+				(path "/766418be-50c9-42e6-a8fb-5ba49bb20d19"
 					(reference "C7")
 					(unit 1)
 				)
@@ -9345,7 +9345,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "56e275c4-f4b0-4878-aab8-7a239dccb50c")
+		(uuid "2551da01-3528-40f9-9760-02ef6ab0d81c")
 	)
 	(label "+1V8"
 		(at 215.9 163.83 90)
@@ -9355,7 +9355,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "62f53609-0636-4cf5-b99c-90c9888937dd")
+		(uuid "e29f2372-6f9e-4096-bb60-c594502dff07")
 	)
 	(wire
 		(pts
@@ -9365,7 +9365,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "b2f1c633-7826-4133-bfef-f75d2c428da7")
+		(uuid "d432d5ca-76c6-4a4f-9885-de0fa3698567")
 	)
 	(label "GND"
 		(at 215.9 176.53 270)
@@ -9375,7 +9375,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "72e4c342-4a75-4d5d-9534-8a9f93372fce")
+		(uuid "759ec3eb-f8b6-4ad4-b480-e7845839e291")
 	)
 	(symbol
 		(lib_id "Device:Thermistor_NTC")
@@ -9387,7 +9387,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "13242e46-7ae4-4beb-a09a-1c8e341026e0")
+		(uuid "81477e45-f2a6-4d3a-b45e-e4e58d31c4cd")
 		(property "Reference" "TH1"
 			(at 127 190.5 0)
 			(effects
@@ -9433,7 +9433,7 @@
 		)
 		(instances
 			(project "smol-slime-rev2"
-				(path "/c8196b8a-6878-4b02-a471-2e08a769aadc"
+				(path "/766418be-50c9-42e6-a8fb-5ba49bb20d19"
 					(reference "TH1")
 					(unit 1)
 				)
@@ -9448,7 +9448,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "ab4b91a2-77d3-46b3-a6ef-ee27efaf1835")
+		(uuid "cd6ac246-9ce6-48ea-a06d-3a3382b834ae")
 	)
 	(label "NTC"
 		(at 124.46 189.23 90)
@@ -9458,7 +9458,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "a4f681e3-32fc-4478-9238-47ac6993658c")
+		(uuid "c844daa0-6752-42ea-a7bb-0186b9053097")
 	)
 	(wire
 		(pts
@@ -9468,7 +9468,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "b4b4a578-47d5-45a3-a865-3a5e7b1b95f6")
+		(uuid "5a10998d-2e71-4922-8568-528b7c25aefa")
 	)
 	(label "GND"
 		(at 124.46 201.93 270)
@@ -9478,7 +9478,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "a42b248e-fd5d-44e9-8d7d-da28347e16e1")
+		(uuid "04558057-8938-4d10-bd51-7427b4180fa2")
 	)
 	(symbol
 		(lib_id "Device:LED")
@@ -9490,7 +9490,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "319394b9-c1ea-49d0-9f12-3dcfdc923545")
+		(uuid "fa5b8749-1135-4f91-8c0f-3d21ca7508ad")
 		(property "Reference" "D2"
 			(at 142.24 190.5 0)
 			(effects
@@ -9536,7 +9536,7 @@
 		)
 		(instances
 			(project "smol-slime-rev2"
-				(path "/c8196b8a-6878-4b02-a471-2e08a769aadc"
+				(path "/766418be-50c9-42e6-a8fb-5ba49bb20d19"
 					(reference "D2")
 					(unit 1)
 				)
@@ -9551,7 +9551,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "ba9c3893-a2a1-4f08-9424-09e415798141")
+		(uuid "fc504e97-0991-4341-9900-f0073c6a486a")
 	)
 	(label "LED0"
 		(at 133.35 195.58 0)
@@ -9561,7 +9561,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "1a163027-1dc2-4fe3-b3cc-7b27f730788d")
+		(uuid "e5b5ba96-3b78-4458-b3a6-93f559754c63")
 	)
 	(wire
 		(pts
@@ -9571,7 +9571,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "1bb4e215-907f-4d01-a157-858ff59106fe")
+		(uuid "b7c8c756-e9e4-47a2-909b-5697a36b22f2")
 	)
 	(label "VSYS"
 		(at 146.05 195.58 0)
@@ -9581,7 +9581,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "f0771981-c35c-4f09-a956-9dacc0b5d3cd")
+		(uuid "2fbd08ac-f2c8-42fe-a8b2-f00e3786115f")
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
@@ -9593,7 +9593,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "36426d8d-f244-4ae1-ac81-73477ec4d71d")
+		(uuid "495c2bdc-5840-4afc-88d9-8739aab7c2d2")
 		(property "Reference" "J1"
 			(at 172.72 190.5 0)
 			(effects
@@ -9639,7 +9639,7 @@
 		)
 		(instances
 			(project "smol-slime-rev2"
-				(path "/c8196b8a-6878-4b02-a471-2e08a769aadc"
+				(path "/766418be-50c9-42e6-a8fb-5ba49bb20d19"
 					(reference "J1")
 					(unit 1)
 				)
@@ -9654,7 +9654,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "5825a25f-6e96-419b-b357-d9a7e8030a3b")
+		(uuid "73ab11fe-952d-4252-ad2d-43b6822618de")
 	)
 	(label "VBAT"
 		(at 162.56 195.58 0)
@@ -9664,7 +9664,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "f9ad6b6d-69f0-423a-b0ff-646ae59f2195")
+		(uuid "404d2ab3-29ff-4ffa-ada6-46d11b2afa0a")
 	)
 	(wire
 		(pts
@@ -9674,7 +9674,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "b796da80-5f9b-40b0-948e-a2cba54052a4")
+		(uuid "3a96a023-407a-4b87-acc5-17ee1c667daa")
 	)
 	(label "GND"
 		(at 162.56 198.12 0)
@@ -9684,7 +9684,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "fb690565-d733-4f37-ae6a-69ac2dcbcd6f")
+		(uuid "850be7fa-4455-4677-a680-577300b7daef")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -9696,7 +9696,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "882a8073-4d4f-4d53-96cf-754c676bc5ad")
+		(uuid "064a46a1-8a3e-42d4-ab8f-27816fe771ed")
 		(property "Reference" "R1"
 			(at 193.04 190.5 0)
 			(effects
@@ -9713,7 +9713,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 190.5 195.58 0)
 			(effects
 				(font
@@ -9742,7 +9742,7 @@
 		)
 		(instances
 			(project "smol-slime-rev2"
-				(path "/c8196b8a-6878-4b02-a471-2e08a769aadc"
+				(path "/766418be-50c9-42e6-a8fb-5ba49bb20d19"
 					(reference "R1")
 					(unit 1)
 				)
@@ -9757,7 +9757,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "636ddd58-d7a5-4070-8032-98046fae9e51")
+		(uuid "788b4d99-54a0-4c02-9be7-c16b466041ef")
 	)
 	(label "+1V8"
 		(at 190.5 189.23 90)
@@ -9767,7 +9767,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "88921030-8f9c-4968-9cdb-d54907d4c379")
+		(uuid "13a713fc-3d98-491e-9b34-4a3992f30ca5")
 	)
 	(wire
 		(pts
@@ -9777,7 +9777,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "7f3af247-8efe-4698-89bf-1580e8108788")
+		(uuid "22ab3665-87ff-49e1-8fe7-9431dfc975db")
 	)
 	(label "SDA"
 		(at 190.5 201.93 270)
@@ -9787,7 +9787,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "482ca821-d9e7-4e64-80fe-59ea2814f68e")
+		(uuid "4a88702a-6d5f-4ea4-8d08-4ba7050224d2")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -9799,7 +9799,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "92c0e446-3907-4c69-81a2-6c36a818997a")
+		(uuid "da04c9c4-e455-4b56-a4b9-98772e1f62dc")
 		(property "Reference" "R2"
 			(at 208.28 190.5 0)
 			(effects
@@ -9816,7 +9816,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 205.74 195.58 0)
 			(effects
 				(font
@@ -9845,7 +9845,7 @@
 		)
 		(instances
 			(project "smol-slime-rev2"
-				(path "/c8196b8a-6878-4b02-a471-2e08a769aadc"
+				(path "/766418be-50c9-42e6-a8fb-5ba49bb20d19"
 					(reference "R2")
 					(unit 1)
 				)
@@ -9860,7 +9860,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "0cd8c8c4-7360-47ec-9a96-4d050a45d5fc")
+		(uuid "33e5c68a-0c0e-4590-bc98-1ad8ed3c4a6a")
 	)
 	(label "+1V8"
 		(at 205.74 189.23 90)
@@ -9870,7 +9870,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "cc1f7b3b-3a12-4599-827c-8e9543aac5fe")
+		(uuid "f37c4afd-3315-42c6-a85b-eadf49b72346")
 	)
 	(wire
 		(pts
@@ -9880,7 +9880,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "bbdcf705-0660-45cb-b0b9-c80a4a464dbc")
+		(uuid "d487dbfe-21e6-4aa3-ad76-6407ff92b674")
 	)
 	(label "SCL"
 		(at 205.74 201.93 270)
@@ -9890,7 +9890,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "4dbc2a80-a97b-4e41-810c-740a8b9d0bb2")
+		(uuid "dabd6758-f112-4b7d-8561-1e96ef962187")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -9902,7 +9902,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "efbb87c6-090d-4169-8443-ec02e4238fcd")
+		(uuid "dcee9f3c-870f-46f9-8d1f-a2c15dee18fe")
 		(property "Reference" "R3"
 			(at 223.52 190.5 0)
 			(effects
@@ -9919,7 +9919,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 220.98 195.58 0)
 			(effects
 				(font
@@ -9948,7 +9948,7 @@
 		)
 		(instances
 			(project "smol-slime-rev2"
-				(path "/c8196b8a-6878-4b02-a471-2e08a769aadc"
+				(path "/766418be-50c9-42e6-a8fb-5ba49bb20d19"
 					(reference "R3")
 					(unit 1)
 				)
@@ -9963,7 +9963,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "a38d7296-a47d-4eaa-8999-6e95319bc034")
+		(uuid "c53c1fee-f484-44d1-84a6-ee16f223b879")
 	)
 	(label "VSET1"
 		(at 220.98 189.23 90)
@@ -9973,7 +9973,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "c1562386-4651-43e8-abf4-e9dae5810e1a")
+		(uuid "f2e395d0-fefa-4b5e-b919-71da5e4e1ad5")
 	)
 	(wire
 		(pts
@@ -9983,7 +9983,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "d76f4907-dec1-4f17-af09-f49c31455982")
+		(uuid "38f83939-dc10-4596-9909-39885ca56705")
 	)
 	(label "GND"
 		(at 220.98 201.93 270)
@@ -9993,7 +9993,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "f47661ad-e83d-4a41-97ae-e3083ddb34bc")
+		(uuid "6b7bf4d1-eb03-4f4f-9d25-3817f3cde5e1")
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -10005,7 +10005,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "416bd050-a3db-4b32-a154-ac0bddef6383")
+		(uuid "d5347cd9-0dc2-47e2-b316-efb16f8d18c1")
 		(property "Reference" "C8"
 			(at 218.44 88.9 0)
 			(effects
@@ -10051,7 +10051,7 @@
 		)
 		(instances
 			(project "smol-slime-rev2"
-				(path "/c8196b8a-6878-4b02-a471-2e08a769aadc"
+				(path "/766418be-50c9-42e6-a8fb-5ba49bb20d19"
 					(reference "C8")
 					(unit 1)
 				)
@@ -10066,7 +10066,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "611e9813-cd35-4b6b-ad75-c2d00c40cfe8")
+		(uuid "0f033077-4124-4592-ad79-bdf8b499682a")
 	)
 	(label "VDD_SNS"
 		(at 215.9 87.63 90)
@@ -10076,7 +10076,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "8fe4741b-04e2-4c9b-a51b-12426c231f4a")
+		(uuid "7e4b4b58-4c1b-448e-80d4-5a8a2bea901b")
 	)
 	(wire
 		(pts
@@ -10086,7 +10086,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "5a0ccbde-3be5-44dc-8c41-b4fe3ba4e04e")
+		(uuid "27986f77-0590-430a-8917-fbe02eb5698b")
 	)
 	(label "GND"
 		(at 215.9 100.33 270)
@@ -10096,7 +10096,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "d1644fdb-c47d-406b-b5d3-c5545db7161e")
+		(uuid "d7a31d4b-90b4-478a-9b2f-3142267ca0b7")
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -10108,7 +10108,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "d0f34ce6-cf02-4723-9ec2-c677310cf51e")
+		(uuid "e2b53fa7-5db1-4a13-9be7-d10f3672d916")
 		(property "Reference" "C9"
 			(at 233.68 88.9 0)
 			(effects
@@ -10125,7 +10125,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 231.14 93.98 0)
 			(effects
 				(font
@@ -10154,7 +10154,7 @@
 		)
 		(instances
 			(project "smol-slime-rev2"
-				(path "/c8196b8a-6878-4b02-a471-2e08a769aadc"
+				(path "/766418be-50c9-42e6-a8fb-5ba49bb20d19"
 					(reference "C9")
 					(unit 1)
 				)
@@ -10169,7 +10169,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "4514495b-5b6f-44d7-bc6e-59401ce2a53b")
+		(uuid "79a1c6c2-2589-47cd-8839-c1437baa2c39")
 	)
 	(label "VDD_SNS"
 		(at 231.14 87.63 90)
@@ -10179,7 +10179,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "201b1569-7352-4fb9-b4a3-e47e57679edb")
+		(uuid "be17fb37-2873-4eef-96cd-d46a778f961d")
 	)
 	(wire
 		(pts
@@ -10189,7 +10189,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "1e09dd44-281d-4452-b3a1-8ab3a36d347d")
+		(uuid "8003f0ef-e057-4cba-930d-2095ecf81fea")
 	)
 	(label "GND"
 		(at 231.14 100.33 270)
@@ -10199,7 +10199,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "97cb5c83-1867-4d31-aeaf-3510d7cf06df")
+		(uuid "3ba49aa5-51f0-4aa0-a9d9-8a5dccea543a")
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -10211,7 +10211,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "5e125765-3010-4719-821d-403635c4e2d9")
+		(uuid "97834d91-477f-4608-b175-778bc86cd712")
 		(property "Reference" "C10"
 			(at 246.38 88.9 0)
 			(effects
@@ -10228,7 +10228,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 243.84 93.98 0)
 			(effects
 				(font
@@ -10257,7 +10257,7 @@
 		)
 		(instances
 			(project "smol-slime-rev2"
-				(path "/c8196b8a-6878-4b02-a471-2e08a769aadc"
+				(path "/766418be-50c9-42e6-a8fb-5ba49bb20d19"
 					(reference "C10")
 					(unit 1)
 				)
@@ -10272,7 +10272,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "bfcf22f3-fa30-4c8c-8f08-56943139d1a5")
+		(uuid "c904f728-5b09-486f-ada9-3e88b6694338")
 	)
 	(label "VDD_SNS"
 		(at 243.84 87.63 90)
@@ -10282,7 +10282,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "0e79ebda-2b74-49bd-b425-b00e0e2b11d5")
+		(uuid "6cc64c38-f474-453d-8338-8f822d712b2c")
 	)
 	(wire
 		(pts
@@ -10292,7 +10292,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "9b0db72a-6d05-4691-8ae0-1754de52091b")
+		(uuid "5fe489b2-da02-4c53-9c4a-232ce6e41d5b")
 	)
 	(label "GND"
 		(at 243.84 100.33 270)
@@ -10302,7 +10302,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "537fe043-bbe5-4766-a9ed-8512bf49b28d")
+		(uuid "965d352d-e380-40f9-96e2-86302a4c07a8")
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -10314,7 +10314,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "a1690dcd-4409-4f42-8d90-1b2cd22b1402")
+		(uuid "822fc487-6940-40ba-a0ee-89b6cd78b282")
 		(property "Reference" "C11"
 			(at 261.62 88.9 0)
 			(effects
@@ -10331,7 +10331,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 259.08 93.98 0)
 			(effects
 				(font
@@ -10360,7 +10360,7 @@
 		)
 		(instances
 			(project "smol-slime-rev2"
-				(path "/c8196b8a-6878-4b02-a471-2e08a769aadc"
+				(path "/766418be-50c9-42e6-a8fb-5ba49bb20d19"
 					(reference "C11")
 					(unit 1)
 				)
@@ -10375,7 +10375,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "69337d72-0cbe-4739-bd0a-ceba8d9a022f")
+		(uuid "d5bbc8f3-0ef6-4a77-818f-5f7ef2e1311b")
 	)
 	(label "VDD_SNS"
 		(at 259.08 87.63 90)
@@ -10385,7 +10385,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "9a17c953-0012-4255-92e8-6cf2dc0987bd")
+		(uuid "43255213-3099-47a3-ae93-a6fc23ec2678")
 	)
 	(wire
 		(pts
@@ -10395,7 +10395,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "b3f43fa7-1d98-4841-abb8-3f82ec937b78")
+		(uuid "e1f7435b-e30c-4e9b-bd90-b08b758268e8")
 	)
 	(label "GND"
 		(at 259.08 100.33 270)
@@ -10405,7 +10405,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "7e458c10-05b4-4661-8f4c-95144866cd9e")
+		(uuid "81d64a71-f2dd-4cdf-bb84-b992f9bdac35")
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -10417,7 +10417,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "bc2089bf-5713-4c5f-b824-6a07f7f4c21c")
+		(uuid "a7f2251c-1291-43bf-a5b0-1881dca705e6")
 		(property "Reference" "C14"
 			(at 233.68 195.58 0)
 			(effects
@@ -10434,7 +10434,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 231.14 200.66 0)
 			(effects
 				(font
@@ -10463,7 +10463,7 @@
 		)
 		(instances
 			(project "smol-slime-rev2"
-				(path "/c8196b8a-6878-4b02-a471-2e08a769aadc"
+				(path "/766418be-50c9-42e6-a8fb-5ba49bb20d19"
 					(reference "C14")
 					(unit 1)
 				)
@@ -10478,7 +10478,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "997b3a90-818a-42fb-93f8-528d5f6c57fd")
+		(uuid "201777a9-e883-45a1-b22d-7723750f632f")
 	)
 	(label "DEC1"
 		(at 231.14 194.31 90)
@@ -10488,7 +10488,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "bcfefe6f-5fa7-4f3d-a329-1fb29e4af838")
+		(uuid "f346dff7-dedd-465e-a873-b1734581a41d")
 	)
 	(wire
 		(pts
@@ -10498,7 +10498,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "b3030e52-93d7-44f0-9e1c-81c586231679")
+		(uuid "fa6cf3a7-f974-4868-9a0b-b61aca2470e4")
 	)
 	(label "GND"
 		(at 231.14 207.01 270)
@@ -10508,7 +10508,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "5d7fecd7-8b10-4e26-a988-60b2bed16355")
+		(uuid "78f2420f-5dc6-4053-b7a8-888cef87bb17")
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -10520,7 +10520,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "80a96fe6-2112-47c5-a666-bb2dd908b1d1")
+		(uuid "f0322fcf-ccad-4e43-a5ee-d24890087382")
 		(property "Reference" "C15"
 			(at 246.38 195.58 0)
 			(effects
@@ -10537,7 +10537,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 243.84 200.66 0)
 			(effects
 				(font
@@ -10566,7 +10566,7 @@
 		)
 		(instances
 			(project "smol-slime-rev2"
-				(path "/c8196b8a-6878-4b02-a471-2e08a769aadc"
+				(path "/766418be-50c9-42e6-a8fb-5ba49bb20d19"
 					(reference "C15")
 					(unit 1)
 				)
@@ -10581,7 +10581,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "480f986f-dbc6-44e8-bf35-a7c78b33a19e")
+		(uuid "3ea6d093-89cd-4605-b06c-aac0a023bd98")
 	)
 	(label "DEC3"
 		(at 243.84 194.31 90)
@@ -10591,7 +10591,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "bcc761b5-380a-4207-8715-cce325c4d6c5")
+		(uuid "48c84bfc-3e85-428b-8d99-85da7d57b569")
 	)
 	(wire
 		(pts
@@ -10601,7 +10601,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "35965dfc-20a8-48af-84c3-6754714e216e")
+		(uuid "a33f0f42-68de-4474-91c2-961356f667fc")
 	)
 	(label "GND"
 		(at 243.84 207.01 270)
@@ -10611,7 +10611,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "2ae8f0ed-ccdc-4b9b-a9d4-1283b7ec0ee8")
+		(uuid "fb71c98f-5420-45fd-a03a-896bd2c81916")
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -10623,7 +10623,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "9a2aa6de-4afb-48bd-b485-b15c9bc1cbad")
+		(uuid "f8d0ec0f-6479-4198-b0b8-36648cc3db06")
 		(property "Reference" "C16"
 			(at 259.08 195.58 0)
 			(effects
@@ -10669,7 +10669,7 @@
 		)
 		(instances
 			(project "smol-slime-rev2"
-				(path "/c8196b8a-6878-4b02-a471-2e08a769aadc"
+				(path "/766418be-50c9-42e6-a8fb-5ba49bb20d19"
 					(reference "C16")
 					(unit 1)
 				)
@@ -10684,7 +10684,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "121c6774-2a18-459b-ad73-b4bdd732f0c5")
+		(uuid "4662f99e-5b28-4b05-9022-3d57c3d731f3")
 	)
 	(label "DEC4_6"
 		(at 256.54 194.31 90)
@@ -10694,7 +10694,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "b39e63eb-ca76-4173-985c-d037c7ec939a")
+		(uuid "f5301c91-3c97-48c5-89ff-7d6838197594")
 	)
 	(wire
 		(pts
@@ -10704,7 +10704,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "6bda8e49-6da6-45ba-aa3f-7056ee716de1")
+		(uuid "455fba37-4e0e-43a7-a1da-2cc460e9ebc7")
 	)
 	(label "GND"
 		(at 256.54 207.01 270)
@@ -10714,7 +10714,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "150b3ec9-3870-453d-8847-cdd3eb9965f9")
+		(uuid "9e7a6dc3-671b-4024-9817-7ef6e5b0c760")
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -10726,7 +10726,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "925d07b7-7094-4b28-929c-35b91c4b0c0e")
+		(uuid "a6003a6a-8f61-44d1-bd79-463dff7ab586")
 		(property "Reference" "C17"
 			(at 271.78 195.58 0)
 			(effects
@@ -10743,7 +10743,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 269.24 200.66 0)
 			(effects
 				(font
@@ -10772,7 +10772,7 @@
 		)
 		(instances
 			(project "smol-slime-rev2"
-				(path "/c8196b8a-6878-4b02-a471-2e08a769aadc"
+				(path "/766418be-50c9-42e6-a8fb-5ba49bb20d19"
 					(reference "C17")
 					(unit 1)
 				)
@@ -10787,7 +10787,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "5d00e0cb-cc8a-45e2-a7d4-f0138296f305")
+		(uuid "87bdee91-20d9-4919-a988-02ac86d4a427")
 	)
 	(label "DEC4_6"
 		(at 269.24 194.31 90)
@@ -10797,7 +10797,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "68c4f97c-30ba-4911-add0-034441b0205c")
+		(uuid "b3af1ec8-f154-4930-9193-d33f0b1c53f1")
 	)
 	(wire
 		(pts
@@ -10807,7 +10807,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "c6098ff7-c3d5-472f-b18e-c1973ef366ed")
+		(uuid "9aaa07c8-f1b6-4c3a-a301-c0afd993166d")
 	)
 	(label "GND"
 		(at 269.24 207.01 270)
@@ -10817,7 +10817,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "9c5cd4e8-d123-4070-9ef0-6ef8e3998a87")
+		(uuid "631368de-7f69-4a13-b3fa-2f358098766a")
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -10829,7 +10829,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "924c8b61-ffe4-4d44-9d98-b52cdd40c7b6")
+		(uuid "a0ac4446-ff97-4ea2-b063-51e693830460")
 		(property "Reference" "C18"
 			(at 284.48 195.58 0)
 			(effects
@@ -10846,7 +10846,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 281.94 200.66 0)
 			(effects
 				(font
@@ -10875,7 +10875,7 @@
 		)
 		(instances
 			(project "smol-slime-rev2"
-				(path "/c8196b8a-6878-4b02-a471-2e08a769aadc"
+				(path "/766418be-50c9-42e6-a8fb-5ba49bb20d19"
 					(reference "C18")
 					(unit 1)
 				)
@@ -10890,7 +10890,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "a1a7be8a-d233-4e34-abf9-9c138145e6a2")
+		(uuid "99b46e4a-49a1-4b1b-97dc-2aae321048cd")
 	)
 	(label "DEC5"
 		(at 281.94 194.31 90)
@@ -10900,7 +10900,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "c40e3881-59d0-4059-a144-fcec5e02513f")
+		(uuid "3a7323d7-f373-4cb9-9960-503018dc5d48")
 	)
 	(wire
 		(pts
@@ -10910,7 +10910,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "1b24d706-2f38-4fcd-aea5-6fe2ae8af034")
+		(uuid "5980f97d-5237-417e-9639-54cc4d90972a")
 	)
 	(label "GND"
 		(at 281.94 207.01 270)
@@ -10920,7 +10920,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "b42ab3be-92c5-428d-af79-03b1e1c6d879")
+		(uuid "7d2f2f8a-2b51-4e40-832a-38780b42c273")
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -10932,7 +10932,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "2510c8ac-26c5-458b-b47b-624b3eba6e14")
+		(uuid "2928285b-0892-4bea-9461-a4e0bddf5459")
 		(property "Reference" "C19"
 			(at 297.18 195.58 0)
 			(effects
@@ -10978,7 +10978,7 @@
 		)
 		(instances
 			(project "smol-slime-rev2"
-				(path "/c8196b8a-6878-4b02-a471-2e08a769aadc"
+				(path "/766418be-50c9-42e6-a8fb-5ba49bb20d19"
 					(reference "C19")
 					(unit 1)
 				)
@@ -10993,7 +10993,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "579b2e74-b2d8-4c17-bf5d-c0b5b9fa19ee")
+		(uuid "d798dd75-7fb3-4d17-9795-658c407724bc")
 	)
 	(label "DECUSB"
 		(at 294.64 194.31 90)
@@ -11003,7 +11003,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "5a637716-e465-40c2-9697-f87750796c8e")
+		(uuid "66f4df7f-35e7-4b4d-9200-defd94ffb443")
 	)
 	(wire
 		(pts
@@ -11013,7 +11013,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "93d05001-3570-474c-a53f-d7712fb24251")
+		(uuid "1f68d801-4f5e-4db6-8470-5fa75becfe5e")
 	)
 	(label "GND"
 		(at 294.64 207.01 270)
@@ -11023,7 +11023,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "cef7efcc-f4e6-4136-a2c5-bd63b5627c4e")
+		(uuid "6c315255-3a10-487c-9d80-4c6ad5d213e9")
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -11035,7 +11035,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "ae3ef5b9-0b8c-4276-8133-4d6d5099885f")
+		(uuid "7f42f7b1-d7f6-4a44-853c-d8e0c383a21e")
 		(property "Reference" "C20"
 			(at 309.88 195.58 0)
 			(effects
@@ -11081,7 +11081,7 @@
 		)
 		(instances
 			(project "smol-slime-rev2"
-				(path "/c8196b8a-6878-4b02-a471-2e08a769aadc"
+				(path "/766418be-50c9-42e6-a8fb-5ba49bb20d19"
 					(reference "C20")
 					(unit 1)
 				)
@@ -11096,7 +11096,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "60e860fa-e9f8-4d5c-8035-9913f40df88e")
+		(uuid "65d45d14-62a2-473f-afdb-ed00c7a5736c")
 	)
 	(label "VBUSOUT"
 		(at 307.34 194.31 90)
@@ -11106,7 +11106,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "f943a810-52d3-4e5a-ae20-014512b083d7")
+		(uuid "41babb28-9c13-4bdb-81d8-ccc4045f4eee")
 	)
 	(wire
 		(pts
@@ -11116,7 +11116,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "25a4d964-3414-42ed-ab59-71a602e7e8c4")
+		(uuid "7e1daee0-834a-408d-bebf-ee4332459585")
 	)
 	(label "GND"
 		(at 307.34 207.01 270)
@@ -11126,7 +11126,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "13343798-ffe1-40ec-a288-b1c427a92f41")
+		(uuid "7b458d1e-0d64-4506-a7d9-72e8b8e01116")
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -11138,7 +11138,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "92efc442-d9fc-4fa9-a0c0-61f5be2c7a11")
+		(uuid "59cf9901-ed7b-4a93-a9a3-f8c081a99d40")
 		(property "Reference" "C21"
 			(at 322.58 195.58 0)
 			(effects
@@ -11184,7 +11184,7 @@
 		)
 		(instances
 			(project "smol-slime-rev2"
-				(path "/c8196b8a-6878-4b02-a471-2e08a769aadc"
+				(path "/766418be-50c9-42e6-a8fb-5ba49bb20d19"
 					(reference "C21")
 					(unit 1)
 				)
@@ -11199,7 +11199,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "307b25ad-acb4-4142-90e2-ef4ed31b8248")
+		(uuid "3487fbf4-e60b-4f83-9b71-61f51b36108d")
 	)
 	(label "+1V8"
 		(at 320.04 194.31 90)
@@ -11209,7 +11209,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "4cfe3b3c-fbd4-43b8-91ad-4fd2b40e6a33")
+		(uuid "d621348b-9c8a-43fd-bbe8-dd6a0a8d1ecd")
 	)
 	(wire
 		(pts
@@ -11219,7 +11219,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "71280beb-934e-4112-b5bf-7138c0f1020d")
+		(uuid "9631f62b-36a0-4832-b626-10b2e88f7847")
 	)
 	(label "GND"
 		(at 320.04 207.01 270)
@@ -11229,7 +11229,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "abb4ea60-1131-44cb-9b72-df1b203e191f")
+		(uuid "ea3bfcc9-058d-4c15-a657-cc1964735977")
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -11241,7 +11241,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "ce10f281-bda3-42c5-a221-dd199667d722")
+		(uuid "dea1fe31-36f6-4865-b07e-ebb9db5110ae")
 		(property "Reference" "C22"
 			(at 335.28 195.58 0)
 			(effects
@@ -11287,7 +11287,7 @@
 		)
 		(instances
 			(project "smol-slime-rev2"
-				(path "/c8196b8a-6878-4b02-a471-2e08a769aadc"
+				(path "/766418be-50c9-42e6-a8fb-5ba49bb20d19"
 					(reference "C22")
 					(unit 1)
 				)
@@ -11302,7 +11302,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "fd6b798b-f46d-44c3-ab2d-6666ca23888d")
+		(uuid "4f147c38-2af6-405f-a9b1-edb62c702977")
 	)
 	(label "+1V8"
 		(at 332.74 194.31 90)
@@ -11312,7 +11312,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "d823b154-47cb-4e17-8830-0313a1ffcfba")
+		(uuid "dedf6adf-d945-4faf-9185-d1b19c5d3b00")
 	)
 	(wire
 		(pts
@@ -11322,7 +11322,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "a7968f86-f852-4c0a-aa4b-79ec3665e0d7")
+		(uuid "1a30e26f-765c-4645-931f-8ca0095aead2")
 	)
 	(label "GND"
 		(at 332.74 207.01 270)
@@ -11332,7 +11332,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "24fadd90-5897-4b7f-b74d-f2d0e7718737")
+		(uuid "9b1ca46f-3522-4e49-9906-2628d4b317e8")
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -11344,7 +11344,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "7fc6af34-a56a-40dc-bee6-88ddc17a3675")
+		(uuid "d1db960a-f55a-4641-ac1e-0fc1ca5b986b")
 		(property "Reference" "C23"
 			(at 350.52 195.58 0)
 			(effects
@@ -11361,7 +11361,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 347.98 200.66 0)
 			(effects
 				(font
@@ -11390,7 +11390,7 @@
 		)
 		(instances
 			(project "smol-slime-rev2"
-				(path "/c8196b8a-6878-4b02-a471-2e08a769aadc"
+				(path "/766418be-50c9-42e6-a8fb-5ba49bb20d19"
 					(reference "C23")
 					(unit 1)
 				)
@@ -11405,7 +11405,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "1972db59-a050-4fa0-ae3c-d96e015db3b7")
+		(uuid "f7ebccbf-480a-4cb9-b37e-ff39157a56b0")
 	)
 	(label "+1V8"
 		(at 347.98 194.31 90)
@@ -11415,7 +11415,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "8ad4660b-4168-4854-b7ee-22e670f12cb3")
+		(uuid "d8990dcd-f4cc-4068-a18f-2343b7a77651")
 	)
 	(wire
 		(pts
@@ -11425,7 +11425,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "fc087130-bbca-48fa-b8d6-bddfbca0b542")
+		(uuid "1c604a44-e687-4bc4-becb-9706e2b9d713")
 	)
 	(label "GND"
 		(at 347.98 207.01 270)
@@ -11435,7 +11435,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "20e40de9-69bb-4f07-9ac1-213ce62829db")
+		(uuid "c8521974-d053-4ebc-9edd-d161b9d0ed91")
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -11447,7 +11447,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "65f43416-0a8a-4213-8f65-323ce1871b2c")
+		(uuid "71841917-b19a-4cd9-95d9-d9559e857a9d")
 		(property "Reference" "C24"
 			(at 363.22 195.58 0)
 			(effects
@@ -11464,7 +11464,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 360.68 200.66 0)
 			(effects
 				(font
@@ -11493,7 +11493,7 @@
 		)
 		(instances
 			(project "smol-slime-rev2"
-				(path "/c8196b8a-6878-4b02-a471-2e08a769aadc"
+				(path "/766418be-50c9-42e6-a8fb-5ba49bb20d19"
 					(reference "C24")
 					(unit 1)
 				)
@@ -11508,7 +11508,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "695bf7cd-bb52-4f85-b277-feab7c003a62")
+		(uuid "a1b2e093-2e7d-45d2-827d-ab3c07ae6596")
 	)
 	(label "+1V8"
 		(at 360.68 194.31 90)
@@ -11518,7 +11518,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "68b269ff-a820-44e8-8a56-82c65ec52a5f")
+		(uuid "a31e303d-c1e2-48de-ad2a-7ca2979e8092")
 	)
 	(wire
 		(pts
@@ -11528,7 +11528,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "4578dcb3-a5b7-4b16-94f0-5ef34a05cc23")
+		(uuid "778b0625-3728-49a9-9775-c76550d3fe43")
 	)
 	(label "GND"
 		(at 360.68 207.01 270)
@@ -11538,7 +11538,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "dd8c22ac-693b-4f57-b6c1-0e0263191a46")
+		(uuid "07212be1-1395-4a01-bf75-d2effa26141a")
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -11550,7 +11550,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "6521c7a1-4f62-4fc5-8341-38bce6e04776")
+		(uuid "95b518eb-03e2-4dca-ae5e-d5a88a1c6767")
 		(property "Reference" "C25"
 			(at 375.92 195.58 0)
 			(effects
@@ -11567,7 +11567,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 373.38 200.66 0)
 			(effects
 				(font
@@ -11596,7 +11596,7 @@
 		)
 		(instances
 			(project "smol-slime-rev2"
-				(path "/c8196b8a-6878-4b02-a471-2e08a769aadc"
+				(path "/766418be-50c9-42e6-a8fb-5ba49bb20d19"
 					(reference "C25")
 					(unit 1)
 				)
@@ -11611,7 +11611,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "e1f0eea1-68bc-4c7d-a323-c42a951b2f0b")
+		(uuid "4da6c3a4-9cf5-43bb-aaa3-5dd9628274a0")
 	)
 	(label "+1V8"
 		(at 373.38 194.31 90)
@@ -11621,7 +11621,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "b2225d8b-0fb6-465c-a632-8a305deb7468")
+		(uuid "0b73916f-3bfd-429e-be1f-6cd8ea39283b")
 	)
 	(wire
 		(pts
@@ -11631,7 +11631,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "70052003-3412-4b56-8d8b-b92eee33c049")
+		(uuid "17d5e80f-600d-4168-bfda-2c8c4335d737")
 	)
 	(label "GND"
 		(at 373.38 207.01 270)
@@ -11641,7 +11641,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "7a898fe1-8c33-492e-8fa8-7396f4f95e31")
+		(uuid "7e9f7770-7f6d-4eba-ba4c-329327d7380a")
 	)
 	(symbol
 		(lib_id "Device:L")
@@ -11653,7 +11653,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "6e2de9a5-99e2-41ba-a31c-fcd9f315257e")
+		(uuid "f4cf9d69-cc82-4851-ba42-1411d62b9325")
 		(property "Reference" "L2"
 			(at 391.16 195.58 0)
 			(effects
@@ -11699,7 +11699,7 @@
 		)
 		(instances
 			(project "smol-slime-rev2"
-				(path "/c8196b8a-6878-4b02-a471-2e08a769aadc"
+				(path "/766418be-50c9-42e6-a8fb-5ba49bb20d19"
 					(reference "L2")
 					(unit 1)
 				)
@@ -11714,7 +11714,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "0c4cd104-5d8a-43b3-ba09-db50f1225e67")
+		(uuid "b03e8eef-7b6a-45d5-b131-c554242113a4")
 	)
 	(label "DCC"
 		(at 388.62 194.31 90)
@@ -11724,7 +11724,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "92566cec-8e69-4997-8e5f-b187c1e7f2d5")
+		(uuid "fcedc719-a4c5-4c3a-9805-1248357d2856")
 	)
 	(wire
 		(pts
@@ -11734,7 +11734,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "f1558d85-177e-4b18-88ea-390a8e9440b3")
+		(uuid "010c1236-29cc-4eb3-bec6-48cbcdb8bc12")
 	)
 	(label "DCC_F"
 		(at 388.62 207.01 270)
@@ -11744,7 +11744,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "4420c725-8572-4172-9055-8ed8c93be878")
+		(uuid "69183612-4947-44d4-998a-45ca4dc6f85b")
 	)
 	(symbol
 		(lib_id "Device:L")
@@ -11756,7 +11756,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "f8662d79-38f0-4c94-bfc9-b03905553b1d")
+		(uuid "31902b93-a958-450b-8bdf-5326ce929e6c")
 		(property "Reference" "L3"
 			(at 406.4 195.58 0)
 			(effects
@@ -11802,7 +11802,7 @@
 		)
 		(instances
 			(project "smol-slime-rev2"
-				(path "/c8196b8a-6878-4b02-a471-2e08a769aadc"
+				(path "/766418be-50c9-42e6-a8fb-5ba49bb20d19"
 					(reference "L3")
 					(unit 1)
 				)
@@ -11817,7 +11817,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "fe6f6780-123f-4308-b8f0-79d21a47d194")
+		(uuid "e640061d-1792-4ddb-8e94-f7eaddbeabf3")
 	)
 	(label "DCC_F"
 		(at 403.86 194.31 90)
@@ -11827,7 +11827,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "82ce99f0-31ff-4868-a2b3-8aa56d2e3f63")
+		(uuid "babaf057-f332-4226-8ca3-689077c0e278")
 	)
 	(wire
 		(pts
@@ -11837,7 +11837,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "34bfd53b-1ba3-4773-a5cb-16570c0931fb")
+		(uuid "052bc182-ee42-4c41-aa17-d781c01781ab")
 	)
 	(label "DEC4_6"
 		(at 403.86 207.01 270)
@@ -11847,7 +11847,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "c6c90635-eb1b-4c08-8fae-b40fbe8ffc8b")
+		(uuid "caeb69af-ccc9-41bc-9149-921a6cb2e9b3")
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
@@ -11859,7 +11859,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "a805f1e9-320d-4d47-b3f5-274facf02109")
+		(uuid "f0928ba3-09c0-40f4-aa9c-bdc528182224")
 		(property "Reference" "J2"
 			(at 256.54 172.72 0)
 			(effects
@@ -11905,7 +11905,7 @@
 		)
 		(instances
 			(project "smol-slime-rev2"
-				(path "/c8196b8a-6878-4b02-a471-2e08a769aadc"
+				(path "/766418be-50c9-42e6-a8fb-5ba49bb20d19"
 					(reference "J2")
 					(unit 1)
 				)
@@ -11920,7 +11920,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "3bd45a4c-8dc6-40cc-a897-48950eb62493")
+		(uuid "7ca89261-c62b-4bd5-aa15-fcbd9e2f1353")
 	)
 	(label "SWDIO"
 		(at 246.38 175.26 0)
@@ -11930,7 +11930,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "07a997f3-658b-46df-8774-3eb6930831c3")
+		(uuid "a20310ae-67f1-47db-880c-965b87abcb62")
 	)
 	(wire
 		(pts
@@ -11940,7 +11940,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "1951e0a4-c7b6-4b99-a9ef-ea5c0f1543a7")
+		(uuid "0da51413-c2d2-47c0-aca9-7021111645b5")
 	)
 	(label "SWDCLK"
 		(at 246.38 177.8 0)
@@ -11950,7 +11950,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "0377b13e-41d7-420b-8c5a-4cd23ab042e4")
+		(uuid "0fbcd221-cd4b-41c0-8b11-e79b347cab89")
 	)
 	(wire
 		(pts
@@ -11960,7 +11960,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "84d292a1-1073-418c-a2e1-b933c4fa85af")
+		(uuid "6c1ae34e-aea5-4d60-bfc0-f1f756ae224e")
 	)
 	(label "GND"
 		(at 246.38 180.34 0)
@@ -11970,7 +11970,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "645b6dea-779e-4abf-b59d-8a281a34938f")
+		(uuid "7aa4a1d6-6ddd-4ee2-b6ce-60b44fdd7c73")
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
@@ -11982,7 +11982,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "1fd044df-c26c-432a-ac06-cc6e3f636ef1")
+		(uuid "8a9b8ca4-a079-4106-8a7d-7f0a4ea06046")
 		(property "Reference" "J3"
 			(at 401.32 172.72 0)
 			(effects
@@ -12028,7 +12028,7 @@
 		)
 		(instances
 			(project "smol-slime-rev2"
-				(path "/c8196b8a-6878-4b02-a471-2e08a769aadc"
+				(path "/766418be-50c9-42e6-a8fb-5ba49bb20d19"
 					(reference "J3")
 					(unit 1)
 				)
@@ -12043,7 +12043,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "9f82198d-2a82-46be-b9f2-d71ff1d53e12")
+		(uuid "c48ebee3-5da1-4a94-8908-6487c5c8e597")
 	)
 	(label "+1V8"
 		(at 391.16 177.8 0)
@@ -12053,7 +12053,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "34a6721f-4167-4b10-9b01-aec91e243575")
+		(uuid "34b2a7d6-2f00-4c1d-a5d2-cf550525f699")
 	)
 	(wire
 		(pts
@@ -12063,7 +12063,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "c51aa4dd-9e43-465e-9f73-71b98a31dcd1")
+		(uuid "1b3c29d3-7732-40aa-b15f-c5628c397757")
 	)
 	(label "NPM_GPIO0_RESET"
 		(at 391.16 180.34 0)
@@ -12073,7 +12073,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "fe9650b8-1cfa-4f35-a1c3-ab1854902e00")
+		(uuid "a37c9956-3386-40a4-8bd1-88d14e10c72d")
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
@@ -12085,7 +12085,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "50c9a501-4ce6-4ba7-8522-c6d59f7abf42")
+		(uuid "8454f434-674b-4d3d-a2e9-1fc80a1c88be")
 		(property "Reference" "#FLG01"
 			(at 33.02 22.86 0)
 			(effects
@@ -12133,7 +12133,7 @@
 		)
 		(instances
 			(project "smol-slime-rev2"
-				(path "/c8196b8a-6878-4b02-a471-2e08a769aadc"
+				(path "/766418be-50c9-42e6-a8fb-5ba49bb20d19"
 					(reference "#FLG01")
 					(unit 1)
 				)
@@ -12148,7 +12148,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "46f1f3a4-69e0-4666-98f1-85f97b136618")
+		(uuid "fbde85f4-534c-42ce-8c5d-ca884c999c25")
 	)
 	(label "GND"
 		(at 30.48 30.48 270)
@@ -12158,7 +12158,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "36008ded-97f0-4837-a5bb-5d53b90477b3")
+		(uuid "8582e40d-4cc0-42cc-b1d2-7ce20e741e2b")
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
@@ -12170,7 +12170,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "1487754b-5f50-4580-877a-de4130d02ce5")
+		(uuid "dea9539c-96ed-4935-818e-2a4c1945615b")
 		(property "Reference" "#FLG02"
 			(at 48.26 22.86 0)
 			(effects
@@ -12218,7 +12218,7 @@
 		)
 		(instances
 			(project "smol-slime-rev2"
-				(path "/c8196b8a-6878-4b02-a471-2e08a769aadc"
+				(path "/766418be-50c9-42e6-a8fb-5ba49bb20d19"
 					(reference "#FLG02")
 					(unit 1)
 				)
@@ -12233,7 +12233,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "ae9c36aa-77a0-4e58-a950-459f5ef8c14d")
+		(uuid "64aef7b8-b5e8-4f5e-a2ca-4d2f83db6768")
 	)
 	(label "VBAT"
 		(at 45.72 30.48 270)
@@ -12243,7 +12243,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "4ff41255-95d0-4d2e-a2c7-adc86f0bef2a")
+		(uuid "dabde2f2-90f4-431b-bce4-e7263269649d")
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
@@ -12255,7 +12255,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "2c5e0751-c037-474c-a3ba-bcdc8054ed4f")
+		(uuid "d8fc22a8-4f7b-4045-8f4e-9ea0c7f134e2")
 		(property "Reference" "#FLG03"
 			(at 63.5 22.86 0)
 			(effects
@@ -12303,7 +12303,7 @@
 		)
 		(instances
 			(project "smol-slime-rev2"
-				(path "/c8196b8a-6878-4b02-a471-2e08a769aadc"
+				(path "/766418be-50c9-42e6-a8fb-5ba49bb20d19"
 					(reference "#FLG03")
 					(unit 1)
 				)
@@ -12318,7 +12318,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "7e3563d3-9608-4476-bb03-43ffbd34b905")
+		(uuid "2b04ed9b-b1a5-4322-9e08-b2e919e78384")
 	)
 	(label "VBUS_IN"
 		(at 60.96 30.48 270)
@@ -12328,7 +12328,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "a2f78fd1-1c98-4c5e-bbfb-0532a18499dd")
+		(uuid "a442efce-7869-49f0-944f-2abca51dc303")
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
@@ -12340,7 +12340,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "5c9da24e-1bd2-4999-9e7c-a3486ec49dd3")
+		(uuid "acdbb2f2-4da2-4069-911a-4c7aa2c87b3e")
 		(property "Reference" "#FLG04"
 			(at 78.74 22.86 0)
 			(effects
@@ -12388,7 +12388,7 @@
 		)
 		(instances
 			(project "smol-slime-rev2"
-				(path "/c8196b8a-6878-4b02-a471-2e08a769aadc"
+				(path "/766418be-50c9-42e6-a8fb-5ba49bb20d19"
 					(reference "#FLG04")
 					(unit 1)
 				)
@@ -12403,7 +12403,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "e2c197a2-b040-411e-825d-5b6a34e60dfe")
+		(uuid "53a45271-8cde-46ed-8ae0-d3d6b9671323")
 	)
 	(label "VBUSOUT"
 		(at 76.2 30.48 270)
@@ -12413,7 +12413,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "885a5a09-56ea-4c68-949c-6d2ca5db9f7e")
+		(uuid "634653b7-4c9b-4e86-9849-7fd5a82ca24d")
 	)
 	(text "Rails: VSYS (batt/USB), +1V8 = nPM1300 BUCK1 (VSET1 47k), VDD_SNS = LOADSW1-gated\n1.8V sensor rail.  BUCK2 unused per nPM1300 PS Config 2: VOUT2 tied to VSYS\n(expected ERC power-output tie), SW2/PVSS2/VINLDO2 grounded, LSOUT2/VOUTLDO2 n/c.\nnRF52840 per PS v1.11 sec 7.3.5 Config 5: VDDH shorted to VDD (+1V8), REG1 DC/DC\n(DCC-15nH-10uH-DEC4/6), USB on, NFC off, no 32.768kHz crystal (use LFRC in fw).\nRF: ANT - 0.8pF/4.7nH/0.5pF match + DNP tuning pad - RF_ANT net -> printed antenna\n(etched copper, Sandra; tune values).  32MHz XTAL CL=8pF, 12pF loads; 3225 fp placed,\nNordic BOM suggests 2016 - crystal part TBD.\nUSB: mid-mount TYPE-C-31-M-17 (board cutout); CC detection is in the nPM1300."
 		(exclude_from_sim no)
@@ -12424,7 +12424,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "0442a194-8194-4070-939a-161d81e9cfde")
+		(uuid "cedd4132-322c-4f9b-a708-2b1526ac6ac9")
 	)
 	(sheet_instances
 		(path "/"

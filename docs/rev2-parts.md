@@ -111,8 +111,9 @@ wants its own printed antenna, the bare aQFN73 chip is the route.
   it), Nordic BOM suggests 2016 size
 - nRF DC/DC and RF inductors (15 nH / 10 µH / 4.7 nH) and the NP0 RF
   caps — 0402, values fixed by Nordic, parts unpicked
-- Status LED, 10 kΩ NTC thermistor, and JLC part numbers for the 0603
-  passives (all Basic-parts territory)
+- Status LED, 10 kΩ NTC thermistor, and part numbers for the passives
+  (Nordic-spec sizes: sub-µF caps and resistors 0402, bulk ≥1 µF 0603,
+  RF parts 0402 NP0 — all commodity values)
 - Antenna geometry (printed IFA/meander) — layout work, plus final match
   values after tuning
 

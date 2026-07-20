@@ -65,9 +65,10 @@ mattering and genuine parts are back on the table:
 | L3 | 10 µH, I_DC ≥ 50 mA, 0603 | nRF REG1 filter |
 | L2 / L4 | 15 nH ±10% / 4.7 nH ±5%, 0402 HF chip inductor | Murata LQG15HS class; L4 is in the RF path — no substituting wirewound for multilayer casually |
 | RF caps C26/C27 | 0.8 pF / 0.5 pF, **NP0/C0G**, 0402 | Tolerance matters here |
-| 12 pF ×2 (C12/C13) | NP0 | Crystal loads, sized for CL=8 pF crystal |
-| Bulk/decoupling | 4.7 µF ×3, 2.2 µF, 1 µF ×3, 100 nF ×8, 820 pF, 100 pF, 47 nF | X5R/X7R; exact designators in the schematic |
-| R | 4.7 kΩ ×2 (I2C), 47 kΩ (VSET1) | 1% for the 47 kΩ (sets 1.8 V) |
+| 12 pF ×2 (C12/C13) | NP0, 0402 | Crystal loads, sized for CL=8 pF crystal |
+| Bulk caps | 4.7 µF ×3, 2.2 µF, 1 µF ×5, 10 µF ×3 — **0603** | X5R/X7R; ≥1 µF stays 0603 for DC-bias derating |
+| Small caps | 100 nF ×8, 820 pF, 100 pF, 47 nF — **0402** | Nordic-spec sizing, tighter decoupling placement |
+| R | 4.7 kΩ ×2 (I2C), 47 kΩ (VSET1) — **0402** | 1% for the 47 kΩ (sets 1.8 V) |
 | TH1 | 10 kΩ NTC, B≈3380 (0603) | Confirm beta against nPM1300 NTC config you'll use |
 | LED, J1 JST PH 2-pin, USB connector | — | Your pick |
 
