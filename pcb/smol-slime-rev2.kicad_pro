@@ -725,7 +725,7 @@
       {
         "filename": "smol-slime-rev2.kicad_sch",
         "name": "smol-slime-rev2",
-        "uuid": "c9c15ff7-1c05-4c2b-8500-e49626fc03ac"
+        "uuid": "493cad4a-47c3-4abc-a14d-60e76b38c72d"
       }
     ],
     "used_designators": "",
@@ -733,7 +733,7 @@
   },
   "sheets": [
     [
-      "c9c15ff7-1c05-4c2b-8500-e49626fc03ac",
+      "493cad4a-47c3-4abc-a14d-60e76b38c72d",
       "smol-slime-rev2"
     ]
   ],
