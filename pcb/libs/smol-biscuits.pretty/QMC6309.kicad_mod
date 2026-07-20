@@ -114,4 +114,15 @@
 		(uuid "ece2c783-0e89-4503-9b37-2e1a6e20fa3a")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/libs/3dmodels/QMC6309.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 180)
+		)
+	)
 )
