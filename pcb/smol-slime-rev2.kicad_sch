@@ -11050,7 +11050,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "2.2nF"
 			(at 261.62 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
