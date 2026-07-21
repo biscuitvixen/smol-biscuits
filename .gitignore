@@ -40,5 +40,5 @@ fp-info-cache
 .svg2shenzhen-cache
 
 # Backups
-pcb/smol-slime-xiao-backups/
+pcb/smol-slime-*-backups/
 .history/
