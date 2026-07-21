@@ -19,7 +19,7 @@ nRF ANT pin ── C26 0.8pF ┬─ L4 4.7nH ── C27 0.5pF ┬─ C28 (DNP) �
 ```
 
 - C26/L4/C27 are Nordic's reference match for a 50 Ω antenna
-  (nRF52840-PS-v1.11.pdf §7.3.5). Treat them as starting values — the
+  (nRF52840.pdf, PS v1.11 §7.3.5). Treat them as starting values — the
   real values come out of tuning against *your* geometry.
 - C28 is an unpopulated 0402 pad at the feed for that tuning, mirroring
   the N.C. pad Nordic keeps in their reference.
@@ -35,7 +35,7 @@ nRF ANT pin ── C26 0.8pF ┬─ L4 4.7nH ── C27 0.5pF ┬─ C28 (DNP) �
 
 ## 2. Review my hand-derived work before layout
 
-- nPM1300 symbol pin map vs nPM1300-PS-v1.1.pdf Table 35 (p. 151)
+- nPM1300 symbol pin map vs nPM1300.pdf (PS v1.1) Table 35 (p. 151)
 - LSM6DSV16X symbol pin map vs LSM6DSV16X.pdf Figure 5 (p. 9)
 - nPM1300 QFN exposed pad: stock EP3.45×3.45 footprint placed — check
   against PS §9.2.1 mechanical drawing
