@@ -22,7 +22,14 @@ parts in line between the ANT ball and the antenna feed.
 | D2 | status LED | LED0 (sinks from VSYS) |
 | J1 | battery connector | VBAT |
 | R3 | 47 kΩ | VSET1 (sets 1.8 V) |
-| R1, R2 | 4.7 kΩ | SDA/SCL pull-ups (shared bus — physically anywhere along it) |
+| R1, R2 | 4.7 kΩ | SDA/SCL pull-ups — **the only pair on the bus** |
+
+R1/R2 are the single pull-up pair for the whole I2C bus (nRF master +
+nPM1300 + IMU + magnetometer all share `SDA`/`SCL`). I2C wants one pair
+per line, not one per device, so the IMU and magnetometer sections below
+list no resistors of their own — do not add any. They're filed here only
+because the nPM1300's SDA/SCL pins are a convenient anchor; on the board
+place them at one end of the bus. Full net map: `docs/rev2-nets.md`.
 
 ## U2 — LSM6DSV16X (IMU)
 
