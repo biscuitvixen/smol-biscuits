@@ -11050,7 +11050,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2nF"
+		(property "Value" "2.2uF"
 			(at 261.62 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11060,7 +11060,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 259.08 93.98 0)
 			(hide yes)
 			(show_name no)

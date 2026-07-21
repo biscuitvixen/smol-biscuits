@@ -43,7 +43,7 @@ place them at one end of the bus. Full net map: `docs/rev2-nets.md`.
 
 | Part | Value | Role |
 |---|---|---|
-| C11 | 100 nF | VDD |
+| C11 | 2.2 µF | VDD reservoir cap (QMC6309 datasheet §4.3.3 / Fig. 6, low-ESR ceramic) |
 
 ## U4 — nRF52840 (MCU)
 
