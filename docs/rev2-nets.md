@@ -1,8 +1,13 @@
-# Rev 2 — net map, power tree, and schematic organization
+# Rev 2 design reference — nets, power tree, and placement
 
-Reference for hand-wiring `pcb/smol-slime-rev2.kicad_sch` in KiCad. The net
-list here was pulled from `kicad-cli sch export netlist`; regenerate it that
-way after edits if you want to re-check. 90 nets total, but 54 are single-pin
+Reference for hand-wiring `pcb/smol-slime-rev2.kicad_sch` in KiCad: the power
+tree, the full net map, which support part belongs to which IC, and how to
+organize the sheet. Part selections and values are in
+[rev2-parts.md](rev2-parts.md); remaining work is in
+[rev2-todo.md](rev2-todo.md).
+
+The net list here was pulled from `kicad-cli sch export netlist`; regenerate it
+that way after edits to re-check. 90 nets total, but 54 are single-pin
 `unconnected-(...)` spares, so the design is really 35 nets.
 
 Most of the unfamiliar "voltage" nets are the nRF52840's internal
@@ -82,9 +87,9 @@ configuration (VDDH shorted to VDD, high-voltage DC/DC unused).
 
 R1/R2 (4.7 kΩ) are the **only** pull-up pair on the bus. I2C wants one pair per
 line, not one per device — so the IMU and magnetometer have no pull-ups of
-their own, and you should not add any. In `docs/rev2-support-parts.md` R1/R2
-are filed under U1 only because the nPM's SDA/SCL pins are a convenient anchor;
-on the board place them at one end of the bus (the nRF master or the mag),
+their own, and you should not add any. In the ownership map below R1/R2 are
+filed under U1 only because the nPM's SDA/SCL pins are a convenient anchor; on
+the board place them at one end of the bus (the nRF master or the mag),
 wherever reads as the top of the bus.
 
 ## GND and the unconnected spares
@@ -121,6 +126,66 @@ Frame each block with a graphic box + title so the intent reads at a glance:
 
 Battery corner (block 1): keep J1, C5, TH1 together so the "plugs in from
 outside" parts sit in one spot.
+
+## Support-part ownership
+
+The full per-designator version of the block table above: which passive sits
+against which IC. This is the placement guide — each group hugs its IC,
+especially C16/C17/L2/L3 at the nRF's DCC/DEC4 pins, C6 + L1 in a tight buck
+loop at the nPM1300, and the RF match parts in line between the ANT ball and
+the antenna feed. Values are the authority in [rev2-parts.md](rev2-parts.md).
+
+**U1 — nPM1300 (PMIC)**
+
+| Part | Value | Pin it serves |
+|---|---|---|
+| C1 | 1 µF | VBUS (USB input) |
+| C2, C3 | 10 µF | VSYS |
+| C4 | 1 µF | VBUSOUT |
+| C5 | 2.2 µF | VBAT |
+| C6 | 10 µF | VOUT1 (+1V8 buck output) |
+| C7 | 100 nF | VDDIO |
+| L1 | 2.2 µH | SW1 pin (buck inductor) |
+| D1 (TVS) + SW1 (button) | — | SHPHLD |
+| TH1 | 10 kΩ NTC | NTC |
+| D2 | status LED | LED0 (sinks from VSYS) |
+| J1 | battery connector | VBAT |
+| R3 | 47 kΩ | VSET1 (sets 1.8 V) |
+| R1, R2 | 4.7 kΩ | SDA/SCL pull-ups — **the only pair on the bus** (see I2C note above) |
+
+**U2 — LSM6DSV16X (IMU)**
+
+| Part | Value | Role |
+|---|---|---|
+| C9 | 100 nF | VDD |
+| C10 | 100 nF | VDDIO |
+| C8 | 1 µF | VDD_SNS bulk (sensor rail — equally at home by the nPM's LSOUT1 pin) |
+
+**U3 — QMC6309 (magnetometer)**
+
+| Part | Value | Role |
+|---|---|---|
+| C11 | 2.2 µF | VDD reservoir (QMC6309 §4.3.3 / Fig. 6, low-ESR ceramic) |
+
+**U4 — nRF52840 (MCU)**
+
+| Part | Value | Pin it serves |
+|---|---|---|
+| X1 + C12, C13 | 32 MHz + 12 pF ×2 | XC1/XC2 |
+| C14 | 100 nF | DEC1 |
+| C15 | 100 pF | DEC3 |
+| C16 + C17 | 1 µF + 47 nF | DEC4/DEC6 (tied) |
+| C18 | 820 pF | DEC5 |
+| C19 | 4.7 µF | DECUSB |
+| C20 | 4.7 µF | VBUS (on VBUSOUT net) |
+| C21, C22, C23–C25 | 4.7 µF, 1 µF, 100 nF ×3 | VDD/VDDH (+1V8, one per VDD pin) |
+| L2 → L3 | 15 nH → 10 µH | DCC (REG1 DC/DC filter, chip side first) |
+| C26, L4, C27, C28 | 0.8 pF, 4.7 nH, 0.5 pF, DNP | ANT → antenna feed (RF match) |
+| J2, J3 | SWD pads, VTref/reset pads | debug |
+
+**J4 — USB-C:** no support parts. No CC resistors (the nPM1300 does Type-C
+detection), and ESD protection currently covers only the button line (D1),
+not the USB data pins.
 
 ## Working notes
 

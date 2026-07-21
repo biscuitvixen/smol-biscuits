@@ -1,9 +1,11 @@
 # Rev 2 — what's on your plate
 
 The schematic (`pcb/smol-slime-rev2.kicad_sch`) is electrically complete
-except for the USB connector. Everything below is the work that remains,
-in roughly the order it needs doing. Datasheets for every rev 2 part are
-in this folder.
+and its passive values are datasheet-verified. Everything below is the work
+that remains, in roughly the order it needs doing. Part selections and
+values are in [rev2-parts.md](rev2-parts.md); the net map and placement
+guide are in [rev2-nets.md](rev2-nets.md). Datasheets for every rev 2 part
+are PDFs in this folder.
 
 ## 1. The antenna (entirely yours)
 
@@ -64,30 +66,20 @@ mattering and genuine parts are back on the table:
 | L1 | 2.2 µH, DCR < 400 mΩ, 2016 size | Murata DFE201612E class (nPM1300 buck) |
 | L3 | 10 µH, I_DC ≥ 50 mA, 0603 | nRF REG1 filter |
 | L2 / L4 | 15 nH ±10% / 4.7 nH ±5%, 0402 HF chip inductor | Murata LQG15HS class; L4 is in the RF path — no substituting wirewound for multilayer casually |
-| RF caps C26/C27 | 0.8 pF / 0.5 pF, **NP0/C0G**, 0402 | Tolerance matters here |
-| 12 pF ×2 (C12/C13) | NP0, 0402 | Crystal loads, sized for CL=8 pF crystal |
-| Bulk caps | 4.7 µF ×3, 2.2 µF ×2, 1 µF ×5, 10 µF ×3 — **0603** | X5R/X7R; ≥1 µF stays 0603 for DC-bias derating. One 2.2 µF is VBAT (C5), the other is the QMC6309 reservoir (C11, low ESR) |
-| Small caps | 100 nF ×7, 820 pF, 100 pF, 47 nF — **0402** | Nordic-spec sizing, tighter decoupling placement |
-| R | 4.7 kΩ ×2 (I2C), 47 kΩ (VSET1) — **0402** | 1% for the 47 kΩ (sets 1.8 V) |
+| Caps & resistors | values + ratings in [rev2-parts.md](rev2-parts.md) | all commodity: sub-µF 0402, bulk ≥1 µF 0603, NP0/C0G for the RF match and crystal loads, 1 % for the 47 kΩ VSET1 |
 | TH1 | 10 kΩ NTC, B≈3380 (0603) | Confirm beta against nPM1300 NTC config you'll use |
 | LED, J1 JST PH 2-pin, USB connector | — | Your pick |
 
 Generate the full BOM from the schematic when ready (`kicad-cli sch
 export bom` or the Fabrication Toolkit if you do end up at JLC).
 
-## 4. USB connector — done (layout note remains)
+## 4. USB connector — layout note
 
-J4 is a Korean Hroparts **TYPE-C-31-M-17** (LCSC C283540, ~$0.09):
-mid-mount/sink type, 16-pin USB 2.0, on KiCad's stock
-`USB_C_Receptacle_HRO_TYPE-C-31-M-17` footprint. The nPM1300 does the
-Type-C CC detection (CC1/CC2 wired to it) so there are no CC resistors
-on the board. SBU pins are no-connect; shell is grounded.
-
-Layout note: mid-mount means the footprint needs its **board edge
-cutout** — the stock footprint carries the outline; the connector hangs
-in it, roughly halving the height above board. It's LCSC-sourced (like
-the switch); Digikey's equivalent (JAE DX07S016JA1R1500) is currently
-backordered and would need a footprint swap.
+The connector (mid-mount HRO TYPE-C-31-M-17) is placed and wired; part
+detail is in [rev2-parts.md](rev2-parts.md). Layout consequence: mid-mount
+means the footprint needs its **board edge cutout** — the stock footprint
+carries the outline and the connector hangs in it, roughly halving the
+height above board.
 
 ## 5. Layout notes
 
